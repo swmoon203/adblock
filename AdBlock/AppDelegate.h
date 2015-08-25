@@ -31,5 +31,7 @@ UIKIT_EXTERN NSString *const iTunesUpdatedNotification;
 @property (readonly, nonatomic) NSInteger itemCount;
 
 - (void)downloadAndUpdate:(void (^)(void))completionHandler;
+
+@property (assign, nonatomic) BOOL autoUpdate;
 @end
 

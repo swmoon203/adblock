@@ -38,6 +38,13 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     dispatch_source_cancel(_source);
     _source = nil;
 }
+
+- (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
+    [self downloadAndUpdate:^{
+        completionHandler(UIBackgroundFetchResultNewData);
+    }];
+}
+
 #pragma mark -
 
 - (NSURL *)bundleJsonPath {
@@ -142,6 +149,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 - (void)downloadAndUpdate:(void (^)(void))completionHandler {
    [[[NSURLSession sharedSession] dataTaskWithURL:self.updateURL
                                completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+                                   NSLog(@"%@", [(NSHTTPURLResponse *)response allHeaderFields]);
                                    if ([(NSHTTPURLResponse *)response statusCode] == 200) {
                                        [data writeToURL:self.jsonPath atomically:NO];
                                        [self synciTunesFile];
@@ -175,5 +183,13 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
                                                     options:NSJSONReadingAllowFragments
                                                       error:nil];
     _itemCount = [list count];
+}
+
+- (void)setAutoUpdate:(BOOL)autoUpdate {
+    [[UIApplication sharedApplication] setMinimumBackgroundFetchInterval:autoUpdate ? UIApplicationBackgroundFetchIntervalMinimum : UIApplicationBackgroundFetchIntervalNever];
+    [[NSUserDefaults standardUserDefaults] setBool:autoUpdate forKey:AutoUpdateKey];
+}
+- (BOOL)autoUpdate {
+    return [[NSUserDefaults standardUserDefaults] boolForKey:AutoUpdateKey];
 }
 @end

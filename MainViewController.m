@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *updated;
 @property (weak, nonatomic) IBOutlet UILabel *itemCount;
 @property (weak, nonatomic) IBOutlet UITextField *updateURL;
+@property (weak, nonatomic) IBOutlet UISwitch *autoUpdate;
 
 @property (weak, readonly) AppDelegate *app;
 @end
@@ -31,6 +32,7 @@
     self.updated.text = self.app.status;
     self.itemCount.text = [@(self.app.itemCount) stringValue];
     self.updateURL.text = [self.app.updateURL absoluteString];
+    self.autoUpdate.on = self.app.autoUpdate;
     
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[NSNotificationCenter defaultCenter] addObserverForName:UpdatedNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
@@ -56,6 +58,8 @@
     }
 }
 
+- (IBAction)onAutoUpdate:(id)sender {
+    self.app.autoUpdate = self.autoUpdate.on;
+}
 
 @end
-;
