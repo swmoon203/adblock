@@ -1,13 +1,5 @@
 [
-    {
-        "action": {
-            "type": "block"
-        },
-        "trigger": {
-            "url-filter": "ad.hani.co.kr",
-            "resource-type": ["script"]
-        }
-    },
+	
     {
         "action": {
             "type": "css-display-none",
@@ -16,5 +8,73 @@
         "trigger": {
             "url-filter": "huffpost.com"
         }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": { 
+            "url-filter": "ad.hani.co.kr",
+            "resource-type": ["script"]
+        }
+    },
+    
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad_head"
+        },
+        "trigger": {
+            "url-filter": "wikitree.co.kr"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#float-bottom-banner"
+        },
+        "trigger": {
+            "url-filter": "wikitree.co.kr"
+        }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "adv.realclick.co.kr",
+            "resource-type": ["script"]
+        }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "adddn.adotsolution.com",
+            "resource-type": ["script"]
+        }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "adx-exchange.toast.com",
+            "resource-type": ["script"]
+        }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ad-exchange.toast.com",
+            "resource-type": ["script"]
+        }
+    },    
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "adv.imadrep.co.kr"
+        }
+    },    
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ads-optima.com"
+        }
     }
+    
+    
 ]
