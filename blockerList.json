@@ -36,6 +36,24 @@
         }
     },
     {
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src^='/ad/']"
+        },
+        "trigger": {
+            "url-filter": "wikitree.co.kr"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#id_glam_banner01"
+        },
+        "trigger": {
+            "url-filter": "wikitree.co.kr"
+        }
+    },
+    {
         "action": { "type": "block" },
         "trigger": {
             "url-filter": "adv.realclick.co.kr",
@@ -74,7 +92,18 @@
         "trigger": {
             "url-filter": "ads-optima.com"
         }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ads.mncmedia.co.kr"
+        }
+    },
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ad.ad4989.co.kr"
+        }
     }
-    
     
 ]
