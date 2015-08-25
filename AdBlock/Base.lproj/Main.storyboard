@@ -157,7 +157,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="" id="vGy-qn-s4I">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="I1R-pR-I7r" style="IBUITableViewCellStyleDefault" id="Ril-kv-8wx">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="update" textLabel="I1R-pR-I7r" style="IBUITableViewCellStyleDefault" id="Ril-kv-8wx">
                                         <rect key="frame" x="0.0" y="375.5" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ril-kv-8wx" id="DhD-AT-adu">
@@ -188,6 +188,7 @@
                     <navigationItem key="navigationItem" title="AdBlock" id="TPg-lK-vqS"/>
                     <connections>
                         <outlet property="itemCount" destination="PH6-e7-bUG" id="auU-QV-meV"/>
+                        <outlet property="updateURL" destination="jGd-Mr-CGN" id="GCO-N3-z3S"/>
                         <outlet property="updated" destination="bPK-w9-pL1" id="CbV-Aa-tuO"/>
                     </connections>
                 </tableViewController>

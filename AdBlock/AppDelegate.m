@@ -65,7 +65,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 }
 
 - (NSString *)setStatusWithDate:(NSDate *)date {
-    NSString *status = [date descriptionWithLocale:[NSLocale currentLocale]];
+    NSString *status = [NSDateFormatter localizedStringFromDate:date dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterMediumStyle];
     [[NSUserDefaults standardUserDefaults] setObject:status forKey:StatusKey];
     return status;
 }
@@ -79,6 +79,17 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     return status;
 }
 
+- (NSURL *)updateURL {
+    NSURL *url = [NSURL URLWithString:[[NSUserDefaults standardUserDefaults] stringForKey:UpdateURLKey]];
+    if (url == nil) {
+        url = [NSURL URLWithString:@"https://raw.githubusercontent.com/swmoon203/adblock/blockerList.json/blockerList.json"];
+        [[NSUserDefaults standardUserDefaults] setObject:[url absoluteString] forKey:UpdateURLKey];
+    }
+    return url;
+}
+- (void)setUpdateURL:(NSURL *)updateURL {
+    [[NSUserDefaults standardUserDefaults] setObject:updateURL forKey:UpdateURLKey];
+}
 #pragma mark -
 - (void)setupiTunesDocumentWatcher {
     NSString *homeDirectory = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
@@ -86,23 +97,16 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     
     if (_dispatchQueue == nil) _dispatchQueue = dispatch_queue_create("FileMonitorQueue", 0);
     
-    // Write covers - adding a file, renaming a file and deleting a file...
-    _source = dispatch_source_create(DISPATCH_SOURCE_TYPE_VNODE,filedes,
-                                     DISPATCH_VNODE_WRITE,
-                                     _dispatchQueue);
+    _source = dispatch_source_create(DISPATCH_SOURCE_TYPE_VNODE, filedes, DISPATCH_VNODE_WRITE, _dispatchQueue);
     
-    
-    // This block will be called when teh file changes
     dispatch_source_set_event_handler(_source, ^(){
         [[NSNotificationCenter defaultCenter] postNotificationName:iTunesUpdatedNotification object:Nil];
     });
     
-    // When we stop monitoring the file this will be called and it will close the file descriptor
     dispatch_source_set_cancel_handler(_source, ^() {
         close(filedes);
     });
     
-    // Start monitoring the file...
     dispatch_resume(_source);
 }
 
@@ -117,18 +121,38 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     
     switch ([itunesDate compare:jsonDate]) {
         case NSOrderedSame: //not changed
-            break;
+            [self updateCount];
+            return;
         case NSOrderedDescending: //itune file is newer
-            //if ([self validateJSON:self.iTunesJsonPath] == NO) return;
             [fs removeItemAtURL:self.jsonPath error:nil];
             [fs copyItemAtURL:self.iTunesJsonPath toURL:self.jsonPath error:nil];
-            [self updateSafariContentBlocker];
             break;
         case NSOrderedAscending:
             [fs removeItemAtURL:self.iTunesJsonPath error:nil];
             [fs copyItemAtURL:self.jsonPath toURL:self.iTunesJsonPath error:nil];
             break;
     }
+    [self updateCount];
+    [self updateSafariContentBlocker];
+    
+    jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
+    [self setStatusWithDate:jsonDate];
+}
+
+- (void)downloadAndUpdate:(void (^)(void))completionHandler {
+   [[[NSURLSession sharedSession] dataTaskWithURL:self.updateURL
+                               completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+                                   if ([(NSHTTPURLResponse *)response statusCode] == 200) {
+                                       [data writeToURL:self.jsonPath atomically:NO];
+                                       [self synciTunesFile];
+                                       dispatch_async(dispatch_get_main_queue(), ^{
+                                          [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];
+                                       });
+                                   }
+                                   
+                                   dispatch_async(dispatch_get_main_queue(), completionHandler);
+                               }] resume];
+   
 }
 
 - (void)updateSafariContentBlocker {
@@ -141,7 +165,15 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
                                                   } else {
                                                       [[NSUserDefaults standardUserDefaults] setObject:error.userInfo[NSHelpAnchorErrorKey] forKey:StatusKey];
                                                   }
+                                                  [self updateCount];
                                                   [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];                                                  
                                               }];
+}
+
+- (void)updateCount {
+    NSArray *list = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:self.jsonPath]
+                                                    options:NSJSONReadingAllowFragments
+                                                      error:nil];
+    _itemCount = [list count];
 }
 @end

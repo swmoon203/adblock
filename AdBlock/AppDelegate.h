@@ -26,5 +26,10 @@ UIKIT_EXTERN NSString *const iTunesUpdatedNotification;
 - (void)updateSafariContentBlocker;
 
 @property (strong, readonly) NSString *status;
+
+@property (strong, nonatomic) NSURL *updateURL;
+@property (readonly, nonatomic) NSInteger itemCount;
+
+- (void)downloadAndUpdate:(void (^)(void))completionHandler;
 @end
 

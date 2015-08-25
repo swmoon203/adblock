@@ -12,37 +12,50 @@
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *updated;
 @property (weak, nonatomic) IBOutlet UILabel *itemCount;
+@property (weak, nonatomic) IBOutlet UITextField *updateURL;
 
+@property (weak, readonly) AppDelegate *app;
 @end
 
-@implementation MainViewController
+@implementation MainViewController {
+    BOOL _working;
+}
+
+- (AppDelegate *)app {
+    return (AppDelegate *)[UIApplication sharedApplication].delegate;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.updated.text = [(AppDelegate *)[UIApplication sharedApplication].delegate status];
+    self.updated.text = self.app.status;
+    self.itemCount.text = [@(self.app.itemCount) stringValue];
+    self.updateURL.text = [self.app.updateURL absoluteString];
+    
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[NSNotificationCenter defaultCenter] addObserverForName:UpdatedNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
-        self.updated.text = [(AppDelegate *)[UIApplication sharedApplication].delegate status];        
+        self.itemCount.text = [@(self.app.itemCount) stringValue];
+        self.updated.text = self.app.status;
     }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    if ([cell.reuseIdentifier isEqualToString:@"update"]) {
+        if (_working) return;
+        _working = YES;
+        
+        cell.textLabel.text = @"Loading...";
+        [self.app downloadAndUpdate:^{
+            _working = NO;
+            cell.textLabel.text = @"Update";
+            [tableView deselectRowAtIndexPath:indexPath animated:YES];
+        }];
+    } else {
+        [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    }
 }
 
-#pragma mark - Table view data source
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
+;
