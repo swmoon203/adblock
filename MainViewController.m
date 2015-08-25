@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "AppDelegate.h"
 
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *updated;
@@ -19,7 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.updated.text = @"test";
+    self.updated.text = [(AppDelegate *)[UIApplication sharedApplication].delegate status];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [[NSNotificationCenter defaultCenter] addObserverForName:UpdatedNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        self.updated.text = [(AppDelegate *)[UIApplication sharedApplication].delegate status];        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
