@@ -241,5 +241,12 @@
         }
     }
 
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "m.adtc.daum.net/js/mobilead.js"
+        }
+    }
+
     
 ]
