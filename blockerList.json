@@ -167,4 +167,90 @@
             "url-filter": "nws.lumieyes.com/libs/js/commcon_nAd.js"
         }
     }
+    
+    
+    ,{
+        "action": {
+            "type": "css-display-none",
+            "selector": "div.m-ad"
+        },
+        "trigger": {
+            "url-filter": "theverge.com"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "js.moatads.com"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ads.rubiconproject.com"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "cdn0.vox-cdn.com/javascripts/lib/advertisement.v6fdc11c.js"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "amazon-adsystem.com"
+        }
+    }
+    
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "aax.amazon-adsystem.com"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "c.amazon-adsystem.com"
+        }
+    }
+    
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "z.moatads.com"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ad.crwdcntrl.net"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "streamads.yahoo.com"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "googlesyndication.com/pagead/show_ads.js"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "googlesyndication.com/pagead/show_ads.js"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "securepubads.g.doubleclick.net"
+        }
+    }
+    
 ]
