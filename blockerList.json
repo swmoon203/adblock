@@ -17,6 +17,7 @@
         }
     },
     
+    
     {
         "action": {
             "type": "css-display-none",
@@ -104,6 +105,24 @@
         "trigger": {
             "url-filter": "ad.ad4989.co.kr"
         }
-    }
+    },
     
+  
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "div#divMobipopMain, div#fix_mk"
+        },
+        "trigger": {
+            "url-filter": "m.insight.co.kr"
+        }
+    },
+    
+    
+    {
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "adx.naonmedia.net"
+        }
+    }
 ]
