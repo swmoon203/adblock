@@ -125,4 +125,46 @@
             "url-filter": "adx.naonmedia.net"
         }
     }
+    
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "js.ad4989.co.kr"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "a1.dp25.kr"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "ad.cauly.co.kr"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "plugin.2beon.co.kr/script/2beonAdScript.js"
+        }
+    }
+    
+    
+    ,{
+        "action": {
+            "type": "css-display-none",
+            "selector": "div#div_photolink, div#fix_mk"
+        },
+        "trigger": {
+            "url-filter": "m.star.mt.co.kr"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "nws.lumieyes.com/libs/js/commcon_nAd.js"
+        }
+    }
 ]
