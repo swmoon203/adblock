@@ -155,16 +155,29 @@
     ,{
         "action": {
             "type": "css-display-none",
-            "selector": "div#div_photolink, div#fix_mk"
+            "selector": "div#div_photolink, div#fix_mk, div#mobitree"
         },
         "trigger": {
             "url-filter": "m.star.mt.co.kr"
+        }
+    }
+
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "uplus.kr/common/m_js/mobile_html_web4.js"
         }
     }
     ,{
         "action": { "type": "block" },
         "trigger": {
             "url-filter": "nws.lumieyes.com/libs/js/commcon_nAd.js"
+        }
+    }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "cm.interworksmedia.co.kr"
         }
     }
     
