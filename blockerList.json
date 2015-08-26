@@ -243,12 +243,6 @@
     ,{
         "action": { "type": "block" },
         "trigger": {
-            "url-filter": "googlesyndication.com/pagead/show_ads.js"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
             "url-filter": "securepubads.g.doubleclick.net"
         }
     }
