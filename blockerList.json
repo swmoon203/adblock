@@ -260,6 +260,13 @@
             "url-filter": "m.adtc.daum.net/js/mobilead.js"
         }
     }
+    ,{
+        "action": { "type": "block" },
+        "trigger": {
+            "url-filter": "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        }
+    }
+    
 
     
 ]
