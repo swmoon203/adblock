@@ -1,286 +1,105 @@
 [
 	
     {
+        "trigger": { "url-filter": "huffpost.com" },
         "action": {
             "type": "css-display-none",
             "selector": ".advertisement"
-        },
-        "trigger": {
-            "url-filter": "huffpost.com"
         }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": { 
-            "url-filter": "ad.hani.co.kr",
-            "resource-type": ["script"]
-        }
-    },
+    }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.hani.co.kr" } }
     
     
-    {
+    ,{
+        "trigger": { "url-filter": "wikitree.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": ".ad_head"
-        },
-        "trigger": {
-            "url-filter": "wikitree.co.kr"
+            "selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01"
         }
-    },
-    {
-        "action": {
-            "type": "css-display-none",
-            "selector": "#float-bottom-banner"
-        },
-        "trigger": {
-            "url-filter": "wikitree.co.kr"
-        }
-    },
-    {
-        "action": {
-            "type": "css-display-none",
-            "selector": "iframe[src^='/ad/']"
-        },
-        "trigger": {
-            "url-filter": "wikitree.co.kr"
-        }
-    },
-    {
-        "action": {
-            "type": "css-display-none",
-            "selector": "#id_glam_banner01"
-        },
-        "trigger": {
-            "url-filter": "wikitree.co.kr"
-        }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "adv.realclick.co.kr",
-            "resource-type": ["script"]
-        }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "adddn.adotsolution.com",
-            "resource-type": ["script"]
-        }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "adx-exchange.toast.com",
-            "resource-type": ["script"]
-        }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ad-exchange.toast.com",
-            "resource-type": ["script"]
-        }
-    },    
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "adv.imadrep.co.kr"
-        }
-    },    
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ads-optima.com"
-        }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ads.mncmedia.co.kr"
-        }
-    },
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ad.ad4989.co.kr"
-        }
-    },
+    }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adv.realclick.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adddn.adotsolution.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adx-exchange.toast.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad-exchange.toast.com" } }    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adv.imadrep.co.kr" } } 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads-optima.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.mncmedia.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.ad4989.co.kr" } }
     
-  
-    {
+
+    ,{
+        "trigger": { "url-filter": "m.insight.co.kr" },
         "action": {
             "type": "css-display-none",
             "selector": "div#divMobipopMain, div#fix_mk"
-        },
-        "trigger": {
-            "url-filter": "m.insight.co.kr"
         }
-    },
+    }    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adx.naonmedia.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "js.ad4989.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "a1.dp25.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.cauly.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "plugin.2beon.co.kr/script/2beonAdScript.js" } }
     
-    
-    {
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "adx.naonmedia.net"
-        }
-    }
-    
+
     ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "js.ad4989.co.kr"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "a1.dp25.kr"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ad.cauly.co.kr"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "plugin.2beon.co.kr/script/2beonAdScript.js"
-        }
-    }
-    
-    
-    ,{
+        "trigger": { "url-filter": "m.star.mt.co.kr" },
         "action": {
             "type": "css-display-none",
             "selector": "div#div_photolink, div#fix_mk, div#mobitree"
-        },
-        "trigger": {
-            "url-filter": "m.star.mt.co.kr"
         }
     }
 
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "uplus.kr/common/m_js/mobile_html_web4.js"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "nws.lumieyes.com/libs/js/commcon_nAd.js"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "cm.interworksmedia.co.kr"
-        }
-    }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "uplus.kr/common/m_js/mobile_html_web4.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/libs/js/commcon_nAd.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cm.interworksmedia.co.kr" } }
     
-    
+
     ,{
+        "trigger": { "url-filter": "theverge.com" },
         "action": {
             "type": "css-display-none",
             "selector": "div.m-ad"
-        },
-        "trigger": {
-            "url-filter": "theverge.com"
         }
     }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "js.moatads.com"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ads.rubiconproject.com"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "cdn0.vox-cdn.com/javascripts/lib/advertisement.v6fdc11c.js"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "amazon-adsystem.com"
-        }
-    }
-    
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "aax.amazon-adsystem.com"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "c.amazon-adsystem.com"
-        }
-    }
-    
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "z.moatads.com"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "ad.crwdcntrl.net"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "streamads.yahoo.com"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "googlesyndication.com/pagead/show_ads.js"
-        }
-    }
-
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "m.adtc.daum.net/js/mobilead.js"
-        }
-    }
-    ,{
-        "action": { "type": "block" },
-        "trigger": {
-            "url-filter": "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        }
-    }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "js.moatads.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.rubiconproject.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cdn0.vox-cdn.com/javascripts/lib/advertisement.v6fdc11c.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "amazon-adsystem.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "aax.amazon-adsystem.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "c.amazon-adsystem.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "z.moatads.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.crwdcntrl.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "streamads.yahoo.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "googlesyndication.com/pagead/show_ads.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.adtc.daum.net/js/mobilead.js" } } 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ilbe.com" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.ilbe.com" } }
 
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.mediatoday.co.kr" } }
     ,{
+        "trigger": { "url-filter": "mediatoday.co.kr" },
         "action": {
             "type": "css-display-none",
             "selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr']"
-        },
-        "trigger": {
-            "url-filter": "mediatoday.co.kr"
         }
     }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.about.co.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "script.about.co.kr/templates/script/cm/adbay.controller.v1.8.js" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nad2.mklaud.com" } }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.priel.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "http://m1.daumcdn.net/adtc/js/mobilead.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "advs.hankyung.com" } }
+    ,{
+        "trigger": { "url-filter": "www.hankyung.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon"
+        }
+    }
+
+    
+    
 ]
