@@ -143,5 +143,16 @@
         }
     }    
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "pagead2.googlesyndication.com/pagead/show_afmc_ads.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "advimg.ad-mapps.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mtag.mman.kr/js.mezzo/yonhapnews/yonhapnews/banner_web" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mobi.luxad.net" } }
+    ,{
+        "trigger": { "url-filter": "m.yna.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div.section-txt > div:not(.section-img-inner)"
+        }
+    }   
     
 ]
