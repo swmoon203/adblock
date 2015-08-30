@@ -99,6 +99,19 @@
             "selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon"
         }
     }
+    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.priel.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nads.lumieyes.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nad1.mklaud.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "googleads.g.doubleclick.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "static.doubleclick.net/instream/ad_status.js" } }
+    ,{
+        "trigger": { "url-filter": "m.chosun.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div.ad[class*='iad'], iframe[src*='itad']"
+        }
+    }
 
     
     
