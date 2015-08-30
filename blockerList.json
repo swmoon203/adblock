@@ -266,7 +266,21 @@
             "url-filter": "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
         }
     }
-    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ilbe.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.ilbe.com" } }
 
-    
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.mediatoday.co.kr" } }
+    ,{
+        "action": {
+            "type": "css-display-none",
+            "selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr']"
+        },
+        "trigger": {
+            "url-filter": "mediatoday.co.kr"
+        }
+    }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.about.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "script.about.co.kr/templates/script/cm/adbay.controller.v1.8.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nad2.mklaud.com" } }
 ]
