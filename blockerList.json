@@ -155,4 +155,14 @@
         }
     }   
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg3.search.naver.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cas.criteo.com" } }
+    ,{
+        "trigger": { "url-filter": "m.ytn.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div.photo_bottom_ad, iframe[src*='ad4989'], div.newsview_ad_bnr, div.newsview_ad, #float_bottom, div.newsview_ad_noborder"
+        }
+    } 
+    
 ]
