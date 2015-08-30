@@ -134,6 +134,14 @@
             "selector": "div.talk_floating"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.hani.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[data-type='advertise'], #viewAdvertiseFloat"
+        }
+    }    
     
     
 ]
