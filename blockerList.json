@@ -123,6 +123,17 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cad.donga.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "partner.googleadservices.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mbad.lumieyes.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mp.lumieyes.com" } }
+    ,{
+        "trigger": { "url-filter": "news.donga.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div.talk_floating"
+        }
+    }
     
     
 ]
