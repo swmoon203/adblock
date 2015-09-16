@@ -177,4 +177,15 @@
     } 
     
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "scr.nsmartad.com" } }
+
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.11st.co.kr/MW/html/allianceAd" } }
+    ,{
+        "trigger": { "url-filter": "m.ppomppu.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st"
+        }
+    }   
+    
 ]
