@@ -233,11 +233,26 @@
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.sunnyworks.co.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mktag.mt.co.kr/event.ems/site=moneytoday" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "file.osen.co.kr/web2/js/mobitree_osen7.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "imp.sndkorea.co.kr/php/m.php" } }
     ,{
         "trigger": { "url-filter": "mosen.mt.co.kr" },
         "action": {
             "type": "css-display-none",
             "selector": "#mobitree, div[id^='adList']"
+        }
+    }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/mad/media" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.star.mt.co.kr/js/mobitree" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mobi.luxad.kr/media" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/mad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/show/media" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "exttag.about.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "m.star.mt.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='a1.dp25.kr'], div[id^='ad'], iframe[src*='mobi.luxad.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='www.sunnyworks.co.kr'], iframe[src*='exttag.about.co.kr']"
         }
     }
 
