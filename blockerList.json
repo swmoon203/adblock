@@ -188,4 +188,20 @@
         }
     }   
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad[0-9]*.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.ad[0-9]*.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad01.drbig.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "candy.ad9.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.adinc.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "im.obel.kr/custom" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "imp.sndkorea.co.kr/imp/gate_M.php" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.longkeyone.co.kr/newsis_mo.html" } }
+    ,{
+        "trigger": { "url-filter": "mobile.newsis.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='adin.ad'], iframe[src*='ad01.drbig.co.kr'], iframe[src*='candy.ad9.kr'], iframe[src*='ad.adinc.kr'], iframe[src*='im.obel.kr/custom/'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], div.bxcn[style*='height'], iframe[src*='longkeyone.co.kr/newsis_mo']"
+        }
+    }
+     
 ]
