@@ -165,4 +165,16 @@
         }
     } 
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/mad/media/adv_data.php" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/mad/adv_slide.php" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "image.lsinfo.co.kr/lottorich/partnership/" } }
+    ,{
+        "trigger": { "url-filter": "m.ekn.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "ins.adsbygoogle, #div_photolink, iframe[src*='image.lsinfo.co.kr/lottorich/partnership'], iframe[src*='ads.mncmedia.co.kr']"
+        }
+    } 
+    
+
 ]
