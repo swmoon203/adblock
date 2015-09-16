@@ -228,4 +228,17 @@
             "selector": "iframe[src*='a.wyzmob.com']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.osen.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.sunnyworks.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mktag.mt.co.kr/event.ems/site=moneytoday" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "file.osen.co.kr/web2/js/mobitree_osen7.js" } }
+    ,{
+        "trigger": { "url-filter": "mosen.mt.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#mobitree, div[id^='adList']"
+        }
+    }
+
 ]
