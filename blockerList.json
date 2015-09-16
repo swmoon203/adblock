@@ -219,4 +219,13 @@
             "selector": "div[id*='AD_LIVE_AREA'], iframe[src*='mbad.lumieyes.com'], div[style*='float:right'][style*='width'][style*='height'], .m_atl2, div > div[class^='ad'], iframe[src*='ad.adinc.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='nad1.mklaud.com/ad'], aticle > div:not(.atl), iframe[src*='ad.ad4989.co.kr']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "a.wyzmob.com" } }
+    ,{
+        "trigger": { "url-filter": "www.tvreport.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='a.wyzmob.com']"
+        }
+    }
 ]
