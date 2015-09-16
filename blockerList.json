@@ -256,4 +256,14 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.dispatch.co.kr/ad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.mangouni.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.tpmn.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "www.dispatch.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".innerNewsAD, iframe[src*='ad.ad'], iframe[src*='nad1.mklaud.com'], iframe[src*='/ad/bottomAD.html'], iframe[src*='ads-optima.com']"
+        }
+    }
 ]
