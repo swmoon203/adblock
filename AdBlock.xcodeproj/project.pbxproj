@@ -13,19 +13,18 @@
 		A548341B1B8BD240001476C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54834191B8BD240001476C9 /* Main.storyboard */; };
 		A548341D1B8BD240001476C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548341C1B8BD240001476C9 /* Assets.xcassets */; };
 		A54834201B8BD240001476C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A548341E1B8BD240001476C9 /* LaunchScreen.storyboard */; };
-		A548342E1B8BD270001476C9 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = A548342D1B8BD270001476C9 /* blockerList.json */; };
-		A54834311B8BD270001476C9 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A54834301B8BD270001476C9 /* ActionRequestHandler.m */; };
-		A54834351B8BD270001476C9 /* ContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A548342B1B8BD270001476C9 /* ContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		A548343B1B8BEC6C001476C9 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A548343A1B8BEC6C001476C9 /* SafariServices.framework */; };
 		A548343F1B8BF5AC001476C9 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = A548343E1B8BF5AC001476C9 /* blockerList.json */; };
+		A5B3788D1BA4746900E87D24 /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = A5B3788C1BA4746900E87D24 /* blockerList.json */; };
+		A5B378901BA4746900E87D24 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B3788F1BA4746900E87D24 /* ActionRequestHandler.m */; };
+		A5B378941BA4746900E87D24 /* ContentBlocker.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A54834331B8BD270001476C9 /* PBXContainerItemProxy */ = {
+		A5B378921BA4746900E87D24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A54834051B8BD240001476C9 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A548342A1B8BD270001476C9;
+			remoteGlobalIDString = A5B378891BA4746800E87D24;
 			remoteInfo = ContentBlocker;
 		};
 /* End PBXContainerItemProxy section */
@@ -37,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				A54834351B8BD270001476C9 /* ContentBlocker.appex in Embed App Extensions */,
+				A5B378941BA4746900E87D24 /* ContentBlocker.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,15 +54,15 @@
 		A548341C1B8BD240001476C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A548341F1B8BD240001476C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54834211B8BD240001476C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A548342B1B8BD270001476C9 /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		A548342D1B8BD270001476C9 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
-		A548342F1B8BD270001476C9 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
-		A54834301B8BD270001476C9 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
-		A54834321B8BD270001476C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A548343A1B8BEC6C001476C9 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
-		A548343C1B8BEFD2001476C9 /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
 		A548343D1B8BEFF6001476C9 /* AdBlock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AdBlock.entitlements; sourceTree = "<group>"; };
 		A548343E1B8BF5AC001476C9 /* blockerList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B3788C1BA4746900E87D24 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		A5B3788E1BA4746900E87D24 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		A5B3788F1BA4746900E87D24 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		A5B378911BA4746900E87D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5B378981BA4748E00E87D24 /* ContentBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ContentBlocker.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +73,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A54834281B8BD270001476C9 /* Frameworks */ = {
+		A5B378871BA4746800E87D24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A548343B1B8BEC6C001476C9 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +88,7 @@
 			children = (
 				A548343A1B8BEC6C001476C9 /* SafariServices.framework */,
 				A548340F1B8BD240001476C9 /* AdBlock */,
-				A548342C1B8BD270001476C9 /* ContentBlocker */,
+				A5B3788B1BA4746900E87D24 /* ContentBlocker */,
 				A548340E1B8BD240001476C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				A548340D1B8BD240001476C9 /* AdBlock.app */,
-				A548342B1B8BD270001476C9 /* ContentBlocker.appex */,
+				A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,14 +128,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A548342C1B8BD270001476C9 /* ContentBlocker */ = {
+		A5B3788B1BA4746900E87D24 /* ContentBlocker */ = {
 			isa = PBXGroup;
 			children = (
-				A548343C1B8BEFD2001476C9 /* ContentBlocker.entitlements */,
-				A548342D1B8BD270001476C9 /* blockerList.json */,
-				A548342F1B8BD270001476C9 /* ActionRequestHandler.h */,
-				A54834301B8BD270001476C9 /* ActionRequestHandler.m */,
-				A54834321B8BD270001476C9 /* Info.plist */,
+				A5B378981BA4748E00E87D24 /* ContentBlocker.entitlements */,
+				A5B3788C1BA4746900E87D24 /* blockerList.json */,
+				A5B3788E1BA4746900E87D24 /* ActionRequestHandler.h */,
+				A5B3788F1BA4746900E87D24 /* ActionRequestHandler.m */,
+				A5B378911BA4746900E87D24 /* Info.plist */,
 			);
 			path = ContentBlocker;
 			sourceTree = "<group>";
@@ -157,20 +155,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				A54834341B8BD270001476C9 /* PBXTargetDependency */,
+				A5B378931BA4746900E87D24 /* PBXTargetDependency */,
 			);
 			name = AdBlock;
 			productName = AdBlock;
 			productReference = A548340D1B8BD240001476C9 /* AdBlock.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A548342A1B8BD270001476C9 /* ContentBlocker */ = {
+		A5B378891BA4746800E87D24 /* ContentBlocker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A54834361B8BD270001476C9 /* Build configuration list for PBXNativeTarget "ContentBlocker" */;
+			buildConfigurationList = A5B378951BA4746900E87D24 /* Build configuration list for PBXNativeTarget "ContentBlocker" */;
 			buildPhases = (
-				A54834271B8BD270001476C9 /* Sources */,
-				A54834281B8BD270001476C9 /* Frameworks */,
-				A54834291B8BD270001476C9 /* Resources */,
+				A5B378861BA4746800E87D24 /* Sources */,
+				A5B378871BA4746800E87D24 /* Frameworks */,
+				A5B378881BA4746800E87D24 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -178,7 +176,7 @@
 			);
 			name = ContentBlocker;
 			productName = ContentBlocker;
-			productReference = A548342B1B8BD270001476C9 /* ContentBlocker.appex */;
+			productReference = A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +200,7 @@
 							};
 						};
 					};
-					A548342A1B8BD270001476C9 = {
+					A5B378891BA4746800E87D24 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = M5P6YBX6ZZ;
 						SystemCapabilities = {
@@ -227,7 +225,7 @@
 			projectRoot = "";
 			targets = (
 				A548340C1B8BD240001476C9 /* AdBlock */,
-				A548342A1B8BD270001476C9 /* ContentBlocker */,
+				A5B378891BA4746800E87D24 /* ContentBlocker */,
 			);
 		};
 /* End PBXProject section */
@@ -244,11 +242,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A54834291B8BD270001476C9 /* Resources */ = {
+		A5B378881BA4746800E87D24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A548342E1B8BD270001476C9 /* blockerList.json in Resources */,
+				A5B3788D1BA4746900E87D24 /* blockerList.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,21 +263,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A54834271B8BD270001476C9 /* Sources */ = {
+		A5B378861BA4746800E87D24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A54834311B8BD270001476C9 /* ActionRequestHandler.m in Sources */,
+				A5B378901BA4746900E87D24 /* ActionRequestHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A54834341B8BD270001476C9 /* PBXTargetDependency */ = {
+		A5B378931BA4746900E87D24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A548342A1B8BD270001476C9 /* ContentBlocker */;
-			targetProxy = A54834331B8BD270001476C9 /* PBXContainerItemProxy */;
+			target = A5B378891BA4746800E87D24 /* ContentBlocker */;
+			targetProxy = A5B378921BA4746900E87D24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -344,6 +342,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -382,6 +381,7 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -397,6 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -412,12 +413,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
-		A54834371B8BD270001476C9 /* Debug */ = {
+		A5B378961BA4746900E87D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -425,14 +428,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
-		A54834381B8BD270001476C9 /* Release */ = {
+		A5B378971BA4746900E87D24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_ENTITLEMENTS = ContentBlocker/ContentBlocker.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -440,8 +444,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock.ContentBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
@@ -466,11 +470,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A54834361B8BD270001476C9 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
+		A5B378951BA4746900E87D24 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A54834371B8BD270001476C9 /* Debug */,
-				A54834381B8BD270001476C9 /* Release */,
+				A5B378961BA4746900E87D24 /* Debug */,
+				A5B378971BA4746900E87D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
