@@ -176,5 +176,5 @@
         }
     } 
     
-
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "scr.nsmartad.com" } }
 ]
