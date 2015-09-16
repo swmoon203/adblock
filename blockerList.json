@@ -204,4 +204,19 @@
         }
     }
      
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.ad[0-9]*.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.sportschosun.com/realclick_bottom.htm" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "s1.daumcdn.net/svc/original/U03/commonjs/ddn/common/js/ad.min.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adexview.new-star.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad[0-9].sportschosun.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.adinc.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.sportschosun.com/news_text_ad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/show2/media" } }
+    ,{
+        "trigger": { "url-filter": "m.sportschosun.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[id*='AD_LIVE_AREA'], iframe[src*='mbad.lumieyes.com'], div[style*='float:right'][style*='width'][style*='height'], .m_atl2, div > div[class^='ad'], iframe[src*='ad.adinc.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='nad1.mklaud.com/ad'], aticle > div:not(.atl), iframe[src*='ad.ad4989.co.kr']"
+        }
+    }
 ]
