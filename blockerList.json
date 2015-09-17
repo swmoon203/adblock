@@ -326,4 +326,14 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.khan.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adv.khan.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "m.khan.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#article_bottom_ad, .ad_area, iframe[src*='adv.khan.co.kr'], #mezzo_ad"
+        }
+    }
+
 ]
