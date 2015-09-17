@@ -271,7 +271,6 @@
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.longkeyone.co.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "superslim.co.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.xportsnews.com/design/js/mobitree_xports.js" } }
-
     ,{
         "trigger": { "url-filter": "m.xportsnews.com" },
         "action": {
@@ -279,5 +278,12 @@
             "selector": "div[id*='div-gpt-ad'], .ad_img_up, .ad_img_down, .ad_content_up, .in_200_200, #mobitree, #mobitreeP, iframe[src*='www.superslim.co.kr'], iframe[src*='www.sunnyworks.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='adin.ad'], .in_10lines, iframe[src*='nws.lumieyes.com'], .rect_ad, iframe[src*='www.longkeyone.co.kr'], iframe[src*='a1.dp25.kr'], iframe[src*='ad.ad']"
         }
     }
-    
+
+    ,{
+        "trigger": { "url-filter": "m.cctvnews.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "section.advertisment"
+        }
+    }    
 ]
