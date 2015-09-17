@@ -357,4 +357,14 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.dreamsearch.or.kr/servlet/adbnMobile" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "dreamsearch.or.kr/newAd/" } }
+    ,{
+        "trigger": { "url-filter": "www.hankyung.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad_main_middle, .main-ad-md, iframe[src*='advs.hankyung.com/']"
+        }
+    }
+
 ]
