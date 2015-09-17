@@ -347,4 +347,14 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adv.etnews.com/RealMedia/ads" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "outbanner.hu.co.kr/@files/human_banner/iframe/etnnews" } }
+    ,{
+        "trigger": { "url-filter": "m.etnews.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='adv.etnews.com'], .inlineAdBanner"
+        }
+    }
+
 ]
