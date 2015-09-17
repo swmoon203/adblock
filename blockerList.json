@@ -385,4 +385,6 @@
             "selector": "iframe[src*='imp.sndkorea.co.kr/php/m.php'], #creamArea, iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], iframe[src*='exttag.about.co.kr'], iframe[src*='nws.lumieyes.com/show/media'], iframe[src*='ad.about.co.kr/mad']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mv.ad.naver.com/ad" } }
 ]
