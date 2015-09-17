@@ -314,4 +314,16 @@
             "selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.ilikesponsorad.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.pressian.com/mobile/AD_js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.dreamsearch.or.kr/servlet/adbnMobileNew" } }
+    ,{
+        "trigger": { "url-filter": "m.pressian.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id^='floater'], iframe[src*='nad1.mklaud.com'], iframe[src*='ad.ad'], iframe[src*='dreamsearch.or.kr/servlet/adbnMobileNew']"
+        }
+    }
+
 ]
