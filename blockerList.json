@@ -304,4 +304,15 @@
             "selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea"
         }
     }
+    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "imad.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ojsfile.ohmynews.com/AD_FILE" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "sp[0-9].jssearch.net" } }
+    ,{
+        "trigger": { "url-filter": "m.ohmynews.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline"
+        }
+    }
 ]
