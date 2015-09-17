@@ -296,7 +296,6 @@
     }   
      
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.ad.naver.com" } }
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adcreative.naver.com" } }
     ,{
         "trigger": { "url-filter": "m.comic.naver.com" },
         "action": {
