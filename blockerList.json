@@ -369,12 +369,20 @@
     }
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.hankooki.com/js.kti" } }
-
     ,{
         "trigger": { "url-filter": "m.hankooki.com" },
         "action": {
             "type": "css-display-none",
             "selector": "#ICOM_adGoogleTop, [class^='ads_t'], .gisa_content iframe[id^='ad'], iframe[id^='ICOM_ad']"
+        }
+    }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.isplus.joins.com/_ui/ad/mobitree_isplus.js" } }
+    ,{
+        "trigger": { "url-filter": "m.isplus.joins.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='imp.sndkorea.co.kr/php/m.php'], #creamArea, iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], iframe[src*='exttag.about.co.kr'], iframe[src*='nws.lumieyes.com/show/media'], iframe[src*='ad.about.co.kr/mad']"
         }
     }
 ]
