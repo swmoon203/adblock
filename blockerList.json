@@ -367,4 +367,13 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.hankooki.com/js.kti" } }
+
+    ,{
+        "trigger": { "url-filter": "m.hankooki.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#ICOM_adGoogleTop, [class^='ads_t'], .gisa_content iframe[id^='ad'], iframe[id^='ICOM_ad']"
+        }
+    }
 ]
