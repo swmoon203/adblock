@@ -295,4 +295,13 @@
         }
     }   
      
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.ad.naver.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adcreative.naver.com" } }
+    ,{
+        "trigger": { "url-filter": "m.comic.naver.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea"
+        }
+    }
 ]
