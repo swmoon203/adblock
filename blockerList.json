@@ -300,7 +300,7 @@
         "trigger": { "url-filter": "m.comic.naver.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea"
+            "selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea, #ppl_section, #ppl_video_section"
         }
     }
     
