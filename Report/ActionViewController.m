@@ -10,9 +10,7 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 
 @interface ActionViewController ()
-
-@property(strong,nonatomic) IBOutlet UIImageView *imageView;
-
+@property (strong) NSString *url;
 @end
 
 @implementation ActionViewController
@@ -20,44 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Get the item[s] we're handling from the extension context.
-    
-    // For example, look for an image and place it into an image view.
-    // Replace this with something appropriate for the type[s] your extension supports.
-    BOOL imageFound = NO;
-    for (NSExtensionItem *item in self.extensionContext.inputItems) {
-        for (NSItemProvider *itemProvider in item.attachments) {
-            if ([itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeImage]) {
-                // This is an image. We'll load it, then place it in our image view.
-                __weak UIImageView *imageView = self.imageView;
-                [itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypeImage options:nil completionHandler:^(UIImage *image, NSError *error) {
-                    if(image) {
-                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-                            [imageView setImage:image];
-                        }];
-                    }
-                }];
-                
-                imageFound = YES;
-                break;
-            }
-        }
-        
-        if (imageFound) {
-            // We only handle one image, so stop looking for more.
-            break;
-        }
+    NSExtensionItem *item = self.extensionContext.inputItems.firstObject;
+    NSItemProvider *itemProvider = item.attachments.firstObject;
+    if ([itemProvider hasItemConformingToTypeIdentifier:@"public.url"]) {
+        [itemProvider loadItemForTypeIdentifier:@"public.url"
+                                        options:nil
+                              completionHandler:^(NSURL *url, NSError *error) {
+                                  NSString *urlString = url.absoluteString;
+                                  self.url = urlString;
+                              }];
     }
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)done {
-    // Return any edited content to the host app.
-    // This template doesn't do anything, so we just echo the passed in items.
+- (IBAction)cancel {
     [self.extensionContext completeRequestReturningItems:self.extensionContext.inputItems completionHandler:nil];
 }
 
