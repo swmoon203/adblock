@@ -391,11 +391,32 @@
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "websdk/caulyad.native_" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.inven.co.kr/ad" } }
-       ,{
+    ,{
         "trigger": { "url-filter": "m.inven.co.kr" },
         "action": {
             "type": "css-display-none",
             "selector": "iframe[src*='adn.inven.co.kr'], div[class*='mobileAdNs'], div[class*='mobileDaNs'], li[id^='cauly_list'], #mobileTailAd_Layer, #mobileTailAd_LayerDummy, iframe[src*='nad1.mklaud.com/ad']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "sense-ad.realclick.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adr.realclick.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": ".*clickmon.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adtg.widerplanet.com" } }
+    ,{
+        "trigger": { "url-filter": "marumaru.in" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adv, .mobfloat"
+        }
+    }
+
+    ,{
+        "trigger": { "url-filter": "www.mangaumaru.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget']"
+        }
+    }
+   
 ]
