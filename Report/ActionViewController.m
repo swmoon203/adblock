@@ -40,17 +40,22 @@
 }
 - (IBAction)submit:(id)sender {
     [self.extensionContext completeRequestReturningItems:nil completionHandler:nil];
+    
+    NSURL *jsonPath = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.AdBlock"] URLByAppendingPathComponent:@"blockerList.json"];
+    NSDate *jsonDate = [[[NSFileManager defaultManager] attributesOfItemAtPath:[jsonPath path] error:nil] fileModificationDate];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://adblock.smoon.kr/report"]];
     [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
     request.HTTPMethod = @"POST";
     
+    
     NSArray *options = @[ @"NOT_BLOCKED", @"MALFUNCTION", @"ETC" ];
-    NSData *data = [NSJSONSerialization dataWithJSONObject:@{
-                                                                @"url": self.txtURL.text,
-                                                                @"type": options[self.segOption.selectedSegmentIndex],
-                                                                @"memo": self.txtMemo.text == nil ? @"" : self.txtMemo.text
-                                                             }
-                                                   options:kNilOptions error:NULL];
+    NSDictionary *param = @{
+                            @"url": self.txtURL.text,
+                            @"type": options[self.segOption.selectedSegmentIndex],
+                            @"memo": self.txtMemo.text == nil ? @"" : self.txtMemo.text,
+                            @"version": @([jsonDate timeIntervalSince1970])
+                            };
+    NSData *data = [NSJSONSerialization dataWithJSONObject:param options:kNilOptions error:NULL];
     [[[NSURLSession sharedSession] uploadTaskWithRequest:request fromData:data] resume];
 }
 
