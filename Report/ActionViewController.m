@@ -10,7 +10,9 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 
 @interface ActionViewController ()
-@property (strong) NSString *url;
+@property (strong, nonatomic) IBOutlet UITextField *txtURL;
+@property (strong, nonatomic) IBOutlet UISegmentedControl *segOption;
+@property (strong, nonatomic) IBOutlet UITextField *txtMemo;
 @end
 
 @implementation ActionViewController
@@ -25,14 +27,31 @@
                                         options:nil
                               completionHandler:^(NSURL *url, NSError *error) {
                                   NSString *urlString = url.absoluteString;
-                                  self.url = urlString;
+                                  self.txtURL.text = urlString;
                               }];
     }
-    
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [self.txtMemo becomeFirstResponder];
 }
 
 - (IBAction)cancel {
-    [self.extensionContext completeRequestReturningItems:self.extensionContext.inputItems completionHandler:nil];
+    [self.extensionContext completeRequestReturningItems:nil completionHandler:nil];
+}
+- (IBAction)submit:(id)sender {
+    [self.extensionContext completeRequestReturningItems:nil completionHandler:nil];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://adblock.smoon.kr/report"]];
+    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    request.HTTPMethod = @"POST";
+    
+    NSArray *options = @[ @"NOT_BLOCKED", @"MALFUNCTION", @"ETC" ];
+    NSData *data = [NSJSONSerialization dataWithJSONObject:@{
+                                                                @"url": self.txtURL.text,
+                                                                @"type": options[self.segOption.selectedSegmentIndex],
+                                                                @"memo": self.txtMemo.text == nil ? @"" : self.txtMemo.text
+                                                             }
+                                                   options:kNilOptions error:NULL];
+    [[[NSURLSession sharedSession] uploadTaskWithRequest:request fromData:data] resume];
 }
 
 @end

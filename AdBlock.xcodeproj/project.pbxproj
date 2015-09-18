@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A531152C1BABC95000B9B0EB /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A531152B1BABC95000B9B0EB /* ActionRequestHandler.m */; };
+		A53115321BABC95000B9B0EB /* Quick Report.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A53115281BABC95000B9B0EB /* Quick Report.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A53115381BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */; settings = {ASSET_TAGS = (); }; };
+		A53115391BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */; settings = {ASSET_TAGS = (); }; };
 		A5479B341B8C0B64001EC2C8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5479B331B8C0B64001EC2C8 /* MainViewController.m */; };
 		A54834121B8BD240001476C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54834111B8BD240001476C9 /* main.m */; };
 		A54834151B8BD240001476C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54834141B8BD240001476C9 /* AppDelegate.m */; };
@@ -23,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A53115301BABC95000B9B0EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54834051B8BD240001476C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53115271BABC95000B9B0EB;
+			remoteInfo = "Quick Report";
+		};
 		A551497F1BAAACF600658AF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A54834051B8BD240001476C9 /* Project object */;
@@ -47,6 +58,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				A55149811BAAACF600658AF2 /* Report.appex in Embed App Extensions */,
+				A53115321BABC95000B9B0EB /* Quick Report.appex in Embed App Extensions */,
 				A5B378941BA4746900E87D24 /* ContentBlocker.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
@@ -55,6 +67,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A53115281BABC95000B9B0EB /* Quick Report.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quick Report.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A531152A1BABC95000B9B0EB /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		A531152B1BABC95000B9B0EB /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		A531152F1BABC95000B9B0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53115361BABD00000B9B0EB /* CALayer+StoryboardExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+StoryboardExtension.h"; sourceTree = "<group>"; };
+		A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+StoryboardExtension.m"; sourceTree = "<group>"; };
+		A531153A1BABFF5400B9B0EB /* Report.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Report.entitlements; sourceTree = "<group>"; };
+		A531153B1BABFF6400B9B0EB /* Quick Report.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quick Report.entitlements"; sourceTree = "<group>"; };
 		A5479B321B8C0B64001EC2C8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		A5479B331B8C0B64001EC2C8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		A548340D1B8BD240001476C9 /* AdBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +102,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A53115251BABC95000B9B0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A548340A1B8BD240001476C9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,6 +133,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A53115291BABC95000B9B0EB /* Quick Report */ = {
+			isa = PBXGroup;
+			children = (
+				A531153B1BABFF6400B9B0EB /* Quick Report.entitlements */,
+				A531152A1BABC95000B9B0EB /* ActionRequestHandler.h */,
+				A531152B1BABC95000B9B0EB /* ActionRequestHandler.m */,
+				A531152F1BABC95000B9B0EB /* Info.plist */,
+			);
+			path = "Quick Report";
+			sourceTree = "<group>";
+		};
 		A54834041B8BD240001476C9 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +151,7 @@
 				A548340F1B8BD240001476C9 /* AdBlock */,
 				A5B3788B1BA4746900E87D24 /* ContentBlocker */,
 				A55149771BAAACF600658AF2 /* Report */,
+				A53115291BABC95000B9B0EB /* Quick Report */,
 				A548340E1B8BD240001476C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,6 +162,7 @@
 				A548340D1B8BD240001476C9 /* AdBlock.app */,
 				A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */,
 				A55149761BAAACF600658AF2 /* Report.appex */,
+				A53115281BABC95000B9B0EB /* Quick Report.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +173,8 @@
 				A548343D1B8BEFF6001476C9 /* AdBlock.entitlements */,
 				A54834131B8BD240001476C9 /* AppDelegate.h */,
 				A54834141B8BD240001476C9 /* AppDelegate.m */,
+				A53115361BABD00000B9B0EB /* CALayer+StoryboardExtension.h */,
+				A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */,
 				A5479B321B8C0B64001EC2C8 /* MainViewController.h */,
 				A5479B331B8C0B64001EC2C8 /* MainViewController.m */,
 				A54834191B8BD240001476C9 /* Main.storyboard */,
@@ -156,6 +198,7 @@
 		A55149771BAAACF600658AF2 /* Report */ = {
 			isa = PBXGroup;
 			children = (
+				A531153A1BABFF5400B9B0EB /* Report.entitlements */,
 				A55149781BAAACF600658AF2 /* ActionViewController.h */,
 				A55149791BAAACF600658AF2 /* ActionViewController.m */,
 				A551497B1BAAACF600658AF2 /* MainInterface.storyboard */,
@@ -179,6 +222,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A53115271BABC95000B9B0EB /* Quick Report */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53115331BABC95100B9B0EB /* Build configuration list for PBXNativeTarget "Quick Report" */;
+			buildPhases = (
+				A53115241BABC95000B9B0EB /* Sources */,
+				A53115251BABC95000B9B0EB /* Frameworks */,
+				A53115261BABC95000B9B0EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quick Report";
+			productName = "Quick Report";
+			productReference = A53115281BABC95000B9B0EB /* Quick Report.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A548340C1B8BD240001476C9 /* AdBlock */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A54834241B8BD240001476C9 /* Build configuration list for PBXNativeTarget "AdBlock" */;
@@ -193,6 +253,7 @@
 			dependencies = (
 				A5B378931BA4746900E87D24 /* PBXTargetDependency */,
 				A55149801BAAACF600658AF2 /* PBXTargetDependency */,
+				A53115311BABC95000B9B0EB /* PBXTargetDependency */,
 			);
 			name = AdBlock;
 			productName = AdBlock;
@@ -242,6 +303,18 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = smoon.kr;
 				TargetAttributes = {
+					A53115271BABC95000B9B0EB = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = M5P6YBX6ZZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
 					A548340C1B8BD240001476C9 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = M5P6YBX6ZZ;
@@ -252,11 +325,22 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 						};
 					};
 					A55149751BAAACF600658AF2 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = M5P6YBX6ZZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					A5B378891BA4746800E87D24 = {
 						CreatedOnToolsVersion = 7.0;
@@ -285,11 +369,19 @@
 				A548340C1B8BD240001476C9 /* AdBlock */,
 				A5B378891BA4746800E87D24 /* ContentBlocker */,
 				A55149751BAAACF600658AF2 /* Report */,
+				A53115271BABC95000B9B0EB /* Quick Report */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A53115261BABC95000B9B0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A548340B1B8BD240001476C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -320,12 +412,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A53115241BABC95000B9B0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A531152C1BABC95000B9B0EB /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A54834091B8BD240001476C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A54834151B8BD240001476C9 /* AppDelegate.m in Sources */,
 				A54834121B8BD240001476C9 /* main.m in Sources */,
+				A53115381BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */,
 				A5479B341B8C0B64001EC2C8 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +435,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53115391BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */,
 				A551497A1BAAACF600658AF2 /* ActionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +451,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A53115311BABC95000B9B0EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53115271BABC95000B9B0EB /* Quick Report */;
+			targetProxy = A53115301BABC95000B9B0EB /* PBXContainerItemProxy */;
+		};
 		A55149801BAAACF600658AF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A55149751BAAACF600658AF2 /* Report */;
@@ -389,6 +496,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A53115341BABC95100B9B0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quick Report/Quick Report.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Report/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.smoon.AdBlock.Quick-Report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A53115351BABC95100B9B0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Quick Report/Quick Report.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Quick Report/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kr.smoon.AdBlock.Quick-Report";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		A54834221B8BD240001476C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -508,12 +645,14 @@
 		A55149821BAAACF700658AF2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Report/Report.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Report/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock.Report;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -521,12 +660,14 @@
 		A55149831BAAACF700658AF2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Report/Report.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Report/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock.Report;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -566,6 +707,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A53115331BABC95100B9B0EB /* Build configuration list for PBXNativeTarget "Quick Report" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53115341BABC95100B9B0EB /* Debug */,
+				A53115351BABC95100B9B0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A54834081B8BD240001476C9 /* Build configuration list for PBXProject "AdBlock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
