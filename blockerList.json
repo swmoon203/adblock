@@ -388,4 +388,14 @@
     }
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mv.ad.naver.com/ad" } }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "websdk/caulyad.native_" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.inven.co.kr/ad" } }
+       ,{
+        "trigger": { "url-filter": "m.inven.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='adn.inven.co.kr'], div[class*='mobileAdNs'], div[class*='mobileDaNs'], li[id^='cauly_list'], #mobileTailAd_Layer, #mobileTailAd_LayerDummy, iframe[src*='nad1.mklaud.com/ad']"
+        }
+    }
 ]
