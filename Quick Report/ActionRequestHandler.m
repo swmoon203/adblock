@@ -19,7 +19,22 @@
                                         options:nil
                               completionHandler:^(NSURL *url, NSError *error) {
                                   NSString *urlString = url.absoluteString;
-                                  NSLog(@"%@", urlString);
+                                  
+                                  NSURL *jsonPath = [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.AdBlock"] URLByAppendingPathComponent:@"blockerList.json"];
+                                  NSDate *jsonDate = [[[NSFileManager defaultManager] attributesOfItemAtPath:[jsonPath path] error:nil] fileModificationDate];
+                                  NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:@"https://adblock.smoon.kr/report"]];
+                                  [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+                                  request.HTTPMethod = @"POST";
+                                  
+                                  NSDictionary *param = @{
+                                                          @"url": urlString,
+                                                          @"type": @"QUICK",
+                                                          @"memo": @"",
+                                                          @"version": @([jsonDate timeIntervalSince1970])
+                                                          };
+                                  NSData *data = [NSJSONSerialization dataWithJSONObject:param options:kNilOptions error:NULL];
+                                  [[[NSURLSession sharedSession] uploadTaskWithRequest:request fromData:data] resume];
+                                  
                               }];
     }
 }
