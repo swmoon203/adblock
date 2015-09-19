@@ -172,6 +172,9 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 }
 
 - (void)updateSafariContentBlocker {
+    //whitelist injection
+    //[self injectWhiteList];
+    
     [SFContentBlockerManager reloadContentBlockerWithIdentifier:@"kr.smoon.AdBlock.ContentBlocker"
                                               completionHandler:^(NSError * _Nullable error) {
                                                   NSFileManager *fs = [NSFileManager defaultManager];
@@ -189,7 +192,23 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
                                                   [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];                                                  
                                               }];
 }
-
+- (void)injectWhiteList {
+    NSMutableArray *list = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:self.jsonPath]
+                                                    options:NSJSONReadingMutableContainers
+                                                      error:nil];
+    NSArray *whiteList = @[];// @"m.wikitree.co.kr" ];
+    [list enumerateObjectsUsingBlock:^(NSMutableDictionary *item, NSUInteger idx, BOOL * _Nonnull stop) {
+        NSMutableDictionary *trigger = item[@"trigger"];
+        if (trigger == nil) return;
+        NSMutableArray *unless = trigger[@"unless-domain"];
+        NSMutableSet *set = [NSMutableSet setWithArray:whiteList];
+        if (unless) [set addObjectsFromArray:unless];
+        trigger[@"unless-domain"] = [set allObjects];
+    }];
+    NSError *err;
+    NSData *output = [NSJSONSerialization dataWithJSONObject:list options:0 error:&err];
+    [output writeToURL:self.jsonPath atomically:NO];
+}
 - (void)updateCount {
     NSArray *list = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:self.jsonPath]
                                                     options:NSJSONReadingAllowFragments
