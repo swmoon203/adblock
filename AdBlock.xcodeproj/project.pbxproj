@@ -20,6 +20,13 @@
 		A551497A1BAAACF600658AF2 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55149791BAAACF600658AF2 /* ActionViewController.m */; };
 		A551497D1BAAACF600658AF2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A551497B1BAAACF600658AF2 /* MainInterface.storyboard */; };
 		A55149811BAAACF600658AF2 /* Report.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A55149761BAAACF600658AF2 /* Report.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A576D9DE1BACDD600080C618 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9DD1BACDD600080C618 /* RootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A576D9E11BACDE530080C618 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9E01BACDE530080C618 /* MainTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		A576D9E51BACE0300080C618 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9E41BACE0300080C618 /* NSDate+TimeAgo.m */; settings = {ASSET_TAGS = (); }; };
+		A576D9E71BACE3700080C618 /* NSDateTimeAgo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A576D9E61BACE3700080C618 /* NSDateTimeAgo.bundle */; settings = {ASSET_TAGS = (); }; };
+		A576D9EC1BACE68D0080C618 /* BarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9E91BACE68D0080C618 /* BarItem.m */; settings = {ASSET_TAGS = (); }; };
+		A576D9ED1BACE68D0080C618 /* CBStoreHouseRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9EB1BACE68D0080C618 /* CBStoreHouseRefreshControl.m */; settings = {ASSET_TAGS = (); }; };
+		A576D9F11BACECA30080C618 /* loading.plist in Resources */ = {isa = PBXBuildFile; fileRef = A576D9F01BACECA30080C618 /* loading.plist */; settings = {ASSET_TAGS = (); }; };
 		A5A4C62B1BAC2B5C00E38FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548341C1B8BD240001476C9 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		A5A4C62C1BAC2B5D00E38FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548341C1B8BD240001476C9 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		A5A4C62D1BAC2E3A00E38FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548341C1B8BD240001476C9 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
@@ -95,6 +102,18 @@
 		A55149791BAAACF600658AF2 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		A551497C1BAAACF600658AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		A551497E1BAAACF600658AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A576D9DC1BACDD600080C618 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		A576D9DD1BACDD600080C618 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		A576D9DF1BACDE530080C618 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
+		A576D9E01BACDE530080C618 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
+		A576D9E31BACE0300080C618 /* NSDate+TimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TimeAgo.h"; sourceTree = "<group>"; };
+		A576D9E41BACE0300080C618 /* NSDate+TimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TimeAgo.m"; sourceTree = "<group>"; };
+		A576D9E61BACE3700080C618 /* NSDateTimeAgo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NSDateTimeAgo.bundle; sourceTree = "<group>"; };
+		A576D9E81BACE68D0080C618 /* BarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarItem.h; sourceTree = "<group>"; };
+		A576D9E91BACE68D0080C618 /* BarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarItem.m; sourceTree = "<group>"; };
+		A576D9EA1BACE68D0080C618 /* CBStoreHouseRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBStoreHouseRefreshControl.h; sourceTree = "<group>"; };
+		A576D9EB1BACE68D0080C618 /* CBStoreHouseRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBStoreHouseRefreshControl.m; sourceTree = "<group>"; };
+		A576D9F01BACECA30080C618 /* loading.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = loading.plist; sourceTree = "<group>"; };
 		A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ContentBlocker.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B3788C1BA4746900E87D24 /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
 		A5B3788E1BA4746900E87D24 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
@@ -175,13 +194,17 @@
 				A548343D1B8BEFF6001476C9 /* AdBlock.entitlements */,
 				A54834131B8BD240001476C9 /* AppDelegate.h */,
 				A54834141B8BD240001476C9 /* AppDelegate.m */,
-				A53115361BABD00000B9B0EB /* CALayer+StoryboardExtension.h */,
-				A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */,
+				A576D9E21BACE0240080C618 /* Library */,
 				A5479B321B8C0B64001EC2C8 /* MainViewController.h */,
 				A5479B331B8C0B64001EC2C8 /* MainViewController.m */,
+				A576D9DC1BACDD600080C618 /* RootTableViewController.h */,
+				A576D9DD1BACDD600080C618 /* RootTableViewController.m */,
+				A576D9DF1BACDE530080C618 /* MainTableViewCell.h */,
+				A576D9E01BACDE530080C618 /* MainTableViewCell.m */,
 				A54834191B8BD240001476C9 /* Main.storyboard */,
 				A548341C1B8BD240001476C9 /* Assets.xcassets */,
 				A548341E1B8BD240001476C9 /* LaunchScreen.storyboard */,
+				A576D9F01BACECA30080C618 /* loading.plist */,
 				A54834211B8BD240001476C9 /* Info.plist */,
 				A548343E1B8BF5AC001476C9 /* blockerList.json */,
 				A54834101B8BD240001476C9 /* Supporting Files */,
@@ -207,6 +230,22 @@
 				A551497E1BAAACF600658AF2 /* Info.plist */,
 			);
 			path = Report;
+			sourceTree = "<group>";
+		};
+		A576D9E21BACE0240080C618 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A576D9E81BACE68D0080C618 /* BarItem.h */,
+				A576D9E91BACE68D0080C618 /* BarItem.m */,
+				A576D9EA1BACE68D0080C618 /* CBStoreHouseRefreshControl.h */,
+				A576D9EB1BACE68D0080C618 /* CBStoreHouseRefreshControl.m */,
+				A53115361BABD00000B9B0EB /* CALayer+StoryboardExtension.h */,
+				A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */,
+				A576D9E31BACE0300080C618 /* NSDate+TimeAgo.h */,
+				A576D9E41BACE0300080C618 /* NSDate+TimeAgo.m */,
+				A576D9E61BACE3700080C618 /* NSDateTimeAgo.bundle */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 		A5B3788B1BA4746900E87D24 /* ContentBlocker */ = {
@@ -390,7 +429,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54834201B8BD240001476C9 /* LaunchScreen.storyboard in Resources */,
+				A576D9E71BACE3700080C618 /* NSDateTimeAgo.bundle in Resources */,
 				A548343F1B8BF5AC001476C9 /* blockerList.json in Resources */,
+				A576D9F11BACECA30080C618 /* loading.plist in Resources */,
 				A5A4C62D1BAC2E3A00E38FF7 /* Assets.xcassets in Resources */,
 				A548341B1B8BD240001476C9 /* Main.storyboard in Resources */,
 			);
@@ -428,6 +469,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A576D9EC1BACE68D0080C618 /* BarItem.m in Sources */,
+				A576D9E51BACE0300080C618 /* NSDate+TimeAgo.m in Sources */,
+				A576D9E11BACDE530080C618 /* MainTableViewCell.m in Sources */,
+				A576D9DE1BACDD600080C618 /* RootTableViewController.m in Sources */,
+				A576D9ED1BACE68D0080C618 /* CBStoreHouseRefreshControl.m in Sources */,
 				A54834151B8BD240001476C9 /* AppDelegate.m in Sources */,
 				A54834121B8BD240001476C9 /* main.m in Sources */,
 				A53115381BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */,
