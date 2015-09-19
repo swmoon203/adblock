@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <SafariServices/SafariServices.h>
+#import "NSDate+TimeAgo.h"
 
 NSString *const UpdateURLKey = @"UpdateURL";
 NSString *const AutoUpdateKey = @"AutoUpdate";
@@ -72,7 +73,8 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 }
 
 - (NSString *)setStatusWithDate:(NSDate *)date {
-    NSString *status = [NSDateFormatter localizedStringFromDate:date dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterMediumStyle];
+    //NSString *status = [NSDateFormatter localizedStringFromDate:date dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterMediumStyle];
+    NSString *status = [date timeAgo];
     [[NSUserDefaults standardUserDefaults] setObject:status forKey:StatusKey];
     return status;
 }
