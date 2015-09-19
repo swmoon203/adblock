@@ -31,7 +31,11 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
             [self performSelector:@selector(synciTunesFile) withObject:nil afterDelay:0.5];
         });
     }];
-    self.autoUpdate = YES;
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:AutoUpdateKey] == nil) self.autoUpdate = YES;
+    
+    if (self.autoUpdate) {
+        [self downloadAndUpdate:^{}];
+    }
 }
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     [self synciTunesFile];
@@ -171,7 +175,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     [SFContentBlockerManager reloadContentBlockerWithIdentifier:@"kr.smoon.AdBlock.ContentBlocker"
                                               completionHandler:^(NSError * _Nullable error) {
                                                   NSFileManager *fs = [NSFileManager defaultManager];
-                                                  if (error == nil) {
+                                                  if (error == nil || error.userInfo[NSHelpAnchorErrorKey] == nil) {
                                                       [fs removeItemAtURL:self.jsonPathBackup error:nil];
                                                       NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
                                                       [self setStatusWithDate:jsonDate];
