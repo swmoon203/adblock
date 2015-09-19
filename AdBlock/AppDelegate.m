@@ -12,10 +12,12 @@
 
 NSString *const UpdateURLKey = @"UpdateURL";
 NSString *const AutoUpdateKey = @"AutoUpdate";
-NSString *const StatusKey = @"Status";
 NSString *const UpdatedNotification = @"UpdatedNotification";
 NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 
+@interface AppDelegate()
+@property (strong, nonatomic, readonly) NSURL *jsonPathBackup;
+@end
 @implementation AppDelegate {
     dispatch_queue_t _dispatchQueue;
     dispatch_source_t _source;
@@ -56,6 +58,9 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 - (NSURL *)jsonPath {
     return [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.AdBlock"] URLByAppendingPathComponent:@"blockerList.json"];
 }
+- (NSURL *)jsonPathBackup {
+    return [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.AdBlock"] URLByAppendingPathComponent:@"blockerList.json.backup"];
+}
 - (NSURL *)iTunesJsonPath {
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -76,16 +81,12 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 
 - (NSString *)setStatusWithDate:(NSDate *)date {
     //NSString *status = [NSDateFormatter localizedStringFromDate:date dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterMediumStyle];
-    NSString *status = [date timeAgo];
-    [[NSUserDefaults standardUserDefaults] setObject:status forKey:StatusKey];
-    return status;
+    return [date timeAgo];
 }
 - (NSString *)status {
-    NSString *status = [[NSUserDefaults standardUserDefaults] stringForKey:StatusKey];
     NSFileManager *fs = [NSFileManager defaultManager];
     NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
-    status = [self setStatusWithDate:jsonDate];
-    return status;
+    return [self setStatusWithDate:jsonDate];
 }
 
 - (NSURL *)updateURL {
@@ -153,6 +154,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
                                completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
                                    NSLog(@"%@", [(NSHTTPURLResponse *)response allHeaderFields]);
                                    if ([(NSHTTPURLResponse *)response statusCode] == 200) {
+                                       [[NSFileManager defaultManager] moveItemAtURL:self.jsonPath toURL:self.jsonPathBackup error:nil];
                                        [data writeToURL:self.jsonPath atomically:NO];
                                        [self synciTunesFile];
                                        dispatch_async(dispatch_get_main_queue(), ^{
@@ -168,12 +170,16 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 - (void)updateSafariContentBlocker {
     [SFContentBlockerManager reloadContentBlockerWithIdentifier:@"kr.smoon.AdBlock.ContentBlocker"
                                               completionHandler:^(NSError * _Nullable error) {
+                                                  NSFileManager *fs = [NSFileManager defaultManager];
                                                   if (error == nil) {
-                                                      NSFileManager *fs = [NSFileManager defaultManager];
+                                                      [fs removeItemAtURL:self.jsonPathBackup error:nil];
                                                       NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
                                                       [self setStatusWithDate:jsonDate];
                                                   } else {
-                                                      [[NSUserDefaults standardUserDefaults] setObject:error.userInfo[NSHelpAnchorErrorKey] forKey:StatusKey];
+                                                      NSLog(@"%@", error.userInfo[NSHelpAnchorErrorKey]);
+                                                      [fs removeItemAtURL:self.jsonPath error:nil];
+                                                      [fs moveItemAtURL:self.jsonPathBackup toURL:self.jsonPath error:nil];
+                                                      [self updateSafariContentBlocker];
                                                   }
                                                   [self updateCount];
                                                   [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];                                                  

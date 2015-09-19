@@ -10,7 +10,6 @@
 
 UIKIT_EXTERN NSString *const UpdateURLKey;
 UIKIT_EXTERN NSString *const AutoUpdateKey;
-UIKIT_EXTERN NSString *const StatusKey;
 UIKIT_EXTERN NSString *const UpdatedNotification;
 UIKIT_EXTERN NSString *const iTunesUpdatedNotification;
 
