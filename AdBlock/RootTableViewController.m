@@ -112,6 +112,7 @@
                                                                         self.app.autoUpdate = YES;
                                                                         [self.tableView setEditing:NO animated:YES];
                                                                     }];
+    on.backgroundColor = [UIColor colorWithRed:(19.0/255.0) green:(12.0/255.0) blue:(75.0/255.0) alpha:1.0];
     UITableViewRowAction *off = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive
                                                                        title:@"Auto Update Off"
                                                                      handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
