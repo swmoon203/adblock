@@ -191,10 +191,10 @@
 		A548340F1B8BD240001476C9 /* AdBlock */ = {
 			isa = PBXGroup;
 			children = (
+				A576D9E21BACE0240080C618 /* Library */,
 				A548343D1B8BEFF6001476C9 /* AdBlock.entitlements */,
 				A54834131B8BD240001476C9 /* AppDelegate.h */,
 				A54834141B8BD240001476C9 /* AppDelegate.m */,
-				A576D9E21BACE0240080C618 /* Library */,
 				A5479B321B8C0B64001EC2C8 /* MainViewController.h */,
 				A5479B331B8C0B64001EC2C8 /* MainViewController.m */,
 				A576D9DC1BACDD600080C618 /* RootTableViewController.h */,

@@ -29,10 +29,12 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
             [self performSelector:@selector(synciTunesFile) withObject:nil afterDelay:0.5];
         });
     }];
+    self.autoUpdate = YES;
 }
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     [self synciTunesFile];
     [self setupiTunesDocumentWatcher];
+    [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
@@ -80,11 +82,9 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 }
 - (NSString *)status {
     NSString *status = [[NSUserDefaults standardUserDefaults] stringForKey:StatusKey];
-    if (status == nil) {
-        NSFileManager *fs = [NSFileManager defaultManager];
-        NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
-        status = [self setStatusWithDate:jsonDate];
-    }
+    NSFileManager *fs = [NSFileManager defaultManager];
+    NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
+    status = [self setStatusWithDate:jsonDate];
     return status;
 }
 

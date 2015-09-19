@@ -43,7 +43,11 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[NSNotificationCenter defaultCenter] addObserverForName:UpdatedNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
         //[self.tableView reloadRowsAtIndexPaths:@[ [NSIndexPath indexPathForRow:0 inSection:0] ] withRowAnimation:UITableViewRowAnimationNone];
-        [self.tableView reloadData];
+        MainTableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+        if (cell != nil) {
+            cell.lblCount.text = [@(self.app.itemCount) stringValue];
+            cell.lblTime.text = self.app.status;
+        }
     }];
     
 }
@@ -63,11 +67,11 @@
 }
 
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    return section == 0 ? nil : @"Whitelist";
+    return section == 0 ? nil : nil; //@"Whitelist";
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return section == 0 ? 1 : 200;
+    return section == 0 ? 1 : 0;
 }
 
 
@@ -107,7 +111,7 @@
     _working = YES;
     [self.app downloadAndUpdate:^{
         _working = NO;
-        [self performSelector:@selector(finishRefreshControl) withObject:nil afterDelay:1 inModes:@[NSRunLoopCommonModes]];
+        [self performSelector:@selector(finishRefreshControl) withObject:nil afterDelay:0.5 inModes:@[NSRunLoopCommonModes]];
     }];
 }
 - (void)finishRefreshControl {
