@@ -259,6 +259,7 @@
                                 <animations/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <connections>
+                                    <outlet property="imgAutoupdate" destination="KFg-m1-d9w" id="1UR-Nn-qbw"/>
                                     <outlet property="lblCount" destination="MkE-6v-hKU" id="NBB-xu-jGj"/>
                                     <outlet property="lblTime" destination="pIR-ih-95n" id="WH1-29-cNQ"/>
                                 </connections>

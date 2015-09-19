@@ -42,7 +42,6 @@
                                                            internalAnimationFactor:0.5];
     [[NSNotificationCenter defaultCenter] removeObserver:self];
     [[NSNotificationCenter defaultCenter] addObserverForName:UpdatedNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
-        //[self.tableView reloadRowsAtIndexPaths:@[ [NSIndexPath indexPathForRow:0 inSection:0] ] withRowAnimation:UITableViewRowAnimationNone];
         MainTableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
         if (cell != nil) {
             cell.lblCount.text = [@(self.app.itemCount) stringValue];
@@ -81,6 +80,7 @@
             MainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"main" forIndexPath:indexPath];
             cell.lblCount.text = [@(self.app.itemCount) stringValue];
             cell.lblTime.text = self.app.status;
+            cell.imgAutoupdate.hidden = !self.app.autoUpdate;
             return cell;
         }
         case 1: {
@@ -93,7 +93,7 @@
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    return indexPath.section == 1;
+    return YES; //indexPath.section == 1;
 }
 
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -101,6 +101,27 @@
         // Delete the row from the data source
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
     }
+}
+
+- (NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewRowAction *on = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal
+                                                                      title:@"Auto Update On"
+                                                                    handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+                                                                        MainTableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+                                                                        cell.imgAutoupdate.hidden = NO;
+                                                                        self.app.autoUpdate = YES;
+                                                                        [self.tableView setEditing:NO animated:YES];
+                                                                    }];
+    UITableViewRowAction *off = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive
+                                                                       title:@"Auto Update Off"
+                                                                     handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
+                                                                         MainTableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+                                                                         cell.imgAutoupdate.hidden = YES;
+                                                                         self.app.autoUpdate = NO;
+                                                                         [self.tableView setEditing:NO animated:YES];
+                                                                     }];
+    
+    return self.app.autoUpdate ? @[ off ] : @[ on ];
 }
 
 #pragma mark -

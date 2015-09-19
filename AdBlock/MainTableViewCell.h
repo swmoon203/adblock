@@ -11,5 +11,6 @@
 @interface MainTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *lblCount;
 @property (weak, nonatomic) IBOutlet UILabel *lblTime;
+@property (weak, nonatomic) IBOutlet UIImageView *imgAutoupdate;
 
 @end
