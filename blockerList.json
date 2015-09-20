@@ -418,5 +418,12 @@
             "selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget']"
         }
     }
-   
+
+    ,{
+        "trigger": { "url-filter": "m.todayhumor.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adsbygoogle"
+        }
+    }
 ]
