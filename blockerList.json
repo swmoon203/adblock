@@ -459,5 +459,15 @@
             "selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi']"
         }
     } 
-  
+    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.adlibr.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "care-health.co.kr/ilgangih_mo.html" } }
+    ,{
+        "trigger": { "url-filter": "isplus.joins.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#AdLeftPopArea, #banner_adlibr, iframe[src*='adx.naonmedia.net'], iframe[src*='m.isplus.joins.com/news/article/ad'], #testAD, .ad_text, iframe[src*='care-health.co.kr/ilgangih_mo.html'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], .ad_wrap"
+        }
+    } 
+ 
 ]
