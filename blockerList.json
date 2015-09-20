@@ -227,7 +227,7 @@
         "trigger": { "url-filter": "www.tvreport.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='a.wyzmob.com']"
+            "selector": "iframe[src*='a.wyzmob.com'], .cont_popular, #TOP1, .relation"
         }
     }
 
@@ -435,4 +435,12 @@
             "selector": "iframe[src*='ar.donga.com/RealMedia/ads']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.sportsworldi.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='/Articles/Components/Ad/'], iframe[src*='ad.ad'], iframe[src*='im.obel.kr'], [id^='ad_layer'], iframe[src*='www.sunnyworks.co.kr/data/'], iframe[src*='exttag.about.co.kr'], .ad_wide_bottom, iframe[src*='nws.lumieyes.com/show/media/'], .adsbygooglebox"
+        }
+    }    
 ]
