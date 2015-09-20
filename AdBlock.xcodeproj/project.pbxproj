@@ -20,6 +20,10 @@
 		A551497A1BAAACF600658AF2 /* ActionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A55149791BAAACF600658AF2 /* ActionViewController.m */; };
 		A551497D1BAAACF600658AF2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A551497B1BAAACF600658AF2 /* MainInterface.storyboard */; };
 		A55149811BAAACF600658AF2 /* Report.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A55149761BAAACF600658AF2 /* Report.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A564196E1BADED0100405FE9 /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = A564196D1BADED0100405FE9 /* ActionRequestHandler.m */; };
+		A56419701BADED0100405FE9 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = A564196F1BADED0100405FE9 /* Action.js */; };
+		A56419741BADED0100405FE9 /* Whitelist.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A564196A1BADED0100405FE9 /* Whitelist.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A56419791BAE737600405FE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A548341C1B8BD240001476C9 /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
 		A576D9DE1BACDD600080C618 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9DD1BACDD600080C618 /* RootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A576D9E11BACDE530080C618 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9E01BACDE530080C618 /* MainTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
 		A576D9E51BACE0300080C618 /* NSDate+TimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = A576D9E41BACE0300080C618 /* NSDate+TimeAgo.m */; settings = {ASSET_TAGS = (); }; };
@@ -50,6 +54,13 @@
 			remoteGlobalIDString = A55149751BAAACF600658AF2;
 			remoteInfo = Report;
 		};
+		A56419721BADED0100405FE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54834051B8BD240001476C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A56419691BADED0100405FE9;
+			remoteInfo = Whitelist;
+		};
 		A5B378921BA4746900E87D24 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A54834051B8BD240001476C9 /* Project object */;
@@ -66,6 +77,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				A56419741BADED0100405FE9 /* Whitelist.appex in Embed App Extensions */,
 				A55149811BAAACF600658AF2 /* Report.appex in Embed App Extensions */,
 				A53115321BABC95000B9B0EB /* Quick Report.appex in Embed App Extensions */,
 				A5B378941BA4746900E87D24 /* ContentBlocker.appex in Embed App Extensions */,
@@ -102,6 +114,12 @@
 		A55149791BAAACF600658AF2 /* ActionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionViewController.m; sourceTree = "<group>"; };
 		A551497C1BAAACF600658AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		A551497E1BAAACF600658AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A564196A1BADED0100405FE9 /* Whitelist.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Whitelist.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A564196C1BADED0100405FE9 /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		A564196D1BADED0100405FE9 /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		A564196F1BADED0100405FE9 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		A56419711BADED0100405FE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56419781BAE734F00405FE9 /* Whitelist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Whitelist.entitlements; sourceTree = "<group>"; };
 		A576D9DC1BACDD600080C618 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
 		A576D9DD1BACDD600080C618 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
 		A576D9DF1BACDE530080C618 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
@@ -144,6 +162,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A56419671BADED0100405FE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5B378871BA4746800E87D24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,6 +198,7 @@
 				A5B3788B1BA4746900E87D24 /* ContentBlocker */,
 				A55149771BAAACF600658AF2 /* Report */,
 				A53115291BABC95000B9B0EB /* Quick Report */,
+				A564196B1BADED0100405FE9 /* Whitelist */,
 				A548340E1B8BD240001476C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -184,6 +210,7 @@
 				A5B3788A1BA4746800E87D24 /* ContentBlocker.appex */,
 				A55149761BAAACF600658AF2 /* Report.appex */,
 				A53115281BABC95000B9B0EB /* Quick Report.appex */,
+				A564196A1BADED0100405FE9 /* Whitelist.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -230,6 +257,18 @@
 				A551497E1BAAACF600658AF2 /* Info.plist */,
 			);
 			path = Report;
+			sourceTree = "<group>";
+		};
+		A564196B1BADED0100405FE9 /* Whitelist */ = {
+			isa = PBXGroup;
+			children = (
+				A56419781BAE734F00405FE9 /* Whitelist.entitlements */,
+				A564196C1BADED0100405FE9 /* ActionRequestHandler.h */,
+				A564196D1BADED0100405FE9 /* ActionRequestHandler.m */,
+				A564196F1BADED0100405FE9 /* Action.js */,
+				A56419711BADED0100405FE9 /* Info.plist */,
+			);
+			path = Whitelist;
 			sourceTree = "<group>";
 		};
 		A576D9E21BACE0240080C618 /* Library */ = {
@@ -295,6 +334,7 @@
 				A5B378931BA4746900E87D24 /* PBXTargetDependency */,
 				A55149801BAAACF600658AF2 /* PBXTargetDependency */,
 				A53115311BABC95000B9B0EB /* PBXTargetDependency */,
+				A56419731BADED0100405FE9 /* PBXTargetDependency */,
 			);
 			name = AdBlock;
 			productName = AdBlock;
@@ -316,6 +356,23 @@
 			name = Report;
 			productName = Report;
 			productReference = A55149761BAAACF600658AF2 /* Report.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A56419691BADED0100405FE9 /* Whitelist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A56419771BADED0200405FE9 /* Build configuration list for PBXNativeTarget "Whitelist" */;
+			buildPhases = (
+				A56419661BADED0100405FE9 /* Sources */,
+				A56419671BADED0100405FE9 /* Frameworks */,
+				A56419681BADED0100405FE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Whitelist;
+			productName = Whitelist;
+			productReference = A564196A1BADED0100405FE9 /* Whitelist.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		A5B378891BA4746800E87D24 /* ContentBlocker */ = {
@@ -383,6 +440,15 @@
 							};
 						};
 					};
+					A56419691BADED0100405FE9 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = M5P6YBX6ZZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					A5B378891BA4746800E87D24 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = M5P6YBX6ZZ;
@@ -411,6 +477,7 @@
 				A5B378891BA4746800E87D24 /* ContentBlocker */,
 				A55149751BAAACF600658AF2 /* Report */,
 				A53115271BABC95000B9B0EB /* Quick Report */,
+				A56419691BADED0100405FE9 /* Whitelist */,
 			);
 		};
 /* End PBXProject section */
@@ -443,6 +510,15 @@
 			files = (
 				A5A4C62B1BAC2B5C00E38FF7 /* Assets.xcassets in Resources */,
 				A551497D1BAAACF600658AF2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A56419681BADED0100405FE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A56419791BAE737600405FE9 /* Assets.xcassets in Resources */,
+				A56419701BADED0100405FE9 /* Action.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +566,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A56419661BADED0100405FE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A564196E1BADED0100405FE9 /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5B378861BA4746800E87D24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -510,6 +594,11 @@
 			isa = PBXTargetDependency;
 			target = A55149751BAAACF600658AF2 /* Report */;
 			targetProxy = A551497F1BAAACF600658AF2 /* PBXContainerItemProxy */;
+		};
+		A56419731BADED0100405FE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A56419691BADED0100405FE9 /* Whitelist */;
+			targetProxy = A56419721BADED0100405FE9 /* PBXContainerItemProxy */;
 		};
 		A5B378931BA4746900E87D24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -726,6 +815,38 @@
 			};
 			name = Release;
 		};
+		A56419751BADED0200405FE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = Whitelist/Whitelist.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Whitelist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock.Whitelist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A56419761BADED0200405FE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_ENTITLEMENTS = Whitelist/Whitelist.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Whitelist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.smoon.AdBlock.Whitelist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		A5B378961BA4746900E87D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -796,6 +917,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		A56419771BADED0200405FE9 /* Build configuration list for PBXNativeTarget "Whitelist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56419751BADED0200405FE9 /* Debug */,
+				A56419761BADED0200405FE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		A5B378951BA4746900E87D24 /* Build configuration list for PBXNativeTarget "ContentBlocker" */ = {
 			isa = XCConfigurationList;

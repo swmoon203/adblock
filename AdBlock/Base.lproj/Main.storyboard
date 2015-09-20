@@ -242,14 +242,23 @@
                                                 <constraint firstAttribute="height" constant="25" id="kV2-6Q-e2h"/>
                                             </constraints>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="〈" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tfy-12-5Ti">
+                                            <rect key="frame" x="552" y="58" width="40" height="48"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <animations/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <color key="tintColor" red="0.074509803921568626" green="0.047058823529411764" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="tfy-12-5Ti" secondAttribute="trailing" constant="8" id="0Kb-bV-D7T"/>
                                         <constraint firstItem="KFg-m1-d9w" firstAttribute="centerY" secondItem="pIR-ih-95n" secondAttribute="centerY" id="8xv-MI-NBn"/>
                                         <constraint firstAttribute="bottom" secondItem="pIR-ih-95n" secondAttribute="bottom" constant="13" id="INN-x3-HTm"/>
                                         <constraint firstAttribute="trailing" secondItem="pIR-ih-95n" secondAttribute="trailing" constant="8" id="Niv-8O-prU"/>
+                                        <constraint firstItem="tfy-12-5Ti" firstAttribute="centerY" secondItem="j8Y-IB-WWa" secondAttribute="centerY" id="RCT-Tw-HXa"/>
                                         <constraint firstItem="pIR-ih-95n" firstAttribute="leading" secondItem="KFg-m1-d9w" secondAttribute="trailing" constant="8" id="Til-se-Xzw"/>
                                         <constraint firstItem="MkE-6v-hKU" firstAttribute="top" secondItem="j8Y-IB-WWa" secondAttribute="top" id="Z4D-j9-s4m"/>
                                         <constraint firstItem="MkE-6v-hKU" firstAttribute="centerX" secondItem="j8Y-IB-WWa" secondAttribute="centerX" id="eKG-uU-vgh"/>
