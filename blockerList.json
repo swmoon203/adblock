@@ -426,4 +426,13 @@
             "selector": ".adsbygoogle"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "image.cauly.co.kr:[0-9]*/richad/partnerApp" } }
+    ,{
+        "trigger": { "url-filter": "mlbpark.donga.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='ar.donga.com/RealMedia/ads']"
+        }
+    }
 ]
