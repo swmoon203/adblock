@@ -442,5 +442,15 @@
             "type": "css-display-none",
             "selector": "iframe[src*='/Articles/Components/Ad/'], iframe[src*='ad.ad'], iframe[src*='im.obel.kr'], [id^='ad_layer'], iframe[src*='www.sunnyworks.co.kr/data/'], iframe[src*='exttag.about.co.kr'], .ad_wide_bottom, iframe[src*='nws.lumieyes.com/show/media/'], .adsbygooglebox"
         }
-    }    
+    }  
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.newstown.co.kr/banner" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mobitree", "resource-type": [ "script" ] } }
+    ,{
+        "trigger": { "url-filter": "m.newstown.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".advertisment, .advertismentt, iframe[src*='ads.mncmedia.co.kr/mad/'], iframe[src*='image.lsinfo.co.kr/lottorich/partnership'], iframe[src*='nws.lumieyes.com/show2/media'], iframe[src*='ad.ad'], iframe[src*='ad.about.co.kr'], #newstar_ad_area"
+        }
+    }
+  
 ]
