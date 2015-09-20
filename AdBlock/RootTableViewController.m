@@ -48,8 +48,11 @@
             cell.lblTime.text = self.app.status;
         }
     }];
-    
+    [[NSNotificationCenter defaultCenter] addObserverForName:UIApplicationWillEnterForegroundNotification object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+        [self.tableView reloadData];
+    }];
 }
+
 #pragma mark - Notifying refresh control of scrolling
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
@@ -66,11 +69,11 @@
 }
 
 - (nullable NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    return section == 0 ? nil : nil; //@"Whitelist";
+    return section == 0 ? nil : [self.app.whitelist count] > 0 ? @"Whitelist" : nil;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return section == 0 ? 1 : 0;
+    return section == 0 ? 1 : [self.app.whitelist count];
 }
 
 
@@ -85,7 +88,7 @@
         }
         case 1: {
             UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"white" forIndexPath:indexPath];
-            
+            cell.textLabel.text = self.app.whitelist[indexPath.row];
             return cell;
         }
     }
@@ -99,12 +102,17 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
+        [self.app removeWhitelistAtIndexe:indexPath.row];
         [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        if ([self.app.whitelist count] == 0) {
+            [tableView reloadSections:[NSIndexSet indexSetWithIndex:1] withRowAnimation:UITableViewRowAnimationAutomatic];
+        }
     }
 }
 
 - (NSArray *)tableView:(UITableView *)tableView editActionsForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewRowAction *on = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal
+    if (indexPath.section == 0) {
+        UITableViewRowAction *on = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleNormal
                                                                       title:@"Auto Update On"
                                                                     handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
                                                                         MainTableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
@@ -112,8 +120,8 @@
                                                                         self.app.autoUpdate = YES;
                                                                         [self.tableView setEditing:NO animated:YES];
                                                                     }];
-    on.backgroundColor = [UIColor colorWithRed:(19.0/255.0) green:(12.0/255.0) blue:(75.0/255.0) alpha:1.0];
-    UITableViewRowAction *off = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive
+        on.backgroundColor = [UIColor colorWithRed:(19.0/255.0) green:(12.0/255.0) blue:(75.0/255.0) alpha:1.0];
+        UITableViewRowAction *off = [UITableViewRowAction rowActionWithStyle:UITableViewRowActionStyleDestructive
                                                                        title:@"Auto Update Off"
                                                                      handler:^(UITableViewRowAction *action, NSIndexPath *indexPath) {
                                                                          MainTableViewCell *cell = [self.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
@@ -121,14 +129,17 @@
                                                                          self.app.autoUpdate = NO;
                                                                          [self.tableView setEditing:NO animated:YES];
                                                                      }];
-    
-    return self.app.autoUpdate ? @[ off ] : @[ on ];
+        
+        return self.app.autoUpdate ? @[ off ] : @[ on ];
+    } else {
+        return nil;
+    }
 }
 
 #pragma mark -
 - (void)refreshTriggered:(id)sender {
     //[self performSelector:@selector(finishRefreshControl) withObject:nil afterDelay:3 inModes:@[NSRunLoopCommonModes]];
-
+    
     if (_working) return;
     _working = YES;
     [self.app downloadAndUpdate:^{

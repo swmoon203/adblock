@@ -44,6 +44,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 - (void)applicationWillEnterForeground:(UIApplication *)application {
     [self synciTunesFile];
     [self setupiTunesDocumentWatcher];
+    _whitelist = nil;
     [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];
 }
 
