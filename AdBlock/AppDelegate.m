@@ -17,11 +17,15 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 
 @interface AppDelegate()
 @property (strong, nonatomic, readonly) NSURL *jsonPathBackup;
+@property (strong, nonatomic, readonly) NSURL *whitelistJsonPath;
 @end
 @implementation AppDelegate {
     dispatch_queue_t _dispatchQueue;
     dispatch_source_t _source;
+    NSMutableArray *_whitelist;
 }
+@synthesize whitelist=_whitelist;
+
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     [self synciTunesFile];
     [self setupiTunesDocumentWatcher];
@@ -156,7 +160,6 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 - (void)downloadAndUpdate:(void (^)(void))completionHandler {
    [[[NSURLSession sharedSession] dataTaskWithURL:self.updateURL
                                completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-                                   NSLog(@"%@", [(NSHTTPURLResponse *)response allHeaderFields]);
                                    if ([(NSHTTPURLResponse *)response statusCode] == 200) {
                                        [[NSFileManager defaultManager] moveItemAtURL:self.jsonPath toURL:self.jsonPathBackup error:nil];
                                        [data writeToURL:self.jsonPath atomically:NO];
@@ -172,9 +175,6 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 }
 
 - (void)updateSafariContentBlocker {
-    //whitelist injection
-    //[self injectWhiteList];
-    
     [SFContentBlockerManager reloadContentBlockerWithIdentifier:@"kr.smoon.AdBlock.ContentBlocker"
                                               completionHandler:^(NSError * _Nullable error) {
                                                   NSFileManager *fs = [NSFileManager defaultManager];
@@ -192,23 +192,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
                                                   [[NSNotificationCenter defaultCenter] postNotificationName:UpdatedNotification object:nil];                                                  
                                               }];
 }
-- (void)injectWhiteList {
-    NSMutableArray *list = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:self.jsonPath]
-                                                    options:NSJSONReadingMutableContainers
-                                                      error:nil];
-    NSArray *whiteList = @[];// @"m.wikitree.co.kr" ];
-    [list enumerateObjectsUsingBlock:^(NSMutableDictionary *item, NSUInteger idx, BOOL * _Nonnull stop) {
-        NSMutableDictionary *trigger = item[@"trigger"];
-        if (trigger == nil) return;
-        NSMutableArray *unless = trigger[@"unless-domain"];
-        NSMutableSet *set = [NSMutableSet setWithArray:whiteList];
-        if (unless) [set addObjectsFromArray:unless];
-        trigger[@"unless-domain"] = [set allObjects];
-    }];
-    NSError *err;
-    NSData *output = [NSJSONSerialization dataWithJSONObject:list options:0 error:&err];
-    [output writeToURL:self.jsonPath atomically:NO];
-}
+
 - (void)updateCount {
     NSArray *list = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfURL:self.jsonPath]
                                                     options:NSJSONReadingAllowFragments
@@ -222,5 +206,24 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 }
 - (BOOL)autoUpdate {
     return [[NSUserDefaults standardUserDefaults] boolForKey:AutoUpdateKey];
+}
+
+#pragma mark - Whitelist
+- (NSURL *)whitelistJsonPath {
+    return [[[NSFileManager defaultManager] containerURLForSecurityApplicationGroupIdentifier:@"group.AdBlock"] URLByAppendingPathComponent:@"whiteList.json"];
+}
+- (NSArray *)whitelist {
+    if (_whitelist == nil) {
+        NSData *data = [NSData dataWithContentsOfURL:self.whitelistJsonPath];
+        if (data == nil) return nil;
+        _whitelist = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
+    }
+    return _whitelist;
+}
+- (void)removeWhitelistAtIndexe:(NSUInteger)index {
+    [_whitelist removeObjectAtIndex:index];
+    NSData *data = [NSJSONSerialization dataWithJSONObject:_whitelist options:0 error:nil];
+    [data writeToURL:self.whitelistJsonPath atomically:NO];
+    [self updateSafariContentBlocker];
 }
 @end

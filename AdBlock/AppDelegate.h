@@ -32,5 +32,9 @@ UIKIT_EXTERN NSString *const iTunesUpdatedNotification;
 - (void)downloadAndUpdate:(void (^)(void))completionHandler;
 
 @property (assign, nonatomic) BOOL autoUpdate;
+
+//Whitelist
+@property (strong, readonly) NSArray *whitelist;
+- (void)removeWhitelistAtIndexe:(NSUInteger)index;
 @end
 
