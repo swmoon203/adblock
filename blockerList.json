@@ -535,4 +535,6 @@
             "selector": "div[id^='div-gpt-ad-'], iframe[src*='adkpf.newscloud.or.kr'], iframe[src*='ad.ad'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], iframe[src*='cdn04.sndkorea.co.kr/new/media'], #B_M_L_100_A-M100001246-2"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.itworld.co.kr" } }
 ]
