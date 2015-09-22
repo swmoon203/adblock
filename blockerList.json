@@ -469,5 +469,14 @@
             "selector": "#AdLeftPopArea, #banner_adlibr, iframe[src*='adx.naonmedia.net'], iframe[src*='m.isplus.joins.com/news/article/ad'], #testAD, .ad_text, iframe[src*='care-health.co.kr/ilgangih_mo.html'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], .ad_wrap"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.medicaltimes.com" } }
+    ,{
+        "trigger": { "url-filter": "www.medicaltimes.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#newsPopup, #SideBannerRight2"
+        }
+    } 
  
 ]
