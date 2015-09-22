@@ -478,5 +478,13 @@
             "selector": "#newsPopup, #SideBannerRight2"
         }
     } 
- 
+
+    ,{
+        "trigger": { "url-filter": "m.clien.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='m.11st.co.kr/MW/']"
+        }
+    } 
+
 ]
