@@ -553,6 +553,18 @@
             "type": "css-display-none",
             "selector": ".news_adinn, div[id^='div-gpt-ad']"
         }
-    } 
+    }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.adnmore.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.mdotad.com/MDotAd/Advertise" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "longkeyone.co.kr/chicnews_gd.html" } }
+    ,{
+        "trigger": { "url-filter": "chicnewsm.mk.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#MDotAdArea, div[id='ad_section'], iframe[src*='ad.ad'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='longkeyone.co.kr/chicnews_gd.html']"
+        }
+    }
+    
 
 ]
