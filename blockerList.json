@@ -546,5 +546,13 @@
             "selector": ".adsbygoogle, #vfad"
         }
     } 
-    
+
+    ,{
+        "trigger": { "url-filter": "m.etoday.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".news_adinn, div[id^='div-gpt-ad']"
+        }
+    } 
+
 ]
