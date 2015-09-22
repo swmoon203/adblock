@@ -487,4 +487,14 @@
         }
     } 
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "analytics.ad.daum.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "event.mtoon.com/banner" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "banner.todown.net" } }
+    ,{
+        "trigger": { "url-filter": "todown.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "a[href*='19mall.kr']"
+        }
+    } 
 ]
