@@ -32,9 +32,19 @@
 		<dict>
 			<key>NSExtensionActivationRule</key>
 			<dict>
+				<key>NSExtensionActivationSupportsFileWithMaxCount</key>
+				<integer>0</integer>
+				<key>NSExtensionActivationSupportsImageWithMaxCount</key>
+				<integer>0</integer>
+				<key>NSExtensionActivationSupportsMovieWithMaxCount</key>
+				<integer>0</integer>
+				<key>NSExtensionActivationSupportsText</key>
+				<false/>
 				<key>NSExtensionActivationSupportsWebURLWithMaxCount</key>
 				<integer>1</integer>
 			</dict>
+			<key>NSExtensionJavaScriptPreprocessingFile</key>
+			<string>Action</string>
 		</dict>
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.services</string>

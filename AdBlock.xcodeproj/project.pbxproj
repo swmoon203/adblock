@@ -11,6 +11,7 @@
 		A53115321BABC95000B9B0EB /* Quick Report.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A53115281BABC95000B9B0EB /* Quick Report.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A53115381BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */; settings = {ASSET_TAGS = (); }; };
 		A53115391BABD00000B9B0EB /* CALayer+StoryboardExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */; settings = {ASSET_TAGS = (); }; };
+		A53381911BB17A540093B313 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = A53381901BB17A540093B313 /* Action.js */; settings = {ASSET_TAGS = (); }; };
 		A5479B341B8C0B64001EC2C8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5479B331B8C0B64001EC2C8 /* MainViewController.m */; };
 		A54834121B8BD240001476C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A54834111B8BD240001476C9 /* main.m */; };
 		A54834151B8BD240001476C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A54834141B8BD240001476C9 /* AppDelegate.m */; };
@@ -96,6 +97,7 @@
 		A53115371BABD00000B9B0EB /* CALayer+StoryboardExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+StoryboardExtension.m"; sourceTree = "<group>"; };
 		A531153A1BABFF5400B9B0EB /* Report.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Report.entitlements; sourceTree = "<group>"; };
 		A531153B1BABFF6400B9B0EB /* Quick Report.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Quick Report.entitlements"; sourceTree = "<group>"; };
+		A53381901BB17A540093B313 /* Action.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
 		A5479B321B8C0B64001EC2C8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		A5479B331B8C0B64001EC2C8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		A548340D1B8BD240001476C9 /* AdBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +188,7 @@
 				A531152A1BABC95000B9B0EB /* ActionRequestHandler.h */,
 				A531152B1BABC95000B9B0EB /* ActionRequestHandler.m */,
 				A531152F1BABC95000B9B0EB /* Info.plist */,
+				A53381901BB17A540093B313 /* Action.js */,
 			);
 			path = "Quick Report";
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53381911BB17A540093B313 /* Action.js in Resources */,
 				A5A4C62C1BAC2B5D00E38FF7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
