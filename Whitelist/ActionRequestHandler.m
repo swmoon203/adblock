@@ -51,8 +51,11 @@
         list  = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
     }
     NSString *domain = javaScriptPreprocessingResults[@"domain"];
-    if ([list containsObject:domain]) return [self doneWithResults:@{}];
-    [list addObject:domain];
+    if ([list containsObject:domain]) {
+        [list removeObject:domain];
+    } else {
+        [list addObject:domain];
+    }
     
     data = [NSJSONSerialization dataWithJSONObject:list options:0 error:nil];
     [data writeToURL:path atomically:NO];
