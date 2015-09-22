@@ -518,4 +518,11 @@
         }
     } 
     
+    ,{
+        "trigger": { "url-filter": "m.enewstoday.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".advertisment"
+        }
+    }
 ]
