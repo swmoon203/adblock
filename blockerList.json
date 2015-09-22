@@ -525,4 +525,14 @@
             "selector": ".advertisment"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "image.ajunews.com/images/site/js/ad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adkpf.newscloud.or.kr" } }
+    ,{
+        "trigger": { "url-filter": "m.kr.ajunews.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[id^='div-gpt-ad-'], iframe[src*='adkpf.newscloud.or.kr'], iframe[src*='ad.ad'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], iframe[src*='cdn04.sndkorea.co.kr/new/media'], #B_M_L_100_A-M100001246-2"
+        }
+    } 
 ]
