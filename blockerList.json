@@ -500,11 +500,22 @@
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.danawa.com" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "news.hiadone.com/sdk" } }
-        ,{
+    ,{
         "trigger": { "url-filter": "m.asiatoday.co.kr" },
         "action": {
             "type": "css-display-none",
             "selector": "#btm, iframe[title='광고'], iframe[src*='mp.lumieyes.com/show'], table[style*='float:right'], #hiadone_ad, div[class^='ad'], div[id^='div-lumi'], #news_more_floating_button"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cyad1.nate.com/js.kti" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.nate.com/include3/adscript.html" } }
+    ,{
+        "trigger": { "url-filter": "m.*.nate.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#ad_big, #ad_small, .bt_banner"
+        }
+    } 
+    
 ]
