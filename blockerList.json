@@ -537,4 +537,14 @@
     } 
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.itworld.co.kr" } }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "media.slrclub.com/sp_delivery/cdn_ad" } }
+    ,{
+        "trigger": { "url-filter": "m.slrclub.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adsbygoogle, #vfad"
+        }
+    } 
+    
 ]
