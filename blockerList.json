@@ -497,4 +497,7 @@
             "selector": "a[href*='19mall.kr']"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.danawa.com" } }
+    
 ]
