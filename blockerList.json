@@ -14,7 +14,7 @@
         "trigger": { "url-filter": "wikitree.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01"
+            "selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01, div[style*='float:right;']"
         }
     }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adv.realclick.co.kr" } }
