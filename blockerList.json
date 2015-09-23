@@ -585,6 +585,13 @@
         }
     }
 
-
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.koreapas.com/bbs/ad/" } }
+    ,{
+        "trigger": { "url-filter": "www.koreapas.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "image[src*='/bbs/ad/']"
+        }
+    }
 
 ]
