@@ -654,4 +654,13 @@
         }
     } 
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "topclick.emato.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.gayeon.com/landing/js/money.js" } }
+    ,{
+        "trigger": { "url-filter": "m.mt.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[class*='ad_list'], ul.ad, .mgt10.only_640un"
+        }
+    } 
 ]
