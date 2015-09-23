@@ -698,5 +698,13 @@
             "selector": ".sv_banner, [class^='add_']:not(.add_lst)"
         }
     } 
+
+   ,{
+        "trigger": { "url-filter": "m.naeil.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".caLC"
+        }
+    } 
     
 ]
