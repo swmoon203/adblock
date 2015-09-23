@@ -671,4 +671,13 @@
             "selector": "div[style*='position:fixed; bottom:0;']"
         }
     } 
+
+    ,{
+        "trigger": { "url-filter": "m.knnews.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".m_mid_banner, #livere_ad"
+        }
+    } 
+    
 ]
