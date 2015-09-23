@@ -620,4 +620,15 @@
             "selector": "[id*='ads_slot'], .house_banner"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.mdotad.com/Scripts/AdvertiseMedia" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.ti-center.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.care-health.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "mtvdaily.asiae.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], div.jul > table[align], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ads.mncmedia.co.kr'], a[href*='www.movieplex.co.kr/ad.html'], div[id^='div-gpt-ad']"
+        }
+    } 
 ]
