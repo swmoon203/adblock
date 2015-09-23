@@ -643,4 +643,15 @@
     } 
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adverweb.cjenm.com" } }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "image.cauly.co.kr:[0-9]*/websdk/caulyad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "static.tpmn.co.kr/sf/v2/smart.icon.ad.js" } }
+    ,{
+        "trigger": { "url-filter": "www.bestpost.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id^='main_ad'], iframe[src*='imp.mklaud.com/ad'], .mobile_ad"
+        }
+    } 
+    
 ]
