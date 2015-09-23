@@ -595,4 +595,13 @@
     }
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.pubmatic.com" } }
+
+    ,{
+        "trigger": { "url-filter": "pangcast.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".banner_top, .banner_left, .banner_popup, .banner_bottom, div#main-content article div > div[style*='height'], div#main-content article > div[style*='height'], iframe[src*='sellcomics.co.kr']"
+        }
+    }
+    
 ]
