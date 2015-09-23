@@ -309,11 +309,13 @@
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "imad.co.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ojsfile.ohmynews.com/AD_FILE" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "sp[0-9].jssearch.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ojsimg.ohmynews.com/2012_ad_rolling.htm" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adc.ohmynews.com/NetInsight/text/ohmynews/ohmynews2012/" } }
     ,{
         "trigger": { "url-filter": "m.ohmynews.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline"
+            "selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline, .adDaum, #ad_box"
         }
     }
 
