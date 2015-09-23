@@ -688,6 +688,15 @@
             "type": "css-display-none",
             "selector": ".main_ad"
         }
+    }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "amg.asiae.co.kr/RealMedia/ads/" } }    
+    ,{
+        "trigger": { "url-filter": "m.asiae.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".sv_banner, [class^='add_']:not(.add_lst)"
+        }
     } 
     
 ]
