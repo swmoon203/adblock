@@ -574,5 +574,6 @@
         }
     }
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adserver.adtech.de" } }
 
 ]
