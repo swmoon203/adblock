@@ -662,5 +662,13 @@
             "type": "css-display-none",
             "selector": "[class*='ad_list'], ul.ad, .mgt10.only_640un"
         }
+    }
+
+    ,{
+        "trigger": { "url-filter": "ani24.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[style*='position:fixed; bottom:0;']"
+        }
     } 
 ]
