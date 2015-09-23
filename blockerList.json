@@ -680,4 +680,12 @@
         }
     } 
     
+    ,{
+        "trigger": { "url-filter": "m.sarangbang.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".main_ad"
+        }
+    } 
+    
 ]
