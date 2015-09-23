@@ -573,7 +573,18 @@
             "selector": ".advertisment"
         }
     }
-    
+
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adserver.adtech.de" } }
+  
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd" } }
+    ,{
+        "trigger": { "url-filter": "m.dcinside.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id*='ad_banner'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], iframe[src*='clickmon.co.kr']"
+        }
+    }
+
+
 
 ]
