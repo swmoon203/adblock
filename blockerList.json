@@ -611,4 +611,13 @@
             "selector": ".banner"
         }
     }    
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "js.w.inmobi.com/showad" } }
+    ,{
+        "trigger": { "url-filter": "balltong.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id*='ads_slot'], .house_banner"
+        }
+    } 
 ]
