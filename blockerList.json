@@ -185,7 +185,7 @@
         "trigger": { "url-filter": "m.ppomppu.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "#menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st, iframe[src*='/banner/view_top.html']"
+            "selector": "#menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st, iframe[src*='/banner/view_top.html'], iframe[src*='sndkorea.co.kr']"
         }
     }   
     
