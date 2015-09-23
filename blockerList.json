@@ -706,5 +706,14 @@
             "selector": ".caLC"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adw.heraldm.com" } }
+    ,{
+        "trigger": { "url-filter": "m.heraldbiz.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad, iframe[src*='res.heraldm.com/iframe'], iframe[src*='nad1.mklaud.com'], [class^='ad_']"
+        }
+    } 
     
 ]
