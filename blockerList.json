@@ -594,4 +594,5 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.pubmatic.com" } }
 ]
