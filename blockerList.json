@@ -631,4 +631,16 @@
             "selector": "iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], div.jul > table[align], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ads.mncmedia.co.kr'], a[href*='www.movieplex.co.kr/ad.html'], div[id^='div-gpt-ad']"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad2.thisisgame.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mtag.mman.kr/js.mezzo/thisisgame/mobile_web/banner" } }
+    ,{
+        "trigger": { "url-filter": "m.thisisgame.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".google-ad-part, .board-bottom-ad"
+        }
+    } 
+
+
 ]
