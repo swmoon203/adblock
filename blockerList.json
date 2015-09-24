@@ -749,4 +749,9 @@
             "selector": ".house_banner, [id^='inmobi_ads_slot'], [id^='banner_ads_slot']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "img.adinc.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.asiatoday.co.kr/kn/ad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "image.cauly.co.kr" } }
+
 ]
