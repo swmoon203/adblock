@@ -761,5 +761,16 @@
             "selector": "div[style*='float:right'], iframe[src*='ad.ad'], iframe[src*='cdn03.sndkorea.co.kr/media']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.dreamsearch.or.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "brob0.bayabar.com/adWorking" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.openmatch.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "drama24.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#dhtmlgoodies_leftPanel, iframe[src*='adtg.widerplanet.com'], iframe[src*='www.bayabar.com/adpassback4']"
+        }
+    }
     
 ]
