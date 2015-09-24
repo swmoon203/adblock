@@ -725,4 +725,13 @@
         }
     }
 
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "fs.jtbc.joins.com/common/ui/ad/" } }
+    ,{
+        "trigger": { "url-filter": "mnews.jtbc.joins.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad_text_2line, iframe[src*='www.care-health.co.kr'], iframe[src*='ad.ad'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='fs.jtbc.joins.com/common/ui/ad'], .text_ad, iframe[src*='exttag.about.co.kr'], [class^='ad_highlight'], .footer_google"
+        }
+    }
+    
 ]
