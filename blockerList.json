@@ -754,4 +754,12 @@
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.asiatoday.co.kr/kn/ad" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "image.cauly.co.kr" } }
 
+    ,{
+        "trigger": { "url-filter": "m.zdnet.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div[style*='float:right'], iframe[src*='ad.ad'], iframe[src*='cdn03.sndkorea.co.kr/media']"
+        }
+    }
+    
 ]
