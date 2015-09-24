@@ -716,4 +716,13 @@
         }
     } 
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "spad.i-mobile.co.jp/script/ad" } }
+    ,{
+        "trigger": { "url-filter": "touch.pixiv.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad-container"
+        }
+    }
+
 ]
