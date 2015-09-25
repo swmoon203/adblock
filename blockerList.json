@@ -773,4 +773,15 @@
         }
     }
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.tf.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "plugin.2beon.co.kr/script/bridgeAd.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.tf.co.kr/public/[0-9]*/ad/" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.tf.co.kr/js/ss_ad.js" } }
+    ,{
+        "trigger": { "url-filter": "m.tf.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adbox, iframe[src*='nws.lumieyes.com/show/media/'], #rectingle_spanTag_ad, #mobitree, iframe[src*='imp.sndkorea.co.kr/php/m.php'], [id^='AD_LIVE_AREA_'], .conBox[style*='height:50px']"
+        }
+    }
 ]
