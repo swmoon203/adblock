@@ -827,4 +827,12 @@
         }
     }
 
+    ,{
+        "trigger": { "url-filter": "m.danawa.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#danawa-mobile-2015products-powerLinkContainer"
+        }
+    }
+
 ]
