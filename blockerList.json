@@ -201,7 +201,7 @@
         "trigger": { "url-filter": "mobile.newsis.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='adin.ad'], iframe[src*='ad01.drbig.co.kr'], iframe[src*='candy.ad9.kr'], iframe[src*='ad.adinc.kr'], iframe[src*='im.obel.kr/custom/'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], div.bxcn[style*='height'], iframe[src*='longkeyone.co.kr/newsis_mo']"
+            "selector": "iframe[src*='adin.ad'], iframe[src*='ad01.drbig.co.kr'], iframe[src*='candy.ad9.kr'], iframe[src*='ad.adinc.kr'], iframe[src*='im.obel.kr/custom/'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], div.bxcn[style*='height'], iframe[src*='longkeyone.co.kr/newsis_mo'], iframe[src*='mobi.luxad.kr']"
         }
     }
      
