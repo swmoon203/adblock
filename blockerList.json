@@ -784,4 +784,13 @@
             "selector": ".adbox, iframe[src*='nws.lumieyes.com/show/media/'], #rectingle_spanTag_ad, #mobitree, iframe[src*='imp.sndkorea.co.kr/php/m.php'], [id^='AD_LIVE_AREA_'], .conBox[style*='height:50px'], #banner"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ds.servebom.com" } }
+    ,{
+        "trigger": { "url-filter": "m.crackberry.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adunit, .netshelter-ad"
+        }
+    }
 ]
