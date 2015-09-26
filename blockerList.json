@@ -817,4 +817,15 @@
             "selector": ".fixed-top"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.vop.co.kr/templates/js_2014/daum_ad" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.vop.co.kr/templates/ad/" } }
+    ,{
+        "trigger": { "url-filter": "m.vop.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad-bottom, .articlein_ad, [id^='div-gpt-ad-'], .ad_box_imad, .ad_box_in"
+        }
+    }
+
 ]
