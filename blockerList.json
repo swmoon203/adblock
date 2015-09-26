@@ -809,4 +809,12 @@
             "selector": "table[height='320'], a[href*='china-market.co.kr'], .adsbygoogle"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.hungryapp.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".fixed-top"
+        }
+    }
 ]
