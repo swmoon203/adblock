@@ -781,7 +781,7 @@
         "trigger": { "url-filter": "m.tf.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": ".adbox, iframe[src*='nws.lumieyes.com/show/media/'], #rectingle_spanTag_ad, #mobitree, iframe[src*='imp.sndkorea.co.kr/php/m.php'], [id^='AD_LIVE_AREA_'], .conBox[style*='height:50px']"
+            "selector": ".adbox, iframe[src*='nws.lumieyes.com/show/media/'], #rectingle_spanTag_ad, #mobitree, iframe[src*='imp.sndkorea.co.kr/php/m.php'], [id^='AD_LIVE_AREA_'], .conBox[style*='height:50px'], #banner"
         }
     }
 ]
