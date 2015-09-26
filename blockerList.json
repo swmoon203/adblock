@@ -793,4 +793,12 @@
             "selector": ".adunit, .netshelter-ad"
         }
     }
+    
+    ,{
+        "trigger": { "url-filter": "m.media.daum.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "div#daumAd"
+        }
+    }
 ]
