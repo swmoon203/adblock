@@ -156,7 +156,6 @@
         }
     }   
     
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg3.search.naver.net" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cas.criteo.com" } }
     ,{
         "trigger": { "url-filter": "m.ytn.co.kr" },
