@@ -110,7 +110,7 @@
         "trigger": { "url-filter": "m.chosun.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "div.ad[class*='iad'], iframe[src*='itad'], iframe[src*='ra.ntwoad.co.kr/n2ad_iframe'], #mobitree, #mobitreeP, div.ad, div.ad_txt_inline, iframe[src*='nads.lumieyes.com/show'], iframe[src*='imp.sndkorea.co.kr/php/m.php']"
+            "selector": "div.ad[class*='iad'], iframe[src*='itad'], iframe[src*='ra.ntwoad.co.kr/n2ad_iframe'], #mobitree, #mobitreeP, div.ad, div.ad_txt_inline, iframe[src*='nads.lumieyes.com/show'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], iframe[src*='ad.ad']"
         }
     }
     
