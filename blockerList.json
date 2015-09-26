@@ -801,4 +801,12 @@
             "selector": "div#daumAd"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "npost.oceanmate.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "table[height='320'], a[href*='china-market.co.kr'], .adsbygoogle"
+        }
+    }
 ]
