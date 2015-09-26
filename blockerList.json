@@ -120,7 +120,7 @@
         "trigger": { "url-filter": "mnews.joins.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "div[id*='banner']"
+            "selector": "div[id*='banner'], .ad"
         }
     }
 
