@@ -506,7 +506,7 @@
         "trigger": { "url-filter": "m.asiatoday.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "#btm, iframe[title='광고'], iframe[src*='mp.lumieyes.com/show'], table[style*='float:right'], #hiadone_ad, div[class^='ad'], div[id^='div-lumi'], #news_more_floating_button"
+            "selector": "#btm, iframe[title='광고'], iframe[src*='mp.lumieyes.com/show'], table[style*='float:right'], #hiadone_ad, div[class^='ad'], div[id^='div-lumi'], #news_more_floating_button, a[href*='www.nagija.co.kr']"
         }
     } 
 
