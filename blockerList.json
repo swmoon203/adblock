@@ -276,7 +276,7 @@
         "trigger": { "url-filter": "m.xportsnews.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "div[id*='div-gpt-ad'], .ad_img_up, .ad_img_down, .ad_content_up, .in_200_200, #mobitree, #mobitreeP, iframe[src*='www.superslim.co.kr'], iframe[src*='www.sunnyworks.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='adin.ad'], .in_10lines, iframe[src*='nws.lumieyes.com'], .rect_ad, iframe[src*='www.longkeyone.co.kr'], iframe[src*='a1.dp25.kr'], iframe[src*='ad.ad']"
+            "selector": "div[id*='div-gpt-ad'], .ad_img_up, .ad_img_down, .ad_content_up, .in_200_200, #mobitree, #mobitreeP, iframe[src*='www.superslim.co.kr'], iframe[src*='www.sunnyworks.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='adin.ad'], .in_10lines, iframe[src*='nws.lumieyes.com'], .rect_ad, iframe[src*='www.longkeyone.co.kr'], iframe[src*='a1.dp25.kr'], iframe[src*='ad.ad'], .responsive_col2 div[style*='height:250']"
         }
     }
 
