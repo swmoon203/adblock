@@ -835,4 +835,11 @@
         }
     }
 
+    ,{
+        "trigger": { "url-filter": "jmagazine.joins.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#div_laypopup, #top_div, .ra_img_ban"
+        }
+    }
 ]
