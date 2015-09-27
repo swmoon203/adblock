@@ -152,7 +152,7 @@
         "trigger": { "url-filter": "m.yna.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "div.section-txt > div:not(.section-img-inner)"
+            "selector": "div.section-txt > div:not(.section-img-inner), .section-article-add, .section-add"
         }
     }   
     
