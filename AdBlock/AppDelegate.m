@@ -132,25 +132,26 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
 - (void)synciTunesFile {
     NSFileManager *fs = [NSFileManager defaultManager];
     
-    if ([fs fileExistsAtPath:[self.iTunesJsonPath path]] == NO) [fs copyItemAtURL:self.bundleJsonPath toURL:self.iTunesJsonPath error:nil];
-    if ([fs fileExistsAtPath:[self.jsonPath path]] == NO) [fs copyItemAtURL:self.iTunesJsonPath toURL:self.jsonPath error:nil];
+    //if ([fs fileExistsAtPath:[self.iTunesJsonPath path]] == NO) [fs copyItemAtURL:self.bundleJsonPath toURL:self.iTunesJsonPath error:nil];
+    //if ([fs fileExistsAtPath:[self.jsonPath path]] == NO) [fs copyItemAtURL:self.iTunesJsonPath toURL:self.jsonPath error:nil];
+    if ([fs fileExistsAtPath:[self.jsonPath path]] == NO) [fs copyItemAtURL:self.bundleJsonPath toURL:self.jsonPath error:nil];
     
-    NSDate *itunesDate = [[fs attributesOfItemAtPath:[self.iTunesJsonPath path] error:nil] fileModificationDate];
+    //NSDate *itunesDate = [[fs attributesOfItemAtPath:[self.iTunesJsonPath path] error:nil] fileModificationDate];
     NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
     
-    switch ([itunesDate compare:jsonDate]) {
-        case NSOrderedSame: //not changed
-            [self updateCount];
-            return;
-        case NSOrderedDescending: //itune file is newer
-            [fs removeItemAtURL:self.jsonPath error:nil];
-            [fs copyItemAtURL:self.iTunesJsonPath toURL:self.jsonPath error:nil];
-            break;
-        case NSOrderedAscending:
-            [fs removeItemAtURL:self.iTunesJsonPath error:nil];
-            [fs copyItemAtURL:self.jsonPath toURL:self.iTunesJsonPath error:nil];
-            break;
-    }
+//    switch ([itunesDate compare:jsonDate]) {
+//        case NSOrderedSame: //not changed
+//            [self updateCount];
+//            return;
+//        case NSOrderedDescending: //itune file is newer
+//            [fs removeItemAtURL:self.jsonPath error:nil];
+//            [fs copyItemAtURL:self.iTunesJsonPath toURL:self.jsonPath error:nil];
+//            break;
+//        case NSOrderedAscending:
+//            [fs removeItemAtURL:self.iTunesJsonPath error:nil];
+//            [fs copyItemAtURL:self.jsonPath toURL:self.iTunesJsonPath error:nil];
+//            break;
+//    }
     [self updateCount];
     [self updateSafariContentBlocker];
     
