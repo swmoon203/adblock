@@ -289,7 +289,7 @@
     }    
 
     ,{
-        "trigger": { "url-filter": "m.ruliweb.daum.net" },
+        "trigger": { "url-filter": "m.*.ruliweb.daum.net" },
         "action": {
             "type": "css-display-none",
             "selector": "div#daumAd"
