@@ -842,4 +842,16 @@
             "selector": "#div_laypopup, #top_div, .ra_img_ban"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "static.tpmn.co.kr/sf/v2/sfplus.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad1.adinc.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "m.kukinews.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".bnr, #viewTopAd, iframe[src*='ad.ad'], iframe[src*='ad1.adinc.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='exttag.about.co.kr'], [style*='height:268px;'], #sf_plus_modal"
+        }
+    }
+    
+
 ]
