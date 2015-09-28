@@ -137,7 +137,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     if ([fs fileExistsAtPath:[self.jsonPath path]] == NO) [fs copyItemAtURL:self.bundleJsonPath toURL:self.jsonPath error:nil];
     
     //NSDate *itunesDate = [[fs attributesOfItemAtPath:[self.iTunesJsonPath path] error:nil] fileModificationDate];
-    NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
+    //NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
     
 //    switch ([itunesDate compare:jsonDate]) {
 //        case NSOrderedSame: //not changed
@@ -155,7 +155,7 @@ NSString *const iTunesUpdatedNotification = @"iTunesUpdatedNotification";
     [self updateCount];
     [self updateSafariContentBlocker];
     
-    jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
+    NSDate *jsonDate = [[fs attributesOfItemAtPath:[self.jsonPath path] error:nil] fileModificationDate];
     [self setStatusWithDate:jsonDate];
 }
 
