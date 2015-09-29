@@ -853,5 +853,13 @@
         }
     }
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "sellcomics.co.kr/james/banner_" } }
+    ,{
+        "trigger": { "url-filter": "xcall.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".banner_top, [style*='width:336px;height:280px'], .banner_popup, .banner_bottom, .banner_left, iframe[src*='sellcomics.co.kr'], .banner_nine_block, .banner_youtube"
+        }
+    }
 
 ]
