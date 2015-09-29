@@ -629,7 +629,7 @@
         "trigger": { "url-filter": "mtvdaily.asiae.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], div.jul > table[align], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ads.mncmedia.co.kr'], a[href*='www.movieplex.co.kr/ad.html'], div[id^='div-gpt-ad']"
+            "selector": "iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], div.jul > table[align], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ads.mncmedia.co.kr'], a[href*='www.movieplex.co.kr/ad.html'], div[id^='div-gpt-ad'], iframe[src*='www.ti-center.co.kr'], iframe[src*='www.care-health.co.kr']"
         }
     } 
 
