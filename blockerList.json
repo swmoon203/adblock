@@ -870,4 +870,12 @@
         }
     }
 
+    ,{
+        "trigger": { "url-filter": "m.okmall.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".banner_list"
+        }
+    }
+
 ]
