@@ -955,4 +955,12 @@
             "selector": "#Thebanner, #TheadWrapper"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.daum.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id^='bnrAd_news'], [data-click-id='news1_banner'], div#daumAd"
+        }
+    }
 ]
