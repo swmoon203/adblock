@@ -886,5 +886,14 @@
             "selector": ".kmib_txbnr, iframe[src*='adx.naonmedia.net'], .mo_bnr, iframe[src*='ad.ad'], iframe[src*='adv.imadrep.co.kr'], .ban, #livere_ad, .css_remon_wiki1, iframe[src*='m.kmib.co.kr/banner/realclick_'], body > div[style='wdith:100%;height:50px;']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.ilikesponsorad.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "m.sisafocus.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".advertisment, .advertisementItem, .networkAd, iframe[src*='topclick.emato.net'], iframe[src*='ad.ad'], body > div[style='height:50px;']:last-child, iframe[src*='ad.ilikesponsorad.co.kr']"
+        }
+    }
     
 ]
