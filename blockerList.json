@@ -963,4 +963,6 @@
             "selector": "[id^='bnrAd_news'], [data-click-id='news1_banner'], div#daumAd"
         }
     }
+    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg3.search.naver.net/mobilejs/mobilead_min.js" } }
 ]
