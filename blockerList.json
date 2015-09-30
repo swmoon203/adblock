@@ -929,4 +929,14 @@
         }
     }
     
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "go.padsdel.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "bdv.bidvertiser.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adnxs.com" } }
+    ,{
+        "trigger": { "url-filter": "mcomic.mt.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "img[src*='comicmenu.mt.co.kr/banner/']"
+        }
+    }
 ]
