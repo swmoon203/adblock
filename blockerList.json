@@ -947,4 +947,12 @@
             "selector": "#header > .header_top, #top_src, iframe[src*='ads.mncmedia.co.kr'], [onclick*='ad_close'], .adsbygoogle, iframe[src*='mobi.luxad.kr'], iframe[src*='ad.ad'], iframe[src*='/data/m.newsculture.tv/lemon_big_']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.theappl.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#Thebanner, #TheadWrapper"
+        }
+    }
 ]
