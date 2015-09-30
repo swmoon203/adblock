@@ -911,5 +911,13 @@
             "selector": ".advertisment, .advertisementItem, .networkAd, iframe[src*='topclick.emato.net'], iframe[src*='ad.ad'], iframe[src*='ad.ilikesponsorad.co.kr'], div[style*='float:right;'], .adsbygoogle"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.betanews.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".bottom-fix, .adsbygoogle, iframe[src*='nad1.mklaud.com'], iframe[src*='box2.betanews.net/banner.html'], #livere_ad"
+        }
+    }
     
 ]
