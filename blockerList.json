@@ -895,5 +895,13 @@
             "selector": ".advertisment, .advertisementItem, .networkAd, iframe[src*='topclick.emato.net'], iframe[src*='ad.ad'], body > div[style='height:50px;']:last-child, iframe[src*='ad.ilikesponsorad.co.kr']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.econovill.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".advertisment, .advertisementItem, .networkAd, iframe[src*='topclick.emato.net'], iframe[src*='ad.ad'], iframe[src*='ad.ilikesponsorad.co.kr'], div[style*='float:right;'], .adsbygoogle"
+        }
+    }
     
 ]
