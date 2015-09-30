@@ -919,5 +919,14 @@
             "selector": ".bottom-fix, .adsbygoogle, iframe[src*='nad1.mklaud.com'], iframe[src*='box2.betanews.net/banner.html'], #livere_ad"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "add.maxmovie.com/RealMedia/ads/" } }
+    ,{
+        "trigger": { "url-filter": "m.maxmovie.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='add.maxmovie.com/RealMedia/ads/'], #ad_news_list_band, #ad_chart_band, #ad_reservation_band, #ad_news_view_band, #ad_magazine_band, #ad_sisa_band, #ad_news_view_div, #awdlay, a[href='http://goo.gl/1iJB7Y']"
+        }
+    }
     
 ]
