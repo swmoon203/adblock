@@ -965,4 +965,12 @@
     }
     
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg3.search.naver.net/mobilejs/mobilead_min.js" } }
+
+    ,{
+        "trigger": { "url-filter": "www.gcinews.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ad_area"
+        }
+    }
 ]
