@@ -939,4 +939,12 @@
             "selector": "img[src*='comicmenu.mt.co.kr/banner/']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.newsculture.tv" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#header > .header_top, #top_src, iframe[src*='ads.mncmedia.co.kr'], [onclick*='ad_close'], .adsbygoogle, iframe[src*='mobi.luxad.kr'], iframe[src*='ad.ad'], iframe[src*='/data/m.newsculture.tv/lemon_big_']"
+        }
+    }
 ]
