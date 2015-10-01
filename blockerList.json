@@ -981,4 +981,12 @@
             "selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='cdn04.sndkorea.co.kr'], #bottomBannerAdop"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.humoruniv.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#uad_iframe, #cauly_ad, #realclick_ad"
+        }
+    }
 ]
