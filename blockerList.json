@@ -813,7 +813,7 @@
         "trigger": { "url-filter": "m.hungryapp.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": ".fixed-top"
+            "selector": ".fixed-top, .TopBanner, .banner, .banner_cnt, .Btm-banner, .banner12, [class^='banner']"
         }
     }
 
@@ -944,7 +944,7 @@
         "trigger": { "url-filter": "m.newsculture.tv" },
         "action": {
             "type": "css-display-none",
-            "selector": "#header > .header_top, #top_src, iframe[src*='ads.mncmedia.co.kr'], [onclick*='ad_close'], .adsbygoogle, iframe[src*='mobi.luxad.kr'], iframe[src*='ad.ad'], iframe[src*='/data/m.newsculture.tv/lemon_big_']"
+            "selector": "#header > .header_top, #top_src, iframe[src*='ads.mncmedia.co.kr'], [onclick*='ad_close'], .adsbygoogle, iframe[src*='mobi.luxad.kr'], iframe[src*='ad.ad'], iframe[src*='/data/m.newsculture.tv/lemon_big_'], #main_to"
         }
     }
 
