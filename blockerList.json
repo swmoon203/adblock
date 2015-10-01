@@ -991,4 +991,12 @@
     }
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "plugin.2beon.co.kr" } }
+
+    ,{
+        "trigger": { "url-filter": "m.ddaily.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='imp.sndkorea.co.kr/php/m.php']"
+        }
+    }
 ]
