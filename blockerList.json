@@ -484,7 +484,7 @@
         "trigger": { "url-filter": "m.clien.net" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='m.11st.co.kr/MW/']"
+            "selector": "iframe[src*='m.11st.co.kr/MW/'], td.cell_tit[colspan='2'], div[style='padding-top:5px;padding-bottom:5px;text-align:center; margin:0 auto;']"
         }
     } 
 
