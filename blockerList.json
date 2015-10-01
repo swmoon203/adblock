@@ -239,7 +239,7 @@
         "trigger": { "url-filter": "mosen.mt.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "#mobitree, div[id^='adList']"
+            "selector": "#mobitree, div[id^='adList'], iframe[src*='candy.ad9.kr']"
         }
     }
 
