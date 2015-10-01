@@ -745,7 +745,7 @@
         "trigger": { "url-filter": "searchpang.com" },
         "action": {
             "type": "css-display-none",
-            "selector": ".house_banner, [id^='inmobi_ads_slot'], [id^='banner_ads_slot']"
+            "selector": ".house_banner, [id^='inmobi_ads_slot'], [id^='banner_ads_slot'], #global_navbar-container"
         }
     }
 
