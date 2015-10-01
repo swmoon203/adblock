@@ -1009,4 +1009,12 @@
             "selector": "#imp_input, iframe[src*='ad.khan.co.kr'], #article_bottom_ad, iframe[src*='nws.lumieyes.com/show'], iframe[src*='ads.khan.co.kr'], #adtive, iframe[src*='ad.ad'], iframe[src*='ads.mncmedia.co.kr'], iframe[src*='adv.khan.co.kr/RealMedia/ads'], .ad_area, #mezzo_ad, iframe[src*='ad.about.co.kr']"
         }
     }  
+
+    ,{
+        "trigger": { "url-filter": ".+.tistory.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".adsenseTopHeaderContent, .adsbygoogle, .adsenseTopFooterContent"
+        }
+    } 
 ]
