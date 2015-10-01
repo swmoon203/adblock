@@ -1017,4 +1017,6 @@
             "selector": ".adsenseTopHeaderContent, .adsbygoogle, .adsenseTopFooterContent"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "warning.or.kr" } }
 ]
