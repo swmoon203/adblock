@@ -582,7 +582,7 @@
         "trigger": { "url-filter": "m.dcinside.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "[id*='ad_banner'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], iframe[src*='clickmon.co.kr'], iframe[src*='m.dcinside.com/ad/'], iframe[src*='ad.ad'], #neoScreenMixCriteoViewLayer"
+            "selector": "[id*='ad_banner'], iframe[src*='imp.sndkorea.co.kr/php/m.php'], iframe[src*='clickmon.co.kr'], iframe[src*='m.dcinside.com/ad/'], iframe[src*='ad.ad'], #neoScreenMixCriteoViewLayer, .adsbygoogle, iframe[src*='nad1.mklaud.com/ad'], #set_view_top"
         }
     }
 
