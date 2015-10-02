@@ -849,7 +849,7 @@
         "trigger": { "url-filter": "m.kukinews.com" },
         "action": {
             "type": "css-display-none",
-            "selector": ".bnr, #viewTopAd, iframe[src*='ad.ad'], iframe[src*='ad1.adinc.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='exttag.about.co.kr'], [style*='height:268px;'], #sf_plus_modal"
+            "selector": ".bnr, #viewTopAd, iframe[src*='ad.ad'], iframe[src*='ad1.adinc.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='exttag.about.co.kr'], [style*='height:268px;'], #sf_plus_modal, [style='padding-top:15px;background:#fff;'], [style='padding-top:5px;background:#efefef']"
         }
     }
     
@@ -1057,4 +1057,6 @@
         }
     } 
    
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adreport.kukinews.com" } }
+
 ]
