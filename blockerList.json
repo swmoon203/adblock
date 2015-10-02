@@ -1028,4 +1028,14 @@
             "selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad']"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "outbanner.hu.co.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.edaily.co.kr/html/ad/mobitree_edaily.js" } }
+    ,{
+        "trigger": { "url-filter": "m.edaily.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[class*='AD_'], iframe[src*='/html/ad/'], iframe[src*='ad.ad'], #mobitreeP, #mobitree, .newsContentView > div[style*='float:right'], #popAdDiv_ad, [id^='ad_adin'], [id='ad_view_list']"
+        }
+    } 
 ]
