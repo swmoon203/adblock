@@ -1019,4 +1019,13 @@
     } 
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "warning.or.kr" } }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "api.adyab.co.kr/yab.api" } }
+    ,{
+        "trigger": { "url-filter": "onairkorean.tv" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad']"
+        }
+    } 
 ]
