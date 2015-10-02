@@ -1047,5 +1047,14 @@
         }
     } 
    
-   ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg.daumcdn.net" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg.daumcdn.net" } }
+
+    ,{
+        "trigger": { "url-filter": "m.vingle.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".bottom-banner"
+        }
+    } 
+   
 ]
