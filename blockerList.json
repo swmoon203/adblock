@@ -960,7 +960,7 @@
         "trigger": { "url-filter": "m.daum.net" },
         "action": {
             "type": "css-display-none",
-            "selector": "[id^='bnrAd_news'], [data-click-id='news1_banner'], div#daumAd"
+            "selector": "[id^='bnrAd_news'], [data-click-id='news1_banner'], div#daumAd, .bnr_add"
         }
     }
     
@@ -1046,4 +1046,6 @@
             "selector": "[class^='ad_'], .n_mtoon_ad, .toon_botad, iframe[src*='adv.imadrep.co.kr'], #livere_ad, iframe[src*='cas.criteo.com']"
         }
     } 
+   
+   ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adimg.daumcdn.net" } }
 ]
