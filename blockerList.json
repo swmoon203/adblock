@@ -1038,4 +1038,12 @@
             "selector": "[class*='AD_'], iframe[src*='/html/ad/'], iframe[src*='ad.ad'], #mobitreeP, #mobitree, .newsContentView > div[style*='float:right'], #popAdDiv_ad, [id^='ad_adin'], [id='ad_view_list']"
         }
     } 
+       
+    ,{
+        "trigger": { "url-filter": "mstoo.asiae.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[class^='ad_'], .n_mtoon_ad, .toon_botad, iframe[src*='adv.imadrep.co.kr'], #livere_ad, iframe[src*='cas.criteo.com']"
+        }
+    } 
 ]
