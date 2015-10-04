@@ -1081,4 +1081,12 @@
             "selector": "#banner_top_title, [id^='ad'], iframe[src*='/ad/ad'], iframe[src*='ads-optima.com'], iframe[src*='ads.mangouni.com']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.pullbbang.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id^='div-gpt-ad'], iframe[src*='mbad.lumieyes.com'], #buttomBenner"
+        }
+    }
 ]
