@@ -1105,4 +1105,12 @@
             "selector": "#topPostAd, [id^='div-gpt-ad'], #add_fixed"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.sportsq.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".advertisment, .adsbygoogle, .networkAd, .editAd"
+        }
+    }
 ]
