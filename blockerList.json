@@ -1073,4 +1073,12 @@
             "selector": "iframe[src*='tab2.clickmon.co.kr/'], .floating-banner, #fbanner"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "www.dispatch.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#banner_top_title, [id^='ad'], iframe[src*='/ad/ad'], iframe[src*='ads-optima.com'], iframe[src*='ads.mangouni.com']"
+        }
+    }
 ]
