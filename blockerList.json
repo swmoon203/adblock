@@ -1059,4 +1059,11 @@
    
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adreport.kukinews.com" } }
 
+    ,{
+        "trigger": { "url-filter": "m.inews24.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='www.dreamsearch.or.kr/servlet/adbnMobileBanner'], #bn, .ad-container, .ad_myadcom, #livere_ad, #bottomsns, body > div[style='background-color:#ebebeb;height:10px;'], body > div[style='height:50px; background-color:#ebebeb;']"
+        }
+    } 
 ]
