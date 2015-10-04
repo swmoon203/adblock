@@ -82,7 +82,7 @@
         "trigger": { "url-filter": "mediatoday.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr']"
+            "selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='lumieyes.com'], div.body > table td[colspan='3'][align='center'], iframe[src*='plugin.2beon.co.kr'], iframe[src*='sndkorea.co.kr'], #livere_ad, iframe[src*='exttag.about.co.kr']"
         }
     }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.about.co.kr" } }
