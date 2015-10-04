@@ -515,7 +515,7 @@
         "trigger": { "url-filter": "m.*.nate.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "#ad_big, #ad_small, .bt_banner"
+            "selector": "#ad_big, #ad_small, .bt_banner, .adtive"
         }
     } 
     
@@ -1065,7 +1065,7 @@
             "type": "css-display-none",
             "selector": "iframe[src*='www.dreamsearch.or.kr/servlet/adbnMobileBanner'], #bn, .ad-container, .ad_myadcom, #livere_ad, #bottomsns, body > div[style='background-color:#ebebeb;height:10px;'], body > div[style='height:50px; background-color:#ebebeb;']"
         }
-    } 
+    }
 
     ,{
         "trigger": { "url-filter": "spicaterrible.org" },
@@ -1073,5 +1073,5 @@
             "type": "css-display-none",
             "selector": "iframe[src*='tab2.clickmon.co.kr/'], .floating-banner, #fbanner"
         }
-    }   
+    }
 ]
