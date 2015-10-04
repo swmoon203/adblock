@@ -1097,4 +1097,12 @@
             "selector": "iframe[src*='mtab.clickmon.co.kr'], [style='position:fixed;overflow-y:visible;bottom:0px;width:100%;background-color:#fff;height:50px;text-align:center;z-index:1000;border-top:1px solid #f2f2f2;'], body > center > table td[height='100'], body > div > table td[height='100']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.egloos.zum.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#topPostAd, [id^='div-gpt-ad'], #add_fixed"
+        }
+    }
 ]
