@@ -1122,4 +1122,12 @@
             "selector": ".widget-basic-post-banner-carousel, .idx-sidebox > div[style*='height:100'], .idx-sidebox > div[style*='height:250px'], div.idx-sidebox[style='margin-top:5px;']"
         }
     }
+
+    ,{
+        "trigger": { "url-filter": "m.land.naver.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".talk_banner_sec"
+        }
+    }
 ]
