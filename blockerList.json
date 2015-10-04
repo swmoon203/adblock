@@ -49,7 +49,7 @@
         }
     }
 
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "uplus.kr/common/m_js/mobile_html_web4.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "uplus.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nws.lumieyes.com/libs/js/commcon_nAd.js" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "cm.interworksmedia.co.kr" } }
     
@@ -577,7 +577,6 @@
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "adserver.adtech.de" } }
   
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "uplus.kr/cd/cdNavi/retreieveHtml3JS.dmd" } }
     ,{
         "trigger": { "url-filter": "m.dcinside.com" },
         "action": {
