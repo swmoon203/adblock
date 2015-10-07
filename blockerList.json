@@ -1142,4 +1142,5 @@
     }
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mmnneo.com" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mediaserver.bwinpartypartners.com" } }
 ]
