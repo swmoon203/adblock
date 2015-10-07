@@ -1160,4 +1160,12 @@
             "selector": "#ad_left, #ad_right, #popup, [class^='left_ad']"
         }
     } 
+
+    ,{
+        "trigger": { "url-filter": "techholic.co.kr" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".ads, .bannerad, .banner300"
+        }
+    } 
 ]
