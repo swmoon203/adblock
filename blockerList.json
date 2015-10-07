@@ -1130,4 +1130,6 @@
             "selector": ".talk_banner_sec"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mdotox.com" } }
 ]
