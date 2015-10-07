@@ -103,8 +103,7 @@
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.priel.co.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nads.lumieyes.com" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "nad1.mklaud.com" } }
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "googleads.g.doubleclick.net" } }
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "static.doubleclick.net/instream/ad_status.js" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": ".*.doubleclick.net" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "obel.kr" } }
     ,{
         "trigger": { "url-filter": "m.chosun.com" },
@@ -1166,6 +1165,14 @@
         "action": {
             "type": "css-display-none",
             "selector": ".ads, .bannerad, .banner300"
+        }
+    } 
+
+    ,{
+        "trigger": { "url-filter": ".*.wsj.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": ".dblclick, .promo"
         }
     } 
 ]
