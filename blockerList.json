@@ -1132,4 +1132,12 @@
     }
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mdotox.com" } }
+
+    ,{
+        "trigger": { "url-filter": "m.kyeongin.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[class='webAdArr'], img[src*='www.kyeongin.com/mnt/webdata/ad/']"
+        }
+    }
 ]
