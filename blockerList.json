@@ -1140,4 +1140,6 @@
             "selector": "[class='webAdArr'], img[src*='www.kyeongin.com/mnt/webdata/ad/']"
         }
     }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mmnneo.com" } }
 ]
