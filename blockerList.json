@@ -531,7 +531,7 @@
         "trigger": { "url-filter": "m.kr.ajunews.com" },
         "action": {
             "type": "css-display-none",
-            "selector": "div[id^='div-gpt-ad-'], iframe[src*='adkpf.newscloud.or.kr'], iframe[src*='ad.ad'], iframe[src*='sndkorea.co.kr'], #B_M_L_100_A-M100001246-2"
+            "selector": "div[id^='div-gpt-ad-'], iframe[src*='adkpf.newscloud.or.kr'], iframe[src*='ad.ad'], iframe[src*='sndkorea.co.kr'], #B_M_L_100_A-M100001246-2, #adopadzone"
         }
     } 
 
