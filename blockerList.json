@@ -1143,4 +1143,12 @@
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mmnneo.com" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "mediaserver.bwinpartypartners.com" } }
+
+    ,{
+        "trigger": { "url-filter": "www.ssulwar.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id^='AD_LIVE_AREA']"
+        }
+    }
 ]
