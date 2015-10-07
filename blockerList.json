@@ -343,7 +343,7 @@
         "trigger": { "url-filter": "m.seoul.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='ads.mncmedia.co.kr/mad/'], table[width='200px'][align=right], #rollingAdDiv, #popAdDiv, iframe[src*='naonmedia.net/adx'], iframe[src*='imp.mklaud.com'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='nws.lumieyes.com/show/media']"
+            "selector": "iframe[src*='ads.mncmedia.co.kr/mad/'], table[width='200px'][align=right], #rollingAdDiv, #popAdDiv, iframe[src*='naonmedia.net/adx'], iframe[src*='imp.mklaud.com'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='nws.lumieyes.com/show/media'], iframe[src*='ad.ad']"
         }
     }
 
