@@ -178,16 +178,15 @@
     
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "scr.nsmartad.com" } }
 
-
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.11st.co.kr/MW/html/allianceAd" } }
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.ppomppu.co.kr/banner/search_ad.html" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ppomppu.co.kr/banner/" } }
     ,{
-        "trigger": { "url-filter": "m.ppomppu.co.kr" },
+        "trigger": { "url-filter": "ppomppu.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "#menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st, iframe[src*='/banner/view_top.html'], iframe[src*='sndkorea.co.kr'], .ad_box, .ad_list, .ad_img, .ad_desc"
+            "selector": "[class^='banner_'], #wingbanner, #menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st, iframe[src*='/banner/view_top.html'], iframe[src*='sndkorea.co.kr'], .ad_box, .ad_list, .ad_img, .ad_desc"
         }
-    }   
+    }     
     
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad[0-9]+.kr" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ads.ad[0-9]*.co.kr" } }
