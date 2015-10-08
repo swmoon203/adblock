@@ -220,10 +220,10 @@
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "a.wyzmob.com" } }
     ,{
-        "trigger": { "url-filter": "www.tvreport.co.kr" },
+        "trigger": { "url-filter": ".*.tvreport.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='a.wyzmob.com'], .cont_popular, #TOP1, .relation"
+            "selector": "iframe[src*='a.wyzmob.com'], .cont_popular, #TOP1, .relation, [id^='AD_LIVE_AREA']"
         }
     }
 
