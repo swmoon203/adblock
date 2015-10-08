@@ -1174,4 +1174,12 @@
             "selector": ".dblclick, .promo"
         }
     } 
+
+    ,{
+        "trigger": { "url-filter": "m.yepan.net" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "#mobilead, .adsbygoogle, #mw_mobile > div[style='height:50px;']"
+        }
+    } 
 ]
