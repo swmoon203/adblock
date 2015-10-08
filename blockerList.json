@@ -453,7 +453,7 @@
         "trigger": { "url-filter": "zangsisi.net" },
         "action": {
             "type": "css-display-none",
-            "selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi']"
+            "selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA']"
         }
     } 
     
