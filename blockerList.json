@@ -1204,4 +1204,6 @@
             "selector": ".adBox, .contentTopAd, .ad320x100, #applift_float"
         }
     } 
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": ".*.ilbe.com" } }
 ]
