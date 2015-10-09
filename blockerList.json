@@ -74,8 +74,6 @@
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "googlesyndication.com/pagead/show_ads.js" } }
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "m.adtc.daum.net/js/mobilead.js" } } 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" } }
-    ,{ "action": { "type": "block" }, "trigger": { "url-filter": "www.ilbe.com" } }
-
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": "ad.mediatoday.co.kr" } }
     ,{
