@@ -10,6 +10,7 @@
 #import "MainTableViewCell.h"
 #import "AppDelegate.h"
 #import "CBStoreHouseRefreshControl.h"
+#import <SafariServices/SafariServices.h>
 
 @interface RootTableViewController ()
 
@@ -154,5 +155,11 @@
 }
 - (void)finishRefreshControl {
     [self.storeHouseRefreshControl finishingLoading];
+}
+
+- (IBAction)onInfo:(id)sender {
+    SFSafariViewController *svc = [[SFSafariViewController alloc] initWithURL:[NSURL URLWithString:@"https://adblock.smoon.kr/?app=1"]];
+    svc.title = @"Info";
+    [self.navigationController pushViewController:svc animated:YES];
 }
 @end
