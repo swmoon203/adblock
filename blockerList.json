@@ -1,6 +1,7 @@
 [
-	
-    {
+	{ "action": { "type": "block" }, "trigger": { "url-filter": "adblock.smoon.kr/js/check.js" } }
+
+    ,{
         "trigger": { "url-filter": "huffpost.com" },
         "action": {
             "type": "css-display-none",
