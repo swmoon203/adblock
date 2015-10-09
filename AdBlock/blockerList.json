@@ -4,17 +4,7 @@
             "type": "block"
         },
         "trigger": {
-            "url-filter": "ad.hani.co.kr",
-            "resource-type": ["script"]
-        }
-    },
-    {
-        "action": {
-            "type": "css-display-none",
-            "selector": ".advertisement"
-        },
-        "trigger": {
-            "url-filter": "huffpost.com"
+            "url-filter": "adblock.smoon.kr/js/check.js"
         }
     }
 ]
