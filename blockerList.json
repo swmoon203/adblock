@@ -2509,7 +2509,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".imageBanner, .advertisment, .networkAd, .advertisementItem, iframe[src*=‘care-health.co.kr’],"
+			"selector": ".imageBanner, .advertisment, .networkAd, .advertisementItem, iframe[src*=‘care-health.co.kr’]"
 		},
 		"trigger": {
 			"url-filter": "m\\.sisunnews\\.co\\.kr"
