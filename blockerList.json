@@ -1294,5 +1294,14 @@
         "trigger": {
             "url-filter": "m\\.starseoultv\\.com"
         }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "body > p[style='background-color:#ffffff; text-align:center; height:50px;border-bottom:1px solid #ccc;'], iframe[src^='/ad/'], iframe[src*='ad.ad'], .video-container1, iframe[src*='care-health.co.kr'], .ad_list, img[src^='ad/'], p[style='background-color:#e2e2e2; text-align:center; height:50px;border-bottom:2px solid #9aa0af;border-top:2px solid #9aa0af;'], iframe[src*='ads.mncmedia.co.kr'], p[style='background-color:#6CC3CD; text-align:center; height:50px;border-bottom:1px solid #ccc;'], #newstar_ad_area"
+        },
+        "trigger": {
+            "url-filter": "m\\.newspim\\.com"
+        }
     }
 ]
