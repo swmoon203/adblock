@@ -1215,4 +1215,12 @@
             "selector": "iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], .adinfo, .subAdinfo, #aside_wrap > section.tab.tab_reco, .subAdnoline, iframe[src*='exttag.about.co.kr']"
         }
     } 
+        
+    ,{
+        "trigger": { "url-filter": "m.viva100.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='ad.ad'], [class^='m_view_ad'], .bm_box > div[style*='float:right']"
+        }
+    } 
 ]
