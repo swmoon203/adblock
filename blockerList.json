@@ -2534,5 +2534,14 @@
 		"trigger": {
 			"url-filter": "hanseihee\\.wordpress\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='ad.ad']"
+		},
+		"trigger": {
+			"url-filter": "m\\.cbci\\.co\\.kr"
+		}
 	}
 ]
