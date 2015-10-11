@@ -1402,7 +1402,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#div_photolink, div#fix_mk, div#mobitree"
+			"selector": "div#div_photolink, div#fix_mk, div#mobitree, iframe[src*='a1.dp25.kr'], div[id^='ad'], iframe[src*='mobi.luxad.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='sunnyworks.co.kr'], iframe[src*='exttag.about.co.kr'], iframe[src*='ra.ntwoad.co.kr'], .conbody > div[style='width:300px;height:250px;position:relative;margin:0 auto;'], iframe[src*='ad.ad']"
 		},
 		"trigger": {
 			"url-filter": "m\\.star\\.mt\\.co\\.kr"
@@ -1541,15 +1541,6 @@
 		},
 		"trigger": {
 			"url-filter": "mosen\\.mt\\.co\\.kr"
-		}
-	},
-	{
-		"action": {
-			"type": "css-display-none",
-			"selector": "iframe[src*='a1.dp25.kr'], div[id^='ad'], iframe[src*='mobi.luxad.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='sunnyworks.co.kr'], iframe[src*='exttag.about.co.kr']"
-		},
-		"trigger": {
-			"url-filter": "m\\.star\\.mt\\.co\\.kr"
 		}
 	},
 	{
