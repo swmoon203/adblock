@@ -2514,14 +2514,5 @@
 		"trigger": {
 			"url-filter": "m\\.sisunnews\\.co\\.kr"
 		}
-	},
-	{
-		"action": {
-			"type": "css-display-none",
-			"selector": ".wpcnt"
-		},
-		"trigger": {
-			"url-filter": "hanseihee\\.wordpress\\.com"
-		}
 	}
 ]
