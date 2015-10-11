@@ -1206,4 +1206,14 @@
     } 
 
     ,{ "action": { "type": "block" }, "trigger": { "url-filter": ".*.ilbe.com" } }
+
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": ".*.mman.kr" } }
+    ,{ "action": { "type": "block" }, "trigger": { "url-filter": ".*.sunnyworks.co.kr" } }
+    ,{
+        "trigger": { "url-filter": "m.segye.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], .adinfo, .subAdinfo, #aside_wrap > section.tab.tab_reco, .subAdnoline, iframe[src*='exttag.about.co.kr']"
+        }
+    } 
 ]
