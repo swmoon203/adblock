@@ -1230,5 +1230,69 @@
             "type": "css-display-none",
             "selector": "[id='news_banner'], .adsbygoogle, [id^='ad'], [id='AD_BOTTOM'], iframe[src*='adv.imadrep.co.kr'], body > div.wrap > div[style='height:50px;width:100%;z-index:10;']"
         }
-    } 
+    }, 
+
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "[class='da_floating _pl_footer_banner']"
+        },
+        "trigger": {
+            "url-filter": "m\\.tvcast\\.naver\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "#topBanner, #list_banner, .powerLink, .pluslink_tit, .prodList"
+        },
+        "trigger": {
+            "url-filter": "m\\.enuri\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='lumieyes.com'], #DivContents > div[style*='height:60px;'], iframe[src*='sndkorea.co.kr'], #adTouchend"
+        },
+        "trigger": {
+            "url-filter": "msportalkorea\\.mt\\.co\\.kr"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": ".imageBanner, .advertisment, .networkAd, .advertisementItem, iframe[src*='care-health.co.kr']"
+        },
+        "trigger": {
+            "url-filter": "m\\.sisunnews\\.co\\.kr"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": ".wpcnt"
+        },
+        "trigger": {
+            "url-filter": "hanseihee\\.wordpress\\.com"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='ad.ad']"
+        },
+        "trigger": {
+            "url-filter": "m\\.cbci\\.co\\.kr"
+        }
+    },
+    {
+        "action": {
+            "type": "css-display-none",
+            "selector": "iframe[src*='ad.ad'], #wrapper > section.advertisment, body > section.advertisment, #adFloating, #articleViewContainer > div.border_box.container_left > section.advertisment, #articleView > section.advertisment, .adsbygoogle, #articleBody > .body > .advertisment, .container_right > .advertisment .advertisementItem"
+        },
+        "trigger": {
+            "url-filter": "m\\.starseoultv\\.com"
+        }
+    }
 ]
