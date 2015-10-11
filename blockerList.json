@@ -1223,4 +1223,12 @@
             "selector": "iframe[src*='ad.ad'], [class^='m_view_ad'], .bm_box > div[style*='float:right']"
         }
     } 
+
+    ,{
+        "trigger": { "url-filter": "m.newsen.com" },
+        "action": {
+            "type": "css-display-none",
+            "selector": "[id='news_banner'], .adsbygoogle, [id^='ad'], [id='AD_BOTTOM'], iframe[src*='adv.imadrep.co.kr'], body > div.wrap > div[style='height:50px;width:100%;z-index:10;']"
+        }
+    } 
 ]
