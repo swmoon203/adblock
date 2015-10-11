@@ -2547,7 +2547,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad.ad'], #wrapper > section.advertisment, body > section.advertisment, #adFloating, #articleViewContainer > div.border_box:first > section.advertisment"
+			"selector": "iframe[src*='ad.ad'], #wrapper > section.advertisment, body > section.advertisment, #adFloating"
 		},
 		"trigger": {
 			"url-filter": "m\\.starseoultv\\.com"
