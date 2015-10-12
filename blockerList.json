@@ -2589,5 +2589,14 @@
 		"trigger": {
 			"url-filter": "baykoreans\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[href*='ilbe.com']"
+		},
+		"trigger": {
+			"url-filter": ".*"
+		}
 	}
 ]
