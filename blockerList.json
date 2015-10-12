@@ -2439,7 +2439,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='a1.dp25.kr'], .centerBanner_google, .article_ad1, #news_content > div[style*='float:right;'], iframe[src*='ad.ad'], .List_link_ad, .List_link_ad_txt, iframe[src*='adin.ad'], .article_ad2, iframe[src*='sndkorea.co.kr'], [class*='article_ad'], .footer_white"
+			"selector": "iframe[src*='a1.dp25.kr'], .centerBanner_google, .article_ad1, #news_content div[style*='float:right;'], iframe[src*='ad.ad'], .List_link_ad, .List_link_ad_txt, iframe[src*='adin.ad'], .article_ad2, iframe[src*='sndkorea.co.kr'], [class*='article_ad'], .footer_white"
 		},
 		"trigger": {
 			"url-filter": "m\\.munhwa\\.com"
