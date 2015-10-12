@@ -2580,5 +2580,14 @@
 		"trigger": {
 			"url-filter": "m\\.newspim\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='dongyoungsang.com/_ads'], iframe[src^='/_ads/']"
+		},
+		"trigger": {
+			"url-filter": "baykoreans\\.net"
+		}
 	}
 ]
