@@ -1323,7 +1323,7 @@
             "url-filter": "dongyoungsang\\.com/_ads/"
         }
     },
-        {
+    {
         "action": {
             "type": "css-display-none",
             "selector": "iframe[src*='dongyoungsang.com/_ads'], iframe[src^='/_ads/']"
