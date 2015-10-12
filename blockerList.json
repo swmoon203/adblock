@@ -1385,6 +1385,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "madadsmedia\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
