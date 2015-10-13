@@ -253,17 +253,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "mklaud\\.com",
-			"load-type": [
-				"third-party"
-			]
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "criteo\\.com",
 			"load-type": [
 				"third-party"
@@ -2588,6 +2577,39 @@
 		},
 		"trigger": {
 			"url-filter": "baykoreans\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='mncmedia.co.kr'],iframe[src*='naonmedia.net'],iframe[src*='ads-optima.com'],iframe[src*='sndkorea.co.kr'],iframe[src*='about.co.kr'],iframe[src*='2beon.co.kr'],iframe[src*='lumieyes.com'],iframe[src*='mklaud.com'],iframe[src*='imadrep.co.kr'],iframe[src*='dreamsearch.or.kr'],iframe[src*='adinc.kr'],iframe[src*='obel.kr'],iframe[src*='dp25.kr'],iframe[src*='candy.ad9.kr'],iframe[src*='longkeyone.co.kr'],iframe[src*='adv.khan.co.kr'],iframe[src*='ra.ntwoad.co.kr'],iframe[src*='clickmon.co.kr'],iframe[src*='care-health.co.kr'],iframe[src*='topclick.emato.net'],iframe[src*='ilikesponsorad.co.kr'],iframe[src*='sunnyworks.co.kr']"
+		},
+		"trigger": {
+			"url-filter": ".*",
+			"unless-domain": [
+				"mncmedia.co.kr",
+				"naonmedia.net",
+				"ads-optima.com",
+				"sndkorea.co.kr",
+				"about.co.kr",
+				"2beon.co.kr",
+				"lumieyes.com",
+				"mklaud.com",
+				"imadrep.co.kr",
+				"dreamsearch.or.kr",
+				"adinc.kr",
+				"obel.kr",
+				"dp25.kr",
+				"ad9.kr",
+				"longkeyone.co.kr",
+				"khan.co.kr",
+				"ntwoad.co.kr",
+				"clickmon.co.kr",
+				"care-health.co.kr",
+				"emato.net",
+				"ilikesponsorad.co.kr",
+				"sunnyworks.co.kr"
+			]
 		}
 	}
 ]
