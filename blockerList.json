@@ -939,7 +939,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "adkpf\\.newscloud\\.or\\.kr"
+			"url-filter": "newscloud\\.or\\.kr",
+			"load-type": [
+				"third-party"
+			]
 		}
 	},
 	{
@@ -1826,7 +1829,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".news_adinn, div[id^='div-gpt-ad'], #TOP1"
+			"selector": ".news_adinn, div[id^='div-gpt-ad'], #TOP1, #Share_bn"
 		},
 		"trigger": {
 			"url-filter": "m\\.etoday\\.co\\.kr"
@@ -2582,7 +2585,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='mncmedia.co.kr'],iframe[src*='naonmedia.net'],iframe[src*='ads-optima.com'],iframe[src*='sndkorea.co.kr'],iframe[src*='about.co.kr'],iframe[src*='2beon.co.kr'],iframe[src*='lumieyes.com'],iframe[src*='mklaud.com'],iframe[src*='imadrep.co.kr'],iframe[src*='dreamsearch.or.kr'],iframe[src*='adinc.kr'],iframe[src*='obel.kr'],iframe[src*='dp25.kr'],iframe[src*='candy.ad9.kr'],iframe[src*='longkeyone.co.kr'],iframe[src*='adv.khan.co.kr'],iframe[src*='ra.ntwoad.co.kr'],iframe[src*='clickmon.co.kr'],iframe[src*='care-health.co.kr'],iframe[src*='topclick.emato.net'],iframe[src*='ilikesponsorad.co.kr'],iframe[src*='sunnyworks.co.kr']"
+			"selector": "iframe[src*='mncmedia.co.kr'],iframe[src*='naonmedia.net'],iframe[src*='ads-optima.com'],iframe[src*='sndkorea.co.kr'],iframe[src*='about.co.kr'],iframe[src*='2beon.co.kr'],iframe[src*='lumieyes.com'],iframe[src*='mklaud.com'],iframe[src*='imadrep.co.kr'],iframe[src*='dreamsearch.or.kr'],iframe[src*='adinc.kr'],iframe[src*='obel.kr'],iframe[src*='dp25.kr'],iframe[src*='candy.ad9.kr'],iframe[src*='longkeyone.co.kr'],iframe[src*='adv.khan.co.kr'],iframe[src*='ra.ntwoad.co.kr'],iframe[src*='clickmon.co.kr'],iframe[src*='newscloud.or.kr'],iframe[src*='care-health.co.kr'],iframe[src*='topclick.emato.net'],iframe[src*='ilikesponsorad.co.kr'],iframe[src*='sunnyworks.co.kr']"
 		},
 		"trigger": {
 			"url-filter": ".*",
@@ -2605,6 +2608,7 @@
 				"khan.co.kr",
 				"ntwoad.co.kr",
 				"clickmon.co.kr",
+				"newscloud.or.kr",
 				"care-health.co.kr",
 				"emato.net",
 				"ilikesponsorad.co.kr",
