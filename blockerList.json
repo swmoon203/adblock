@@ -545,7 +545,7 @@
         "trigger": { "url-filter": "m.etoday.co.kr" },
         "action": {
             "type": "css-display-none",
-            "selector": ".news_adinn, div[id^='div-gpt-ad'], #TOP1"
+            "selector": ".news_adinn, div[id^='div-gpt-ad'], #TOP1, #Share_bn"
         }
     }
 
