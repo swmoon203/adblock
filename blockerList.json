@@ -2581,5 +2581,14 @@
 		"trigger": {
 			"url-filter": "baykoreans\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".area_sa.sa_in_view"
+		},
+		"trigger": {
+			"url-filter": "m\\.cafe\\.naver\\.com"
+		}
 	}
 ]
