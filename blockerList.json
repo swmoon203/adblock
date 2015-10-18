@@ -1396,6 +1396,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "busan\\.com/w2010/AD/"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2009,7 +2017,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#article > div > div[style*='float:right;'], iframe[src*='ra.ntwoad.co.kr'], a[href*='www.mediaeins.co.kr/oneday/m/one_B.php'], iframe[src*='ad.ad'], div[style*='width:320px'][style*='height:50px'], div[style*='width:300px'][style*='height:250px'], div[style*='width:320px'][style*='height:100px']"
+			"selector": "div#article > div > div[style*='float:right;'], iframe[src*='ra.ntwoad.co.kr'], a[href*='www.mediaeins.co.kr/oneday/m/one_B.php'], iframe[src*='ad.ad'], div[style*='width:320px'][style*='height:50px'], div[style*='width:300px'][style*='height:250px'], div[style*='width:320px'][style*='height:100px'], #sc_ad"
 		},
 		"trigger": {
 			"url-filter": "m\\.busan\\.com"
