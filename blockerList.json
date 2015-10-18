@@ -2598,5 +2598,14 @@
 		"trigger": {
 			"url-filter": "m\\.cafe\\.naver\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".trans_box, div[style='width:320px;height:100px;margin:0 auto 5px;border:1px solid #DDD;'], iframe[src*='ad.ad'], #nctl div[style*='float:right'], iframe[src*='care-health.co.kr'], #livere_ad, #cot_tl_fixed"
+		},
+		"trigger": {
+			"url-filter": "kookje\\.co\\.kr"
+		}
 	}
 ]
