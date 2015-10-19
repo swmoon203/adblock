@@ -1412,6 +1412,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "keywordsconnect\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2619,7 +2630,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad"
+			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad, #main_right_Floating_banner, .ad_txt, .ad_list, #livere_ad, iframe[src*='sndkorea.co.kr'], .ad, .right_bn4, .power_center"
 		},
 		"trigger": {
 			"url-filter": "zdnet\\.co\\.kr"
