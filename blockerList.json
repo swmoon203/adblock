@@ -2615,5 +2615,14 @@
 		"trigger": {
 			"url-filter": "kookje\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad"
+		},
+		"trigger": {
+			"url-filter": "zdnet\\.co\\.kr"
+		}
 	}
 ]
