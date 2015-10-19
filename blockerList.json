@@ -2713,5 +2713,14 @@
 		"trigger": {
 			"url-filter": "wowbogo\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#EtAd, iframe[src*='newscloud.or.kr'], .sectionAD, #ad_site_top, #quick_right, #quick_left, [id^='div-gpt-ad'], #ViewContent div[style='margin:20px 0 20px 10px; width:680px; height:100px;'], #ViewContent div[style='width:680px; height:80px; text-align:center;']"
+		},
+		"trigger": {
+			"url-filter": "etoday\\.co\\.kr"
+		}
 	}
 ]
