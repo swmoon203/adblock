@@ -1475,6 +1475,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "wowbogo\\.net/cdsbData_gal/bannerFile"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2700,7 +2708,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr']"
+			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr'], a[onclick^='visitWebBanner('], a[href^='tingcup.com']"
 		},
 		"trigger": {
 			"url-filter": "wowbogo\\.net"
