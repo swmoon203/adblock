@@ -1491,6 +1491,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "mediaharbor\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -1501,7 +1509,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01, div[style*='float:right;']"
+			"selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01, div[style*='float:right;'], .ad_left, .ad_right, iframe[src*='/_tpl/default/ad/'], iframe[src^='../ad/']"
 		},
 		"trigger": {
 			"url-filter": "wikitree\\.co\\.kr"
@@ -1537,7 +1545,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='lumieyes.com'], div.body > table td[colspan='3'][align='center'], iframe[src*='plugin.2beon.co.kr'], iframe[src*='sndkorea.co.kr'], #livere_ad, iframe[src*='exttag.about.co.kr']"
+			"selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='lumieyes.com'], div.body > table td[colspan='3'][align='center'], iframe[src*='plugin.2beon.co.kr'], iframe[src*='sndkorea.co.kr'], #livere_ad, iframe[src*='exttag.about.co.kr'], iframe[src*='/adItem/'], iframe[src*='mediaharbor.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "mediatoday\\.co\\.kr"
@@ -2729,6 +2737,15 @@
 		},
 		"trigger": {
 			"url-filter": "etoday\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#modulous_right_rail_flex"
+		},
+		"trigger": {
+			"url-filter": "huffingtonpost\\.kr"
 		}
 	}
 ]
