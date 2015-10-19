@@ -1442,6 +1442,47 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "dofor\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "filejo\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "fileham\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "wowbogo\\.net/cdsbData_gal/bannerFile"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2662,6 +2703,15 @@
 		},
 		"trigger": {
 			"url-filter": "tvdaily\\.asiae\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr'], a[onclick^='visitWebBanner('], a[href^='tingcup.com']"
+		},
+		"trigger": {
+			"url-filter": "wowbogo\\.net"
 		}
 	}
 ]
