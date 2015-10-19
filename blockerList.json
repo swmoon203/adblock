@@ -1423,6 +1423,25 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "icontact\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "wisenut\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2634,6 +2653,15 @@
 		},
 		"trigger": {
 			"url-filter": "zdnet\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='ads-optima.com'], #readtopad, iframe[src*='imadrep.co.kr'], a[href^='/ad_view.php'], iframe[src*='nsmartad.com'], iframe[src*='ad.ad'], iframe[src*='dreamsearch.or.kr'], #CmAdContent table[align='left']"
+		},
+		"trigger": {
+			"url-filter": "tvdaily\\.asiae\\.co\\.kr"
 		}
 	}
 ]
