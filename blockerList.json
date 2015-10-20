@@ -1499,6 +1499,22 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "cad\\.chosun\\.com/RealMedia/ads"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adimg1\\.chosun\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2746,6 +2762,15 @@
 		},
 		"trigger": {
 			"url-filter": "huffingtonpost\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='cad.chosun.com'], .cs_top_ad_box, .cs_top_ad, .sec_headline_adbox, iframe[src*='cas.criteo.com'], .art_ad_top, .art_ad_aside, .art_aisde_ads, .art_ad_ss_left, .art_ad_ss_right, .art_ad_aside_if_google"
+		},
+		"trigger": {
+			"url-filter": "chosun\\.com"
 		}
 	}
 ]
