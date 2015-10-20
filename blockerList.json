@@ -2722,7 +2722,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad, #main_right_Floating_banner, .ad_txt, .ad_list, #livere_ad, iframe[src*='sndkorea.co.kr'], .ad, .right_bn4, .power_center"
+			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad, #main_right_Floating_banner, .ad_txt, .ad_list, #livere_ad, iframe[src*='sndkorea.co.kr'], .ad, .right_bn4, .power_center, .ad_bn1"
 		},
 		"trigger": {
 			"url-filter": "zdnet\\.co\\.kr"
