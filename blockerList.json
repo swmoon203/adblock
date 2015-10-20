@@ -1554,7 +1554,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com']"
+			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com'], .fltAd.stockAd"
 		},
 		"trigger": {
 			"url-filter": "hankyung\\.com"
