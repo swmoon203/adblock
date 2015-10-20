@@ -2848,5 +2848,14 @@
 		"trigger": {
 			"url-filter": "mydaily\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad_top1, #pnlAd1, iframe[src*='nad.cbs.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ntwoad.co.kr'], iframe[src^='/ad/'], iframe[src*='mediaharbor.co.kr'], iframe[src*='criteo.com'], #livere_ad, "
+		},
+		"trigger": {
+			"url-filter": "nocutnews\\.co\\.kr"
+		}
 	}
 ]
