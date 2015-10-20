@@ -1804,7 +1804,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat"
+			"selector": ".adv, .mobfloat, iframe[src*='clickmon.co.kr'], #responsive-banner"
 		},
 		"trigger": {
 			"url-filter": "marumaru\\.in"
@@ -1813,7 +1813,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget']"
+			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget'], img[src*='mangaumaru.com/wp-content/uploads/2015/10/advertise.gif']"
 		},
 		"trigger": {
 			"url-filter": "www\\.mangaumaru\\.com"
