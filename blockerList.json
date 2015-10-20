@@ -2789,5 +2789,14 @@
 		"trigger": {
 			"url-filter": "joongang\\.joins\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".aside_sponser"
+		},
+		"trigger": {
+			"url-filter": "clien\\.net"
+		}
 	}
 ]
