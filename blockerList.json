@@ -431,7 +431,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js"
+			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js",
+			"unless-domain": [
+				"youtube.com"
+			]
 		}
 	},
 	{
@@ -463,7 +466,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "partner\\.googleadservices\\.com"
+			"url-filter": "partner\\.googleadservices\\.com",
+			"unless-domain": [
+				"youtube.com"
+			]
 		}
 	},
 	{
