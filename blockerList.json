@@ -1606,7 +1606,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[data-type='advertise'], #viewAdvertiseFloat"
+			"selector": "[data-type='advertise'], #viewAdvertiseFloat, iframe[src*='ad.hani.co.kr'], .adBox, .adTop2Padding"
 		},
 		"trigger": {
 			"url-filter": "m\\.hani\\.co\\.kr"
