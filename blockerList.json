@@ -412,7 +412,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "googlesyndication\\.com/pagead/show_ads\\.js"
+			"url-filter": "googlesyndication\\.com/pagead/show_ads\\.js",
+			"unless-domain": [
+				"youtube.com"
+			]
 		}
 	},
 	{
