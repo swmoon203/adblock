@@ -2772,5 +2772,14 @@
 		"trigger": {
 			"url-filter": "chosun\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".da_300, .da_250, .ad[class^='ad_'], .sub_da_300, .sub_da_250, .advertising, .shpping_life, #criteo_network, iframe[src*='dgate.joins.com/hc.aspx'], [data-widget-type='Ad']"
+		},
+		"trigger": {
+			"url-filter": "joongang\\.joins\\.com"
+		}
 	}
 ]
