@@ -2931,7 +2931,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle, .ad_content, iframe[src*='dp25.kr'], .rollingAds, iframe[src*='ad.ad'], iframe[src*='dreamsearch.or.kr'], .link_news div[style='padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;'], iframe[src*='cas.criteo.com']"
+			"selector": ".adsbygoogle, .ad_content, iframe[src*='dp25.kr'], .rollingAds, iframe[src*='ad.ad'], iframe[src*='dreamsearch.or.kr'], .link_news div[style='padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;'], iframe[src*='cas.criteo.com'], .ad_wing_l, .ad_wing_r, iframe[src*='interworksmedia.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "news1\\.kr"
