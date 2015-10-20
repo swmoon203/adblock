@@ -414,7 +414,8 @@
 		"trigger": {
 			"url-filter": "googlesyndication\\.com/pagead/show_ads\\.js",
 			"unless-domain": [
-				"youtube.com"
+				"youtube.com",
+				"www.youtube.com"
 			]
 		}
 	},
@@ -433,7 +434,8 @@
 		"trigger": {
 			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js",
 			"unless-domain": [
-				"youtube.com"
+				"youtube.com",
+				"www.youtube.com"
 			]
 		}
 	},
@@ -468,7 +470,8 @@
 		"trigger": {
 			"url-filter": "partner\\.googleadservices\\.com",
 			"unless-domain": [
-				"youtube.com"
+				"youtube.com",
+				"www.youtube.com"
 			]
 		}
 	},
@@ -479,7 +482,8 @@
 		"trigger": {
 			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/show_afmc_ads\\.js",
 			"unless-domain": [
-				"youtube.com"
+				"youtube.com",
+				"www.youtube.com"
 			]
 		}
 	},
