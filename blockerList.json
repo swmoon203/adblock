@@ -1542,6 +1542,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad-brix\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2794,7 +2805,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='cad.chosun.com'], .cs_top_ad_box, .cs_top_ad, .sec_headline_adbox, iframe[src*='cas.criteo.com'], .art_ad_top, .art_ad_aside, .art_aisde_ads, .art_ad_ss_left, .art_ad_ss_right, .art_ad_aside_if_google"
+			"selector": "iframe[src*='cad.chosun.com'], .cs_top_ad_box, .cs_top_ad, .sec_headline_adbox, iframe[src*='cas.criteo.com'], .art_ad_top, .art_ad_aside, .art_aisde_ads, .art_ad_ss_left, .art_ad_ss_right, .art_ad_aside_if_google, .top_banner, .top_ad, .ad, .lott_ad, .right_ad, .sclink a:not(a[href*='chosun.com']), .f_ad2, .ad_box2014, .thum8_box"
 		},
 		"trigger": {
 			"url-filter": "chosun\\.com"
