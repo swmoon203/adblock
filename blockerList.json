@@ -1553,6 +1553,68 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "nad\\.cbs\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "joynews\\.inews24\\.com/ad_image/"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adkova\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad\\.yonhapnews\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad2\\.edaily\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "mackeeper\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "cadvv\\.heraldm\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2836,6 +2898,60 @@
 		},
 		"trigger": {
 			"url-filter": "mydaily\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad_top1, #pnlAd1, iframe[src*='nad.cbs.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ntwoad.co.kr'], iframe[src^='/ad/'], iframe[src*='mediaharbor.co.kr'], iframe[src*='criteo.com'], #livere_ad"
+		},
+		"trigger": {
+			"url-filter": "nocutnews\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#kt_100, #kt_500, .news_content div[style*='float:right;'], [id^='AD_LIVE_AREA'], iframe[src*='ad.ad'], .inews_list #ma_w_9, .inews_list #ma_w_10, [id^='ma_w_'], [class^='ma_w_'], #livere_ad, iframe[src*='ads-optima.com'], iframe[src^='/inc/right_file_banner.php'], iframe[src^='/util/inc_top_banner.php'], .main_top_banner, .adsbygoogle, iframe[src^='/eclub/popup/ifrm_rightfpoll.php']"
+		},
+		"trigger": {
+			"url-filter": "inews24\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad-wrap01, .view-ad-wrap, iframe[src*='naonmedia.net'], iframe[src*='mediaharbor.co.kr'], .ad-ifm01, .banner-40-wrap, .floating-banner01, .view-wrap03, .floating-banner02, .goolge-banner, iframe[src*='sndkorea.co.kr'], iframe[src*='imadrep.co.kr'], .banner-box06, .top-banner1, .top-banner2, .aside-banner"
+		},
+		"trigger": {
+			"url-filter": "yonhapnews\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ovh.mt20, iframe[src*='/adview/'], .viewcontent_ad"
+		},
+		"trigger": {
+			"url-filter": "edaily\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle, .ad_content, iframe[src*='dp25.kr'], .rollingAds, iframe[src*='ad.ad'], iframe[src*='dreamsearch.or.kr'], .link_news div[style='padding:5px; background:#EBEBEB; margin-top:-200px; right:0; position:absolute; width:200px; height:200px;'], iframe[src*='cas.criteo.com'], .ad_wing_l, .ad_wing_r, iframe[src*='interworksmedia.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "news1\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#HB_LEFTSLIDER001, #img_box01, #g20150812Herald39, #img_box00, #HB_SUB_SIDEER001, iframe[src*='ad.ad'], iframe[src*='ad4980.kr'], .subtop_list_adarea, .subpg_news_body div[style*='float:right'], div[style*='float: right'], .banner_151014, .nnews_bottomadlist_area, iframe[src*='mncmedia.co.kr'], iframe[src*='cadvv.heraldm.com'], iframe[src*='heraldm.com/iframe/banner'], iframe[src*='adw.heraldm.com'], iframe[src*='res.heraldm.com/iframe'], div[style='width:250px; height:250px; padding:0 0 10px 0;'], iframe[src*='dreamsearch.or.kr'], .sub_viewpag_headline"
+		},
+		"trigger": {
+			"url-filter": "heraldcorp\\.com"
 		}
 	}
 ]
