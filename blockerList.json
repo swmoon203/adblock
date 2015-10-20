@@ -2793,7 +2793,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".aside_sponser"
+			"selector": ".aside_sponser, .ad_area1, .board_main div[style='clear:both;width:780px; height:115px; padding:0px; text-align:center;padding-left:5px;']"
 		},
 		"trigger": {
 			"url-filter": "clien\\.net"
