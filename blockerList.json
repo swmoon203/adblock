@@ -2880,10 +2880,10 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#kt_100, #kt_500, .news_content div[style*='float:right;'], [id^='AD_LIVE_AREA'], iframe[src*='ad.ad'], .inews_list #ma_w_9, .inews_list #ma_w_10, [id^='ma_w_'], [class^='ma_w_'], #livere_ad, iframe[src*='ads-optima.com'], iframe[src^='/inc/right_file_banner.php']"
+			"selector": "#kt_100, #kt_500, .news_content div[style*='float:right;'], [id^='AD_LIVE_AREA'], iframe[src*='ad.ad'], .inews_list #ma_w_9, .inews_list #ma_w_10, [id^='ma_w_'], [class^='ma_w_'], #livere_ad, iframe[src*='ads-optima.com'], iframe[src^='/inc/right_file_banner.php'], iframe[src^='/util/inc_top_banner.php'], .main_top_banner, .adsbygoogle, iframe[src^='/eclub/popup/ifrm_rightfpoll.php']"
 		},
 		"trigger": {
-			"url-filter": "joynews\\.inews24\\.com"
+			"url-filter": "inews24\\.com"
 		}
 	}
 ]
