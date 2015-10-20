@@ -1483,6 +1483,76 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "o\\.aolcdn\\.com/ads/"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "mediaharbor\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "cad\\.chosun\\.com/RealMedia/ads"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adimg1\\.chosun\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "pub.*\\.clien\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "mydaily\\.co\\.kr/ad/"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "scorecardresearch\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad-brix\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -1493,7 +1563,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01, div[style*='float:right;']"
+			"selector": ".ad_head, #float-bottom-banner, iframe[src^='/ad/'], #id_glam_banner01, div[style*='float:right;'], .ad_left, .ad_right, iframe[src*='/_tpl/default/ad/'], iframe[src^='../ad/']"
 		},
 		"trigger": {
 			"url-filter": "wikitree\\.co\\.kr"
@@ -1529,7 +1599,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='lumieyes.com'], div.body > table td[colspan='3'][align='center'], iframe[src*='plugin.2beon.co.kr'], iframe[src*='sndkorea.co.kr'], #livere_ad, iframe[src*='exttag.about.co.kr']"
+			"selector": "div#divMobipopMain, .advertisment, iframe[src*='ad.about.co.kr'], iframe[src*='ad.mediatoday.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='lumieyes.com'], div.body > table td[colspan='3'][align='center'], iframe[src*='plugin.2beon.co.kr'], iframe[src*='sndkorea.co.kr'], #livere_ad, iframe[src*='exttag.about.co.kr'], iframe[src*='/adItem/'], iframe[src*='mediaharbor.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "mediatoday\\.co\\.kr"
@@ -1538,10 +1608,10 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md"
+			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com'], .fltAd, iframe[src*='hankyung.com/inc/ad_top.html']"
 		},
 		"trigger": {
-			"url-filter": "www\\.hankyung\\.com"
+			"url-filter": "hankyung\\.com"
 		}
 	},
 	{
@@ -1565,7 +1635,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div.talk_floating"
+			"selector": "div.talk_floating, iframe[src*='widerplanet.com'], #top_AD, #usa_ad"
 		},
 		"trigger": {
 			"url-filter": "news\\.donga\\.com"
@@ -1574,7 +1644,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[data-type='advertise'], #viewAdvertiseFloat"
+			"selector": "[data-type='advertise'], #viewAdvertiseFloat, iframe[src*='ad.hani.co.kr'], .adBox, .adTop2Padding"
 		},
 		"trigger": {
 			"url-filter": "m\\.hani\\.co\\.kr"
@@ -1772,7 +1842,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat"
+			"selector": ".adv, .mobfloat, iframe[src*='clickmon.co.kr'], #responsive-banner"
 		},
 		"trigger": {
 			"url-filter": "marumaru\\.in"
@@ -1781,7 +1851,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget']"
+			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget'], img[src*='mangaumaru.com/wp-content/uploads/2015/10/advertise.gif']"
 		},
 		"trigger": {
 			"url-filter": "www\\.mangaumaru\\.com"
@@ -2690,7 +2760,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad, #main_right_Floating_banner, .ad_txt, .ad_list, #livere_ad, iframe[src*='sndkorea.co.kr'], .ad, .right_bn4, .power_center"
+			"selector": ".right_bn1, .right_bn2, .right_bn3, .news_12, .top_ad, #main_right_Floating_banner, .ad_txt, .ad_list, #livere_ad, iframe[src*='sndkorea.co.kr'], .ad, .right_bn4, .power_center, .ad_bn1"
 		},
 		"trigger": {
 			"url-filter": "zdnet\\.co\\.kr"
@@ -2712,6 +2782,60 @@
 		},
 		"trigger": {
 			"url-filter": "wowbogo\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#EtAd, iframe[src*='newscloud.or.kr'], .sectionAD, #ad_site_top, #quick_right, #quick_left, [id^='div-gpt-ad'], #ViewContent div[style='margin:20px 0 20px 10px; width:680px; height:100px;'], #ViewContent div[style='width:680px; height:80px; text-align:center;']"
+		},
+		"trigger": {
+			"url-filter": "etoday\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#modulous_right_rail_flex"
+		},
+		"trigger": {
+			"url-filter": "huffingtonpost\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='cad.chosun.com'], .cs_top_ad_box, .cs_top_ad, .sec_headline_adbox, iframe[src*='cas.criteo.com'], .art_ad_top, .art_ad_aside, .art_aisde_ads, .art_ad_ss_left, .art_ad_ss_right, .art_ad_aside_if_google, .top_banner, .top_ad, .ad, .lott_ad, .right_ad, .sclink a:not(a[href*='chosun.com']), .f_ad2, .ad_box2014, .thum8_box, iframe[src*='ad.ad'], #extend0, #mask0, .mask_div"
+		},
+		"trigger": {
+			"url-filter": "chosun\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".da_300, .da_250, .ad[class^='ad_'], .sub_da_300, .sub_da_250, .advertising, .shpping_life, #criteo_network, iframe[src*='dgate.joins.com/hc.aspx'], [data-widget-type='Ad']"
+		},
+		"trigger": {
+			"url-filter": "joongang\\.joins\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".aside_sponser, .ad_area1, .board_main div[style='clear:both;width:780px; height:115px; padding:0px; text-align:center;padding-left:5px;']"
+		},
+		"trigger": {
+			"url-filter": "clien\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#ad_left, #ad_left_wing, #ad_right, iframe[src^='../../ad/'], iframe[src*='ad4980.kr'], .read_right_ad, iframe[src*='mediaharbor.co.kr'], iframe[src*='imadrep.co.kr'], iframe[src*='ad.ad'], div[style='width:706px; /**/overflow:hidden; margin-bottom:10px; padding:10px 0;'], [id^='AD_LIVE_AREA'], iframe[src*='about.co.kr'], div[style='width:680px; border:1px solid #dddddd; background:#ffffff; /**/overflow:hidden; margin-bottom:10px; padding:10px 13px;'], iframe[src*='mklaud.com/ad'], div[style='width:706px; border:1px solid #dddddd; background:#f6f6f6; /**/overflow:hidden; margin:10px 0; ']"
+		},
+		"trigger": {
+			"url-filter": "mydaily\\.co\\.kr"
 		}
 	}
 ]
