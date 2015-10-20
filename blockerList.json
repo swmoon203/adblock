@@ -2897,7 +2897,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad-wrap01, .view-ad-wrap, iframe[src*='naonmedia.net'], iframe[src*='mediaharbor.co.kr'], .ad-ifm01, .banner-40-wrap, .floating-banner01, .view-wrap03, .floating-banner02, .goolge-banner, iframe[src*='sndkorea.co.kr'], iframe[src*='imadrep.co.kr'], .banner-box06, .top-banner1, .top-banner2"
+			"selector": ".ad-wrap01, .view-ad-wrap, iframe[src*='naonmedia.net'], iframe[src*='mediaharbor.co.kr'], .ad-ifm01, .banner-40-wrap, .floating-banner01, .view-wrap03, .floating-banner02, .goolge-banner, iframe[src*='sndkorea.co.kr'], iframe[src*='imadrep.co.kr'], .banner-box06, .top-banner1, .top-banner2, .aside-banner"
 		},
 		"trigger": {
 			"url-filter": "yonhapnews\\.co\\.kr"
