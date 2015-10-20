@@ -477,7 +477,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/show_afmc_ads\\.js"
+			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/show_afmc_ads\\.js",
+			"unless-domain": [
+				"youtube.com"
+			]
 		}
 	},
 	{
