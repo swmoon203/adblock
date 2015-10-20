@@ -2914,7 +2914,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ovh.mt20, iframe[src*='/adview/']"
+			"selector": ".ovh.mt20, iframe[src*='/adview/'], .viewcontent_ad"
 		},
 		"trigger": {
 			"url-filter": "edaily\\.co\\.kr"
