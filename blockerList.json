@@ -9,6 +9,15 @@
 	},
 	{
 		"action": {
+			"type": "css-display-none",
+			"selector": "#not_working"
+		},
+		"trigger": {
+			"url-filter": "adblock\\.smoon\\.kr/demo\\.html"
+		}
+	},
+	{
+		"action": {
 			"type": "block"
 		},
 		"trigger": {
