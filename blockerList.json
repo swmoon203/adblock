@@ -2910,5 +2910,14 @@
 		"trigger": {
 			"url-filter": "yonhapnews\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ovh.mt20, iframe[src*='/adview/']"
+		},
+		"trigger": {
+			"url-filter": "edaily\\.co\\.kr"
+		}
 	}
 ]
