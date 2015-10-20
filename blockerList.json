@@ -2806,5 +2806,14 @@
 		"trigger": {
 			"url-filter": "clien\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#ad_left, #ad_left_wing, #ad_right, iframe[src^='../../ad/'], iframe[src*='ad4980.kr'], .read_right_ad, iframe[src*='mediaharbor.co.kr'], iframe[src*='imadrep.co.kr'], iframe[src*='ad.ad'], div[style='width:706px; /**/overflow:hidden; margin-bottom:10px; padding:10px 0;'], [id^='AD_LIVE_AREA'], iframe[src*='about.co.kr'], div[style='width:680px; border:1px solid #dddddd; background:#ffffff; /**/overflow:hidden; margin-bottom:10px; padding:10px 13px;'], iframe[src*='mklaud.com/ad'], div[style='width:706px; border:1px solid #dddddd; background:#f6f6f6; /**/overflow:hidden; margin:10px 0; ']"
+		},
+		"trigger": {
+			"url-filter": "mydaily\\.co\\.kr"
+		}
 	}
 ]
