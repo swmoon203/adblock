@@ -2990,5 +2990,14 @@
 		"trigger": {
 			"url-filter": "heraldcorp\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#google_companion_ad_div, #ad_creative_1"
+		},
+		"trigger": {
+			"url-filter": "youtube\\.com"
+		}
 	}
 ]
