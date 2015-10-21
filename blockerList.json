@@ -3081,5 +3081,14 @@
 		"trigger": {
 			"url-filter": "ddaily\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#div_ad1, #div_ad2, .banner_list, #banner_list_1"
+		},
+		"trigger": {
+			"url-filter": "newsis\\.com"
+		}
 	}
 ]
