@@ -3061,5 +3061,14 @@
 		"trigger": {
 			"url-filter": "news\\.mt\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='adkpf.newscloud.or.kr']"
+		},
+		"trigger": {
+			"url-filter": "ddaily\\.co\\.kr"
+		}
 	}
 ]
