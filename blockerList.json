@@ -3085,7 +3085,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#div_ad1, #div_ad2, .banner_list, #banner_list_1, iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], iframe[src*='mncmedia.co.kr'], .google_banner_right, iframe[src*='ads-optima.com'], iframe[src*='adin.ad4980.kr'], #livere_ad, [id^='div-gpt-ad'], iframe[src*='ntwoad.co.kr'], iframe[src*='a1.dp25.kr']"
+			"selector": "#div_ad1, #div_ad2, .banner_list, #banner_list_1, iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], iframe[src*='mncmedia.co.kr'], .google_banner_right, iframe[src*='ads-optima.com'], iframe[src*='adin.ad4980.kr'], #livere_ad, [id^='div-gpt-ad'], iframe[src*='ntwoad.co.kr'], iframe[src*='a1.dp25.kr'], table table table td[height='10'][width!='11']"
 		},
 		"trigger": {
 			"url-filter": "newsis\\.com"
