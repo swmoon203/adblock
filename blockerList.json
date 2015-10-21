@@ -1660,6 +1660,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad.*\\.segye\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
