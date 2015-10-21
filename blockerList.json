@@ -3039,7 +3039,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad2.segye.com'], .c_banner_01, .left_banner_01, .ad_rea, iframe[src*='adv.segye.com'], [id^='ClickStory_ViewRightAD'], iframe[src*='ads.mncmedia.co.kr'], [id^='ClickStory_ViewAD'], #livere_ad"
+			"selector": "iframe[src*='ad2.segye.com'], .c_banner_01, .left_banner_01, .ad_rea, iframe[src*='adv.segye.com'], [id^='ClickStory_ViewRightAD'], iframe[src*='ads.mncmedia.co.kr'], [id^='ClickStory_ViewAD'], #livere_ad, #textadbox"
 		},
 		"trigger": {
 			"url-filter": "segye\\.com"
