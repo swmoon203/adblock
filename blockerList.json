@@ -3085,7 +3085,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#div_ad1, #div_ad2, .banner_list, #banner_list_1"
+			"selector": "#div_ad1, #div_ad2, .banner_list, #banner_list_1, iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], iframe[src*='mncmedia.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "newsis\\.com"
