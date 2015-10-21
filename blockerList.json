@@ -3052,5 +3052,14 @@
 		"trigger": {
 			"url-filter": "segye\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".art_topad_area, iframe[src*='adv.imadrep.co.kr'], .sky_quickmenu, #TI_BANNER, div[style='position:absolute; right:-150px; top:202px; z-index:1;'], .related_ad, iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], #news_banner1, iframe[src*='a1.dp25.kr'], iframe[src*='adscope.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "news\\.mt\\.co\\.kr"
+		}
 	}
 ]
