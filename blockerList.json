@@ -3007,5 +3007,14 @@
 		"trigger": {
 			"url-filter": "youtube\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='ad.naver.com']"
+		},
+		"trigger": {
+			"url-filter": "naver\\.com"
+		}
 	}
 ]
