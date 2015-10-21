@@ -3094,7 +3094,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".hed_ad, iframe[src*='wwwads.seoul.co.kr'], iframe[src*='ads.mncmedia.co.kr'], .atic_banner, iframe[src*='naonmedia.net'], .cont_ad_square, iframe[src^='/ad/'], iframe[src*='ad.ad'], iframe[src*='imadrep.co.kr'], .cartoon, #livere_ad, iframe[src*='mklaud.com'], #criteo_div, #criteo_iframe, #sbaAboutDiv, #eMartDiv, iframe[src*='ntwoad.co.kr'], #InbnetIconAdFrame, .content > table:first-child"
+			"selector": ".hed_ad, iframe[src*='wwwads.seoul.co.kr'], iframe[src*='ads.mncmedia.co.kr'], .atic_banner, iframe[src*='naonmedia.net'], .cont_ad_square, iframe[src^='/ad/'], iframe[src*='ad.ad'], iframe[src*='imadrep.co.kr'], .cartoon, #livere_ad, iframe[src*='mklaud.com'], #criteo_div, #criteo_iframe, #sbaAboutDiv, #eMartDiv, iframe[src*='ntwoad.co.kr'], #InbnetIconAdFrame, .content > table:first-child, #seoulAdTable"
 		},
 		"trigger": {
 			"url-filter": "seoul\\.co\\.kr"
