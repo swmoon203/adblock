@@ -1679,6 +1679,25 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adscope\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "joyninfo\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3043,6 +3062,42 @@
 		},
 		"trigger": {
 			"url-filter": "segye\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".art_topad_area, iframe[src*='adv.imadrep.co.kr'], .sky_quickmenu, #TI_BANNER, div[style='position:absolute; right:-150px; top:202px; z-index:1;'], .related_ad, iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], #news_banner1, iframe[src*='a1.dp25.kr'], iframe[src*='adscope.co.kr'], .ad, iframe[src*='interworksmedia.co.kr'], .bigthum, iframe[src*='ad.about.co.kr'], a[href*='mktag.mt.co.kr/click.ems'], .limit19.mgt16"
+		},
+		"trigger": {
+			"url-filter": "news\\.mt\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='adkpf.newscloud.or.kr']"
+		},
+		"trigger": {
+			"url-filter": "ddaily\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#div_ad1, #div_ad2, .banner_list, #banner_list_1, iframe[src*='adx.naonmedia.net'], iframe[src*='ad.ad'], iframe[src*='mncmedia.co.kr'], .google_banner_right, iframe[src*='ads-optima.com'], iframe[src*='adin.ad4980.kr'], #livere_ad, [id^='div-gpt-ad'], iframe[src*='ntwoad.co.kr'], iframe[src*='a1.dp25.kr'], #div_ad90"
+		},
+		"trigger": {
+			"url-filter": "newsis\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".hed_ad, iframe[src*='wwwads.seoul.co.kr'], iframe[src*='ads.mncmedia.co.kr'], .atic_banner, iframe[src*='naonmedia.net'], .cont_ad_square, iframe[src^='/ad/'], iframe[src*='ad.ad'], iframe[src*='imadrep.co.kr'], .cartoon, #livere_ad, iframe[src*='mklaud.com'], #criteo_div, #criteo_iframe, #sbaAboutDiv, #eMartDiv, iframe[src*='ntwoad.co.kr'], #InbnetIconAdFrame, .content > table:first-child, #seoulAdTable, #withpang_p, div[style='clear:both;float:left;display:inline-block;width:320px;height:250px;text-align:center;'], div[style='float:right;display:inline-block;width:320px;height:250px;text-align:center;']"
+		},
+		"trigger": {
+			"url-filter": "seoul\\.co\\.kr"
 		}
 	}
 ]
