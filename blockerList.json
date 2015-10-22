@@ -810,14 +810,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "outbanner\\.hu\\.co\\.kr/@files/human_banner/iframe/etnnews"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "ad\\.hankooki\\.com/js\\.kti"
 		}
 	},
@@ -3176,6 +3168,15 @@
 			"unless-domain": [
 				"m.pressian.com"
 			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#top_ad, .ad_img, iframe[src*='adreal.dt.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='a1.dp25.kr'], iframe[src*='ad.ad'], #livere_ad, iframe[src*='cas.criteo.com']"
+		},
+		"trigger": {
+			"url-filter": "dt\\.co\\.kr"
 		}
 	}
 ]
