@@ -1762,7 +1762,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com'], .fltAd, iframe[src*='hankyung.com/inc/ad_top.html'], .article_aside_group, #ad_list, .adTopWrap"
+			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com'], .fltAd, iframe[src*='hankyung.com/inc/ad_top.html'], .article_aside_group, #ad_list, .adTopWrap, .r_ad_promotion, .r_ad_imadrap, .r_ad_rec300, .r_ad_adplex, .r_ad_rec600, .ft_ad, .ft_adframe, .ad_ti"
 		},
 		"trigger": {
 			"url-filter": "hankyung\\.com"
