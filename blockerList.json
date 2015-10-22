@@ -1743,6 +1743,95 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "addc\\.dcinside\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "mediaweb\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "picamembers\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "tp\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "apvh\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad-frist\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "img\\.or\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "snsone\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad\\.moneta\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "web\\.humoruniv\\.com/ads/"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2086,7 +2175,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
@@ -3094,7 +3183,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad.naver.com']"
+			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding"
 		},
 		"trigger": {
 			"url-filter": "naver\\.com",
@@ -3188,6 +3277,114 @@
 		},
 		"trigger": {
 			"url-filter": "dt\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "a[href*='mv.ad.naver.com/adclick']"
+		},
+		"trigger": {
+			"url-filter": "m\\.naver\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#banner_11, .bannersww, iframe[src^='/banner/'], #banner_new, .banner_new"
+		},
+		"trigger": {
+			"url-filter": "hungryapp\\.co\\.kr",
+			"unless-domain": [
+				"m.hungryapp.co.kr"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='div-gpt-ad'], .fixed-side-banner, .bloter-news-ad"
+		},
+		"trigger": {
+			"url-filter": "bloter\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner"
+		},
+		"trigger": {
+			"url-filter": "dcinside\\.com",
+			"unless-domain": [
+				"m.dcinside.com"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#pica_gnb, #topTabBg, .topTab, .bn_game_title, #banner_main_fix"
+		},
+		"trigger": {
+			"url-filter": "handy\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#ad_Banner, #ad_Banner_type_left, #top_ads, iframe[src*='care-health.co.kr'], div[style*='float:right;'], #ad_newsVeiw_Bottom, iframe[src*='imadrep.co.kr'], iframe[src*='topclick.emato.net'], #Adv_bottom, iframe[src*='longkeyone.co.kr'], iframe[src*='mklaud.com'], [id^='ad_layer'], .news_home > div.box"
+		},
+		"trigger": {
+			"url-filter": "m\\.kormedi\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='clickmon.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "ddinga\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "koreanews\\.pe\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src='/sline/i_left.php']"
+		},
+		"trigger": {
+			"url-filter": "soccerline\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#banner250, .banner, #daum-ad-root, .newsview_ad"
+		},
+		"trigger": {
+			"url-filter": "media\\.daum\\.net",
+			"unless-domain": [
+				"m.media.daum.net"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adArea"
+		},
+		"trigger": {
+			"url-filter": "noda\\.me"
 		}
 	}
 ]
