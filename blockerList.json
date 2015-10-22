@@ -3143,5 +3143,17 @@
 				"m.etnews.com"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".section_Scen0, iframe[src*='adkpf.newscloud.or.kr'], a[href*='pressian.com/news/banner_click.php'], iframe[src*='adv.mediaharbor.co.kr'], iframe[src*='2beon.co.kr'], div[style='width:336px; height:280px; float:right; margin-bottom:15px;'], div[style='padding-top:22px; padding-bottom:20px;']"
+		},
+		"trigger": {
+			"url-filter": "pressian\\.com",
+			"unless-domain": [
+				"m.pressian.com"
+			]
+		}
 	}
 ]
