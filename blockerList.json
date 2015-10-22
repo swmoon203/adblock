@@ -1906,7 +1906,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#daumAd, iframe[src*='display.ad.daum.net'], .bnr_main, .bnr, #gnb_bnr, .bnr_ad, .bnr_aside, .ad_cont_wrap, .wrap_ad, .side_bnr, .lnb_bnr"
+			"selector": "div#daumAd, iframe[src*='display.ad.daum.net'], .bnr_main, .bnr, #gnb_bnr, .bnr_ad, .bnr_aside, .ad_cont_wrap, .wrap_ad, .side_bnr, .lnb_bnr, .bnr_info"
 		},
 		"trigger": {
 			"url-filter": "ruliweb\\.daum\\.net"
