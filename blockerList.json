@@ -3306,7 +3306,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#ad_Banner, #ad_Banner_type_left, #top_ads, iframe[src*='care-health.co.kr'], div[style*='float:right;'], #ad_newsVeiw_Bottom, iframe[src*='imadrep.co.kr'], iframe[src*='topclick.emato.net'], #Adv_bottom, iframe[src*='longkeyone.co.kr'], iframe[src*='mklaud.com'], [id^='ad_layer']"
+			"selector": "#ad_Banner, #ad_Banner_type_left, #top_ads, iframe[src*='care-health.co.kr'], div[style*='float:right;'], #ad_newsVeiw_Bottom, iframe[src*='imadrep.co.kr'], iframe[src*='topclick.emato.net'], #Adv_bottom, iframe[src*='longkeyone.co.kr'], iframe[src*='mklaud.com'], [id^='ad_layer'], .news_home > div.box"
 		},
 		"trigger": {
 			"url-filter": "m\\.kormedi\\.com"
