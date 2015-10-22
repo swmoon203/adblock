@@ -1658,7 +1658,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ad\\.naver\\.com"
+			"url-filter": "ad\\.naver\\.com",
+			"unless-domain": [
+				"m.naver.com"
+			]
 		}
 	},
 	{
