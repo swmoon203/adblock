@@ -810,14 +810,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "outbanner\\.hu\\.co\\.kr/@files/human_banner/iframe/etnnews"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "ad\\.hankooki\\.com/js\\.kti"
 		}
 	},
@@ -1707,6 +1699,50 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adv\\.etnews\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "mediawise\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adreal\\.dt\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "theprimead\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -1762,7 +1798,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com'], .fltAd, iframe[src*='hankyung.com/inc/ad_top.html']"
+			"selector": "iframe[src*='advs.hankyung.com'], div[class*='article_ad'], .bnr_ad_balloon, .ad_main_middle, .main-ad-md, .ad_cntTop, .news_ad_adplex, .news_ad_shoppingbox, .news_ad_rec300, iframe[src*='cas.criteo.com'], .fltAd, iframe[src*='hankyung.com/inc/ad_top.html'], .article_aside_group, #ad_list, .adTopWrap, .r_ad_promotion, .r_ad_imadrap, .r_ad_rec300, .r_ad_adplex, .r_ad_rec600, .ft_ad, .ft_adframe, .ad_ti"
 		},
 		"trigger": {
 			"url-filter": "hankyung\\.com"
@@ -2932,7 +2968,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr'], a[onclick^='visitWebBanner('], a[href^='tingcup.com']"
+			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr'], a[onclick^='visitWebBanner('], a[href^='tingcup.com'], #popup_01"
 		},
 		"trigger": {
 			"url-filter": "wowbogo\\.net"
@@ -3110,6 +3146,48 @@
 		},
 		"trigger": {
 			"url-filter": "seoul\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adBannerRight, .bnFoot, .adsbygoogle, .bnArea, iframe[src*='ad.about.co.kr'], .adBannerLeft"
+		},
+		"trigger": {
+			"url-filter": "footballist\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#bannerTopmostBox, #bannerTopmost, .ad_txt, .naver_btn, .right_ad4, #adArea, #spanTopAD, #ad_layer426, #livere_ad"
+		},
+		"trigger": {
+			"url-filter": "etnews\\.com",
+			"unless-domain": [
+				"m.etnews.com"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".section_Scen0, iframe[src*='adkpf.newscloud.or.kr'], a[href*='pressian.com/news/banner_click.php'], iframe[src*='adv.mediaharbor.co.kr'], iframe[src*='2beon.co.kr'], div[style='width:336px; height:280px; float:right; margin-bottom:15px;'], div[style='padding-top:22px; padding-bottom:20px;'], body > #pop, body > #pop_in"
+		},
+		"trigger": {
+			"url-filter": "pressian\\.com",
+			"unless-domain": [
+				"m.pressian.com"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#top_ad, .ad_img, iframe[src*='adreal.dt.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='a1.dp25.kr'], iframe[src*='ad.ad'], #livere_ad, iframe[src*='cas.criteo.com']"
+		},
+		"trigger": {
+			"url-filter": "dt\\.co\\.kr"
 		}
 	}
 ]
