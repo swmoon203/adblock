@@ -3266,5 +3266,14 @@
 				"m.dcinside.com"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#pica_gnb, #topTabBg, .topTab, .bn_game_title, #banner_main_fix"
+		},
+		"trigger": {
+			"url-filter": "handy\\.co\\.kr"
+		}
 	}
 ]
