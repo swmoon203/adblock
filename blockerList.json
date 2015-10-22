@@ -3320,5 +3320,14 @@
 		"trigger": {
 			"url-filter": "ddinga\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "koreanews\\.pe\\.kr"
+		}
 	}
 ]
