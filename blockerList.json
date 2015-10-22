@@ -1906,7 +1906,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#daumAd"
+			"selector": "div#daumAd, iframe[src*='display.ad.daum.net'], .bnr_main, .bnr, #gnb_bnr, .bnr_ad, .bnr_aside"
 		},
 		"trigger": {
 			"url-filter": "ruliweb\\.daum\\.net"
