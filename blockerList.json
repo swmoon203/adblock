@@ -1824,6 +1824,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "web\\.humoruniv\\.com/ads/"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3368,6 +3376,15 @@
 			"unless-domain": [
 				"m.media.daum.net"
 			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adArea"
+		},
+		"trigger": {
+			"url-filter": "noda\\.me"
 		}
 	}
 ]
