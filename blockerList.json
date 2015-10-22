@@ -683,7 +683,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "m\\.ad\\.naver\\.com"
+			"url-filter": "m\\.ad\\.naver\\.com",
+			"unless-domain": [
+				"m.naver.com"
+			]
 		}
 	},
 	{
@@ -831,7 +834,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "mv\\.ad\\.naver\\.com/ad"
+			"url-filter": "mv\\.ad\\.naver\\.com/ad",
+			"unless-domain": [
+				"m.naver.com"
+			]
 		}
 	},
 	{
@@ -1655,7 +1661,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ad\\.naver\\.com"
+			"url-filter": "ad\\.naver\\.com",
+			"unless-domain": [
+				"m.naver.com"
+			]
 		}
 	},
 	{
@@ -1897,7 +1906,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#daumAd"
+			"selector": "div#daumAd, iframe[src*='display.ad.daum.net'], .bnr_main, .bnr, #gnb_bnr, .bnr_ad, .bnr_aside"
 		},
 		"trigger": {
 			"url-filter": "ruliweb\\.daum\\.net"
@@ -3052,7 +3061,10 @@
 			"selector": "iframe[src*='ad.naver.com']"
 		},
 		"trigger": {
-			"url-filter": "naver\\.com"
+			"url-filter": "naver\\.com",
+			"unless-domain": [
+				"m.naver.com"
+			]
 		}
 	},
 	{
