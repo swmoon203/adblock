@@ -3340,5 +3340,14 @@
 		"trigger": {
 			"url-filter": "koreanews\\.pe\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src='/sline/i_left.php']"
+		},
+		"trigger": {
+			"url-filter": "soccerline\\.co\\.kr"
+		}
 	}
 ]
