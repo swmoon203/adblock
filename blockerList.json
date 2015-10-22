@@ -3231,7 +3231,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle, #list_right_ad"
+			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner"
 		},
 		"trigger": {
 			"url-filter": "dcinside\\.com",
