@@ -2968,7 +2968,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr'], a[onclick^='visitWebBanner('], a[href^='tingcup.com']"
+			"selector": "#spopup, #google-ad, #logo-ad, a[href^='../ad/'], a[href^='/ad/'], iframe[src*='dofor.co.kr'], a[onclick^='visitWebBanner('], a[href^='tingcup.com'], #popup_01"
 		},
 		"trigger": {
 			"url-filter": "wowbogo\\.net"
