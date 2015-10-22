@@ -3353,7 +3353,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#banner250, .banner, #daum-ad-root"
+			"selector": "#banner250, .banner, #daum-ad-root, .newsview_ad"
 		},
 		"trigger": {
 			"url-filter": "media\\.daum\\.net",
