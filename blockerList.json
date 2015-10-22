@@ -3386,5 +3386,17 @@
 		"trigger": {
 			"url-filter": "noda\\.me"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#ad_200, iframe[src*='humoruniv.com/ads'], .daum_ddn_area"
+		},
+		"trigger": {
+			"url-filter": "humoruniv\\.com",
+			"unless-domain": [
+				"m.humoruniv.com"
+			]
+		}
 	}
 ]
