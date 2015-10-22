@@ -3189,5 +3189,14 @@
 		"trigger": {
 			"url-filter": "dt\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "a[href*='mv.ad.naver.com/adclick']"
+		},
+		"trigger": {
+			"url-filter": "m\\.naver\\.com"
+		}
 	}
 ]
