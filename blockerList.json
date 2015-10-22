@@ -3111,5 +3111,14 @@
 		"trigger": {
 			"url-filter": "seoul\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adBannerRight, .bnFoot, .adsbygoogle, .bnArea, iframe[src*='ad.about.co.kr'], .adBannerLeft"
+		},
+		"trigger": {
+			"url-filter": "footballist\\.co\\.kr"
+		}
 	}
 ]
