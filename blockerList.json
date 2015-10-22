@@ -1778,6 +1778,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "apvh\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2121,7 +2132,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr']"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
