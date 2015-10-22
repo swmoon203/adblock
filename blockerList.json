@@ -3061,7 +3061,10 @@
 			"selector": "iframe[src*='ad.naver.com']"
 		},
 		"trigger": {
-			"url-filter": "naver\\.com"
+			"url-filter": "naver\\.com",
+			"unless-domain": [
+				"m.naver.com"
+			]
 		}
 	},
 	{
