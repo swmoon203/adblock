@@ -3349,5 +3349,17 @@
 		"trigger": {
 			"url-filter": "soccerline\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#banner250, .banner, #daum-ad-root"
+		},
+		"trigger": {
+			"url-filter": "media\\.daum\\.net",
+			"unless-domain": [
+				"m.media.daum.net"
+			]
+		}
 	}
 ]
