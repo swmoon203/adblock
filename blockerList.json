@@ -3198,5 +3198,17 @@
 		"trigger": {
 			"url-filter": "m\\.naver\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#banner_11, .bannersww, iframe[src^='/banner/'], #banner_new, .banner_new"
+		},
+		"trigger": {
+			"url-filter": "hungryapp\\.co\\.kr",
+			"unless-domain": [
+				"m.hungryapp.co.kr"
+			]
+		}
 	}
 ]
