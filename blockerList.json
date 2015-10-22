@@ -1743,6 +1743,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "addc\\.dcinside\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3218,6 +3226,18 @@
 		},
 		"trigger": {
 			"url-filter": "bloter\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle, #list_right_ad"
+		},
+		"trigger": {
+			"url-filter": "dcinside\\.com",
+			"unless-domain": [
+				"m.dcinside.com"
+			]
 		}
 	}
 ]
