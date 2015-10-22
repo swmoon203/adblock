@@ -3131,5 +3131,17 @@
 		"trigger": {
 			"url-filter": "footballist\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#bannerTopmostBox, #bannerTopmost, .ad_txt, .naver_btn, .right_ad4, #adArea, #spanTopAD, #ad_layer426, #livere_ad"
+		},
+		"trigger": {
+			"url-filter": "etnews\\.com",
+			"unless-domain": [
+				"m.etnews.com"
+			]
+		}
 	}
 ]
