@@ -3214,7 +3214,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[id^='div-gpt-ad'], .fixed-side-banner"
+			"selector": "[id^='div-gpt-ad'], .fixed-side-banner, .bloter-news-ad"
 		},
 		"trigger": {
 			"url-filter": "bloter\\.net"
