@@ -3210,5 +3210,14 @@
 				"m.hungryapp.co.kr"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='div-gpt-ad'], .fixed-side-banner"
+		},
+		"trigger": {
+			"url-filter": "bloter\\.net"
+		}
 	}
 ]
