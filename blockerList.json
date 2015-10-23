@@ -1859,7 +1859,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#divMobipopMain, div#fix_mk"
+			"selector": "div#divMobipopMain, div#fix_mk, iframe[src*='adv.imadrep.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "m\\.insight\\.co\\.kr"
