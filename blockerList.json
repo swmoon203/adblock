@@ -1832,6 +1832,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ads\\.sportsseoul\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3397,6 +3405,15 @@
 			"unless-domain": [
 				"m.humoruniv.com"
 			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".banner, [id^='ad_'], #livere_ad"
+		},
+		"trigger": {
+			"url-filter": "m\\.sportsseoul\\.com"
 		}
 	}
 ]
