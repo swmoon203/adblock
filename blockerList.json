@@ -3182,7 +3182,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#google_companion_ad_div, #ad_creative_1, .ad-container"
+			"selector": "#google_companion_ad_div, #ad_creative_1, .ad-container:not(.video-ads .ad-container)"
 		},
 		"trigger": {
 			"url-filter": "youtube\\.com"
