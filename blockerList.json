@@ -1832,6 +1832,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ads\\.sportsseoul\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3385,6 +3393,27 @@
 		},
 		"trigger": {
 			"url-filter": "noda\\.me"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#ad_200, iframe[src*='humoruniv.com/ads'], .daum_ddn_area"
+		},
+		"trigger": {
+			"url-filter": "humoruniv\\.com",
+			"unless-domain": [
+				"m.humoruniv.com"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".banner, [id^='ad_'], #livere_ad"
+		},
+		"trigger": {
+			"url-filter": "m\\.sportsseoul\\.com"
 		}
 	}
 ]
