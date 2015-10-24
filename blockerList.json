@@ -3433,5 +3433,14 @@
 		"trigger": {
 			"url-filter": "news20\\.busan\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adsentop, iframe[src*='adscope.co.kr'], .related_article[style='padding-bottom:0;'], iframe[src*='imadrep.co.kr'], iframe[src*='naonmedia.net'], iframe[src*='about.co.kr'], #banner_big, iframe[src*='criteo.com'], .ad_banner"
+		},
+		"trigger": {
+			"url-filter": "moneyweek\\.co\\.kr"
+		}
 	}
 ]
