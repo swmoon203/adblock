@@ -1940,7 +1940,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div.photo_bottom_ad, iframe[src*='ad4989'], div.newsview_ad_bnr, div.newsview_ad, #float_bottom, div.newsview_ad_noborder"
+			"selector": "div.photo_bottom_ad, iframe[src*='ad4989'], div.newsview_ad_bnr, div.newsview_ad, #float_bottom, div.newsview_ad_noborder, iframe[src*='2beon.co.kr'], iframe[src*='luxad.net'], .ad-txt, .section-ad-adtive, #joyninfodiv, .section-ad-joyinfo"
 		},
 		"trigger": {
 			"url-filter": "m\\.ytn\\.co\\.kr"
