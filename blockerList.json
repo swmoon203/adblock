@@ -1846,14 +1846,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "s\\.youtube\\.com"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "youtube\\.com/api/stats/ads"
 		}
 	},
