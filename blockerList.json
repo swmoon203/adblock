@@ -1840,6 +1840,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "sbtrustmedia\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3489,6 +3500,15 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.webtoon\\.daum\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='sndkorea.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "gesomoon\\.com"
 		}
 	}
 ]
