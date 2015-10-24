@@ -1842,6 +1842,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad1504\\.dvdprime\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3548,6 +3556,15 @@
 		},
 		"trigger": {
 			"url-filter": "macguyver\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad_aside_sub, .aside_ad, .adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "dvdprime\\.donga\\.com"
 		}
 	}
 ]
