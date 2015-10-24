@@ -1827,70 +1827,6 @@
 	},
 	{
 		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "youtube\\.com/player_204"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "googlevideo\\.com/generate_204"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "youtube\\.com/api/stats/ads"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "metric\\.gstatic\\.com"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "youtube\\.com/ptracking"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "google\\.com\\/uds\\/api\\/ads\\/.*\\/content\\.I\\.js"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "youtube\\.com/set_awesome"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "youtube-nocookie\\.com/gen_204"
-		}
-	},
-	{
-		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3233,7 +3169,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#google_companion_ad_div, #ad_creative_1, .ytp-ad-progress-list, .video-ads, .ad-container, #watch7-sidebar-ads, #watch-channel-brand-div, #google_companion_ad_div"
+			"selector": "#google_companion_ad_div, #ad_creative_1"
 		},
 		"trigger": {
 			"url-filter": "youtube\\.com",
