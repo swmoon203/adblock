@@ -3481,5 +3481,14 @@
 		"trigger": {
 			"url-filter": "gigglehd\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".wrap_valuepotion, #promotionBnr"
+		},
+		"trigger": {
+			"url-filter": "m\\.webtoon\\.daum\\.net"
+		}
 	}
 ]
