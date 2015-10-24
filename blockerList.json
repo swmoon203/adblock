@@ -3472,5 +3472,14 @@
 		"trigger": {
 			"url-filter": "www\\.tvzil\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 10px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 10px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: right; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 10px 0px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 10px 0px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: right; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], a[href*='prod.danawa.com/info/?pcode']"
+		},
+		"trigger": {
+			"url-filter": "gigglehd\\.com"
+		}
 	}
 ]
