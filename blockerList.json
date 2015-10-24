@@ -3674,5 +3674,14 @@
 		"trigger": {
 			"url-filter": "m\\.miclub\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#ad-trend-bottom"
+		},
+		"trigger": {
+			"url-filter": "m\\.gae9\\.com"
+		}
 	}
 ]
