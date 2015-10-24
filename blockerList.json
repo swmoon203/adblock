@@ -3531,5 +3531,14 @@
 		"trigger": {
 			"url-filter": "m\\.ize\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='dailygame.co.kr/ad/'], iframe[src*='adkova.com'], iframe[src^='/comment/ad_realclick.php']"
+		},
+		"trigger": {
+			"url-filter": "dailygame\\.co\\.kr"
+		}
 	}
 ]
