@@ -2561,7 +2561,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#danawa-mobile-2015products-powerLinkContainer"
+			"selector": "#danawa-mobile-2015products-powerLinkContainer, #danawa-mobile-main-priceCompare-realCuration"
 		},
 		"trigger": {
 			"url-filter": "m\\.danawa\\.com"
