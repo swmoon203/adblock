@@ -1958,7 +1958,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad, [class^='banner_'], #wingbanner, #menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st, iframe[src*='/banner/view_top.html'], iframe[src*='sndkorea.co.kr'], .ad_box, .ad_list, .ad_img, .ad_desc"
+			"selector": ".ad, [class^='banner_'], #wingbanner, #menuIco div:not(.menu), #if_main_bottom_bn, iframe#M11st, iframe[src*='/banner/view_top.html'], iframe[src*='sndkorea.co.kr'], .ad_box, .ad_list, .ad_img, .ad_desc, iframe[src^='/banner/']"
 		},
 		"trigger": {
 			"url-filter": "ppomppu\\.co\\.kr"
