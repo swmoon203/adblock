@@ -3665,5 +3665,14 @@
 		"trigger": {
 			"url-filter": "isplus\\.live\\.joins\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad_for_wrap"
+		},
+		"trigger": {
+			"url-filter": "m\\.miclub\\.com"
+		}
 	}
 ]
