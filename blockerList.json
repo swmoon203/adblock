@@ -3502,5 +3502,14 @@
 		"trigger": {
 			"url-filter": "ichannela\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".side-ad-left, .side-ad-right, span[style*='float: right;'], .adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "interfootball\\.ytn\\.co\\.kr"
+		}
 	}
 ]
