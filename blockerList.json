@@ -3463,5 +3463,14 @@
 				"m.daum.net"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#draggable, #adArea, .banner"
+		},
+		"trigger": {
+			"url-filter": "www\\.tvzil\\.com"
+		}
 	}
 ]
