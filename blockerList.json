@@ -3622,7 +3622,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#wideBannerArea, #brandBanner, iframe[src*='ad.about.co.kr'], #themeArea, #LpopBanner, #RpopBanner, #RpopBannerCnNews, #RpopBannerCulture, #RpopBannerMaru, #RpopBannerIffice, #eventArea"
+			"selector": "#wideBannerArea, #brandBanner, iframe[src*='ad.about.co.kr'], #themeArea, #LpopBanner, #RpopBanner, #RpopBannerCnNews, #RpopBannerCulture, #RpopBannerMaru, #RpopBannerIffice, #eventArea, .rightBannerNew"
 		},
 		"trigger": {
 			"url-filter": "korea\\.com"
