@@ -2380,7 +2380,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".google-ad-part, .board-bottom-ad"
+			"selector": ".google-ad-part, .board-bottom-ad, iframe[src*='ad2.thisisgame.com']"
 		},
 		"trigger": {
 			"url-filter": "m\\.thisisgame\\.com"
