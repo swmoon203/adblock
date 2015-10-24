@@ -3540,5 +3540,14 @@
 		"trigger": {
 			"url-filter": "dailygame\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='clickmon.co.kr'], div[style='text-align: center;']"
+		},
+		"trigger": {
+			"url-filter": "macguyver\\.kr"
+		}
 	}
 ]
