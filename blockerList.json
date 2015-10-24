@@ -3415,5 +3415,14 @@
 		"trigger": {
 			"url-filter": "m\\.sportsseoul\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='div-gpt-ad'], .adw"
+		},
+		"trigger": {
+			"url-filter": "m\\.ilyo\\.co\\.kr"
+		}
 	}
 ]
