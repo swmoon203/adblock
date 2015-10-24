@@ -1879,6 +1879,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "google\\.com\\/uds\\/api\\/ads\\/.*\\/content\\.I\\.js"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
