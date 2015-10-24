@@ -3592,5 +3592,14 @@
 		"trigger": {
 			"url-filter": "topstarnews\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle, .bxbanner_single, .adbannerWrap"
+		},
+		"trigger": {
+			"url-filter": "ddanzi\\.com"
+		}
 	}
 ]
