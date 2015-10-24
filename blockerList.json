@@ -3566,5 +3566,14 @@
 		"trigger": {
 			"url-filter": "dvdprime\\.donga\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle, iframe[src*='ad.about.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "m\\.betinfo\\.co\\.kr"
+		}
 	}
 ]
