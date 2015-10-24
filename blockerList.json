@@ -3648,5 +3648,14 @@
 		"trigger": {
 			"url-filter": "itcle\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='adtg.widerplanet.com'], iframe[src*='dgate.joins.com/hc.aspx'], iframe[title='광고'], #promotion_bnr120, .ad_v300, iframe[src*='static.joins.com/isplus/ui/ad/ad'], #banner, .ad_thum280:not(.hotissue), .ad_area, .article_ad250, .ad_article_bottom1text, #divArticleAdnetworkBanner, iframe[src*='about.co.kr'], .rt_imc_banner"
+		},
+		"trigger": {
+			"url-filter": "isplus\\.live\\.joins\\.com"
+		}
 	}
 ]
