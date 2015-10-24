@@ -3063,7 +3063,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".area_sa.sa_in_view"
+			"selector": ".area_sa"
 		},
 		"trigger": {
 			"url-filter": "m\\.cafe\\.naver\\.com"
