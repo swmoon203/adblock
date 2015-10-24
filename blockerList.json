@@ -3631,5 +3631,14 @@
 				"m.khan.co.kr"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle, .td-a-rec.td-a-rec-id-sidebar "
+		},
+		"trigger": {
+			"url-filter": "itcle\\.com"
+		}
 	}
 ]
