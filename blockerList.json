@@ -3442,5 +3442,14 @@
 		"trigger": {
 			"url-filter": "moneyweek\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".floating-banner, .ads, iframe[src*='clickmon.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "animoe\\.us"
+		}
 	}
 ]
