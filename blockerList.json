@@ -1831,6 +1831,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adserver\\.viewgames\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
