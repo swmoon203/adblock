@@ -1840,6 +1840,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "sbtrustmedia\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -1859,7 +1870,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#divMobipopMain, div#fix_mk"
+			"selector": "div#divMobipopMain, div#fix_mk, iframe[src*='adv.imadrep.co.kr'], .adsbygoogle, iframe[src*='mklaud.com']"
 		},
 		"trigger": {
 			"url-filter": "m\\.insight\\.co\\.kr"
@@ -2012,7 +2023,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".innerNewsAD, iframe[src*='ad.ad'], iframe[src*='nad1.mklaud.com'], iframe[src*='/ad/bottomAD.html'], iframe[src*='ads-optima.com'], #banner_top_title, [id^='ad'], iframe[src*='/ad/ad'], iframe[src*='ads.mangouni.com']"
+			"selector": ".innerNewsAD, iframe[src*='ad.ad'], iframe[src*='nad1.mklaud.com'], iframe[src*='/ad/bottomAD.html'], iframe[src*='ads-optima.com'], #banner_top_title, [id^='ad'], iframe[src*='/ad/ad'], iframe[src*='ads.mangouni.com'], .header-ad, [id^='sidebarad']"
 		},
 		"trigger": {
 			"url-filter": "www\\.dispatch\\.co\\.kr"
@@ -2183,7 +2194,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad']"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
@@ -3320,7 +3331,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner"
+			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner, #ad_top, #center_ad, #dgn_mandumall"
 		},
 		"trigger": {
 			"url-filter": "dcinside\\.com",
@@ -3414,6 +3425,99 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.sportsseoul\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='div-gpt-ad'], .adw"
+		},
+		"trigger": {
+			"url-filter": "m\\.ilyo\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#headerAd, #topview,#s_img_ad, iframe[src*='busan.com/w2010/AD'], #subdivpop2, iframe[src*='2beon.co.kr'], div[style='height:325px; padding-left:9px; border:1px solid #dedede;'], div[style='width:300px; height:250px;padding-bottom:10px; border-top:1px solid #dedede;'], iframe[src*='mediaharbor.co.kr'], #ifrad, iframe[src*='dreamsearch.or.kr'], iframe[src*='ads-optima.com'], div[style='width:300px; height:250px; padding-top:10px;'], div[style='width:650px; height:250px; padding-left:25px;'], div[style='width:970px; height:250px; margin:0 auto;'], #left_scroll, #right_scroll"
+		},
+		"trigger": {
+			"url-filter": "news20\\.busan\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adsentop, iframe[src*='adscope.co.kr'], .related_article[style='padding-bottom:0;'], iframe[src*='imadrep.co.kr'], iframe[src*='naonmedia.net'], iframe[src*='about.co.kr'], #banner_big, iframe[src*='criteo.com'], .ad_banner"
+		},
+		"trigger": {
+			"url-filter": "moneyweek\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".floating-banner, .ads, iframe[src*='clickmon.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "animoe\\.us"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adMain, iframe[src*='display.ad.daum.net'], #adTimeSponsor, .ad_timead, #adBrandingStation, .ad_station, .ad_rightbtm, .top_left_banner, #SponsorBarWrap, #EXTENSIBLE_BANNER_WRAP, #bnr_ad"
+		},
+		"trigger": {
+			"url-filter": "daum\\.net",
+			"unless-domain": [
+				"m.daum.net"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#draggable, #adArea, .banner"
+		},
+		"trigger": {
+			"url-filter": "www\\.tvzil\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 10px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 0px 0px 10px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: right; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 10px 0px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: left; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], div[style='overflow:hidden;BACKGROUND-IMAGE: none; BORDER-BOTTOM: rgb(255,255,255) 0px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BACKGROUND-COLOR: transparent; MARGIN: 10px 0px; WIDTH: 400px; BACKGROUND-POSITION: 0px 0px; FLOAT: right; HEIGHT: 60px; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid;'], a[href*='prod.danawa.com/info/?pcode']"
+		},
+		"trigger": {
+			"url-filter": "gigglehd\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".wrap_valuepotion, #promotionBnr"
+		},
+		"trigger": {
+			"url-filter": "m\\.webtoon\\.daum\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='sndkorea.co.kr'], iframe[src*='sndkorea.nowcdn.co.kr'], #layerBanner1205, iframe[src*='vip.gesomoon.com/Ver2/include/etc/ad_bonmun_bottom.html']"
+		},
+		"trigger": {
+			"url-filter": "gesomoon\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#top_gbanner, .ad_banner, [id^='div-gpt-ad'], #adbay_adExpandDiv, iframe[src*='adin.ad4980.kr'], iframe[src*='ichannela.com/ch/naver_adpost'], #livere_ad"
+		},
+		"trigger": {
+			"url-filter": "ichannela\\.com"
 		}
 	}
 ]
