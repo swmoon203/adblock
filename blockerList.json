@@ -3514,7 +3514,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#top_gbanner, .ad_banner, [id^='div-gpt-ad'], #adbay_adExpandDiv, iframe[src*='adin.ad4980.kr'], iframe[src*='ichannela.com/ch/naver_adpost_loc.cha'], #livere_ad"
+			"selector": "#top_gbanner, .ad_banner, [id^='div-gpt-ad'], #adbay_adExpandDiv, iframe[src*='adin.ad4980.kr'], iframe[src*='ichannela.com/ch/naver_adpost'], #livere_ad"
 		},
 		"trigger": {
 			"url-filter": "ichannela\\.com"
