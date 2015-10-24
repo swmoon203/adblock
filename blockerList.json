@@ -3601,5 +3601,14 @@
 		"trigger": {
 			"url-filter": "ddanzi\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#hpbanner, #divMarketBanner, .hp_side_banner"
+		},
+		"trigger": {
+			"url-filter": "auction\\.co\\.kr"
+		}
 	}
 ]
