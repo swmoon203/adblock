@@ -3618,5 +3618,14 @@
 		"trigger": {
 			"url-filter": "auction\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#wideBannerArea, #brandBanner, iframe[src*='ad.about.co.kr'], #themeArea, #LpopBanner, #RpopBanner, #RpopBannerCnNews, #RpopBannerCulture, #RpopBannerMaru, #RpopBannerIffice, #eventArea"
+		},
+		"trigger": {
+			"url-filter": "korea\\.com"
+		}
 	}
 ]
