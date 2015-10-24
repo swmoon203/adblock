@@ -3428,7 +3428,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#headerAd, #topview,#s_img_ad, iframe[src*='busan.com/w2010/AD'], #subdivpop2, iframe[src*='2beon.co.kr'], div[style='height:325px; padding-left:9px; border:1px solid #dedede;'], div[style='width:300px; height:250px;padding-bottom:10px; border-top:1px solid #dedede;'], iframe[src*='mediaharbor.co.kr'], #ifrad, iframe[src*='dreamsearch.or.kr'], iframe[src*='ads-optima.com'], div[style='width:300px; height:250px; padding-top:10px;'], div[style='width:650px; height:250px; padding-left:25px;'], div[style='width:970px; height:250px; margin:0 auto;']"
+			"selector": "#headerAd, #topview,#s_img_ad, iframe[src*='busan.com/w2010/AD'], #subdivpop2, iframe[src*='2beon.co.kr'], div[style='height:325px; padding-left:9px; border:1px solid #dedede;'], div[style='width:300px; height:250px;padding-bottom:10px; border-top:1px solid #dedede;'], iframe[src*='mediaharbor.co.kr'], #ifrad, iframe[src*='dreamsearch.or.kr'], iframe[src*='ads-optima.com'], div[style='width:300px; height:250px; padding-top:10px;'], div[style='width:650px; height:250px; padding-left:25px;'], div[style='width:970px; height:250px; margin:0 auto;'], #left_scroll, #right_scroll"
 		},
 		"trigger": {
 			"url-filter": "news20\\.busan\\.com"
