@@ -3505,7 +3505,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='sndkorea.co.kr']"
+			"selector": "iframe[src*='sndkorea.co.kr'], iframe[src*='sndkorea.nowcdn.co.kr'], #layerBanner1205"
 		},
 		"trigger": {
 			"url-filter": "gesomoon\\.com"
