@@ -416,11 +416,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "googlesyndication\\.com/pagead/show_ads\\.js",
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
-			]
+			"url-filter": "googlesyndication\\.com"
 		}
 	},
 	{
@@ -429,18 +425,6 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.adtc\\.daum\\.net/js/mobilead\\.js"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js",
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
-			]
 		}
 	},
 	{
@@ -472,11 +456,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "partner\\.googleadservices\\.com",
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
-			]
+			"url-filter": "partner\\.googleadservices\\.com"
 		}
 	},
 	{
@@ -3196,7 +3176,10 @@
 			"selector": "#google_companion_ad_div, #ad_creative_1"
 		},
 		"trigger": {
-			"url-filter": "youtube\\.com"
+			"url-filter": "youtube\\.com",
+			"unless-domain": [
+				"m.youtube.com"
+			]
 		}
 	},
 	{
