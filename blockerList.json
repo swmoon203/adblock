@@ -452,11 +452,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "partner\\.googleadservices\\.com",
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
-			]
+			"url-filter": "partner\\.googleadservices\\.com"
 		}
 	},
 	{
