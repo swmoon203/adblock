@@ -3511,5 +3511,14 @@
 		"trigger": {
 			"url-filter": "interfootball\\.ytn\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='dp25.kr'], iframe[src*='ad.ad'],iframe[src*='lumieyes.com'], .adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "m\\.ize\\.co\\.kr"
+		}
 	}
 ]
