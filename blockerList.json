@@ -3623,7 +3623,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".banner, .adBanner, .ad_MovFocus, .kocef, .ad_imgBanner, iframe[src*='adv.khan.co.kr']"
+			"selector": ".banner, .adBanner, .ad_MovFocus, .kocef, .ad_imgBanner, iframe[src*='adv.khan.co.kr'], .ad_top, #adbox, iframe[src*='mncmedia.co.kr'], iframe[src*='imadrep.co.kr'], iframe[src*='ads.khan.co.kr'], .ad_hotIssue, .ad_popularInfo, #article_bottom_ad, .ad_adtive, .ad_todayFocus, .ad_two, .ad_thum, .ad_info_wrap, .ad_adFlex, .ad_about"
 		},
 		"trigger": {
 			"url-filter": "khan\\.co\\.kr",
