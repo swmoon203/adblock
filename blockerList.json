@@ -3320,7 +3320,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner"
+			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner, #ad_top, #center_ad, #dgn_mandumall"
 		},
 		"trigger": {
 			"url-filter": "dcinside\\.com",
