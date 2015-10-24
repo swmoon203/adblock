@@ -100,10 +100,6 @@
 			"url-filter": "doubleclick\\.net",
 			"load-type": [
 				"third-party"
-			],
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
 			]
 		}
 	},
@@ -416,11 +412,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "googlesyndication\\.com/pagead/show_ads\\.js",
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
-			]
+			"url-filter": "googlesyndication\\.com"
 		}
 	},
 	{
@@ -429,18 +421,6 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.adtc\\.daum\\.net/js/mobilead\\.js"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/js/adsbygoogle\\.js",
-			"unless-domain": [
-				"youtube.com",
-				"www.youtube.com"
-			]
 		}
 	},
 	{
@@ -1847,6 +1827,54 @@
 			"load-type": [
 				"third-party"
 			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "youtube\\.com/player_204"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "googlevideo\\.com/generate_204"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "s\\.youtube\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "youtube\\.com/api/stats/ads"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "metric\\.gstatic\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "youtube\\.com/ptracking"
 		}
 	},
 	{
