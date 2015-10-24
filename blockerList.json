@@ -3575,5 +3575,14 @@
 		"trigger": {
 			"url-filter": "m\\.betinfo\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "topstarnews\\.net"
+		}
 	}
 ]
