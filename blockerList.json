@@ -3221,10 +3221,13 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#google_companion_ad_div, #ad_creative_1"
+			"selector": "#google_companion_ad_div, #ad_creative_1, .ytp-ad-progress-list, .video-ads, .ad-container, #watch7-sidebar-ads, #watch-channel-brand-div, #google_companion_ad_div"
 		},
 		"trigger": {
-			"url-filter": "youtube\\.com"
+			"url-filter": "youtube\\.com",
+			"unless-domain": [
+				"m.youtube.com"
+			]
 		}
 	},
 	{
