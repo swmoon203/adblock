@@ -3492,7 +3492,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='display.ad.daum.net'], #adTimeSponsor, .ad_timead, #adBrandingStation, .ad_station, .ad_rightbtm, .top_left_banner, #SponsorBarWrap, #EXTENSIBLE_BANNER_WRAP, #bnr_ad"
+			"selector": "iframe[src*='display.ad.daum.net']:not(.adMain iframe), #adTimeSponsor, .ad_timead, #adBrandingStation, .ad_station, .ad_rightbtm, .top_left_banner, #SponsorBarWrap, #EXTENSIBLE_BANNER_WRAP, #bnr_ad"
 		},
 		"trigger": {
 			"url-filter": "daum\\.net",
