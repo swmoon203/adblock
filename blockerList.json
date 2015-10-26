@@ -1627,7 +1627,8 @@
 		"trigger": {
 			"url-filter": "ad\\.naver\\.com",
 			"unless-domain": [
-				"m.naver.com"
+				"m.naver.com",
+				" searchad.naver.com"
 			]
 		}
 	},
