@@ -3728,5 +3728,14 @@
 		"trigger": {
 			"url-filter": "ekn\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".fixed1, .fixed2, a[href*='dtnews24.com/news/banner_click.php'], .section_12 div[style='padding-left:3px;']"
+		},
+		"trigger": {
+			"url-filter": "dtnews24\\.com"
+		}
 	}
 ]
