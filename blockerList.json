@@ -1874,6 +1874,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "dramalink\\.net/advertisement\\.js"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
