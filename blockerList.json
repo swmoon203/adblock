@@ -1625,9 +1625,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ad\\.naver\\.com",
+			"url-filter": "http://ad\\.naver\\.com",
 			"unless-domain": [
-				"m.naver.com"
+				"m.naver.com",
+				" searchad.naver.com"
 			]
 		}
 	},
@@ -3690,6 +3691,15 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.gae9\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src^='/_ads'], #blockblockA"
+		},
+		"trigger": {
+			"url-filter": "dramalink\\.net"
 		}
 	}
 ]
