@@ -3695,7 +3695,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src^='/_ads']"
+			"selector": "iframe[src^='/_ads'], #blockblockA"
 		},
 		"trigger": {
 			"url-filter": "dramalink\\.net"
