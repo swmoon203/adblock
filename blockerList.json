@@ -3719,5 +3719,14 @@
 		"trigger": {
 			"url-filter": "m\\.sisainlive\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='about.co.kr'], .fixed_r, .fixed_r2, .fixed1, #container a[href*='ekn.kr/news/banner_click.php'], .right_bnr"
+		},
+		"trigger": {
+			"url-filter": "ekn\\.kr"
+		}
 	}
 ]
