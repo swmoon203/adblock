@@ -3701,5 +3701,14 @@
 		"trigger": {
 			"url-filter": "dramalink\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='ad_'], .topAD, .sinaads, .AD_R, .AD_hqbottom, [id^='ads_']"
+		},
+		"trigger": {
+			"url-filter": "finance\\.sina\\.com\\.cn"
+		}
 	}
 ]
