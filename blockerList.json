@@ -3691,5 +3691,14 @@
 		"trigger": {
 			"url-filter": "m\\.gae9\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src^='/_ads']"
+		},
+		"trigger": {
+			"url-filter": "dramalink\\.net"
+		}
 	}
 ]
