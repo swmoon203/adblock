@@ -3750,7 +3750,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".earAdv, .midHeader, .largeBannerCloser, #findABroker"
+			"selector": ".earAdv, .midHeader, .largeBannerCloser, #findABroker, .doubleLineSeperator:eq(3)"
 		},
 		"trigger": {
 			"url-filter": "kr\\.investing\\.com"
