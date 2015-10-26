@@ -1886,7 +1886,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ams\\.rmcnmv\\.naver\\.com"
+			"url-filter": "http://ams\\.rmcnmv\\.naver\\.com"
 		}
 	},
 	{
@@ -3770,6 +3770,15 @@
 		},
 		"trigger": {
 			"url-filter": "kr\\.investing\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".select-top-banner, .header-banner, .wing-left, .wing-right, .at-content-side div[class='side-box side-p10'], .at-content-main .img-wrap.img-fix"
+		},
+		"trigger": {
+			"url-filter": "carlife\\.net"
 		}
 	}
 ]
