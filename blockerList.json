@@ -3746,5 +3746,14 @@
 		"trigger": {
 			"url-filter": "goodvideo\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".earAdv, .midHeader, .largeBannerCloser, #findABroker"
+		},
+		"trigger": {
+			"url-filter": "kr\\.investing\\.com"
+		}
 	}
 ]
