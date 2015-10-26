@@ -3710,5 +3710,14 @@
 		"trigger": {
 			"url-filter": "finance\\.sina\\.com\\.cn"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='widerplanet.com'], iframe[src*='ads-optima.com'], [id^='div-gpt-ad-'], iframe[src*='criteo.com'], #livere_ad, [id^='ad_']"
+		},
+		"trigger": {
+			"url-filter": "m\\.sisainlive\\.com"
+		}
 	}
 ]
