@@ -3207,7 +3207,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#HB_LEFTSLIDER001, #img_box01, #g20150812Herald39, #img_box00, #HB_SUB_SIDEER001, iframe[src*='ad.ad'], iframe[src*='ad4980.kr'], .subtop_list_adarea, .subpg_news_body div[style*='float:right'], div[style*='float: right'], .banner_151014, .nnews_bottomadlist_area, iframe[src*='mncmedia.co.kr'], iframe[src*='cadvv.heraldm.com'], iframe[src*='heraldm.com/iframe/banner'], iframe[src*='adw.heraldm.com'], iframe[src*='res.heraldm.com/iframe'], div[style='width:250px; height:250px; padding:0 0 10px 0;'], iframe[src*='dreamsearch.or.kr'], .sub_viewpag_headline, div.story div[style*='float:right;']"
+			"selector": "#HB_LEFTSLIDER001, #img_box01, #g20150812Herald39, #img_box00, #HB_SUB_SIDEER001, iframe[src*='ad.ad'], iframe[src*='ad4980.kr'], .subtop_list_adarea, .subpg_news_body div[style*='float:right'], div[style*='float: right'], .banner_151014, .nnews_bottomadlist_area, iframe[src*='mncmedia.co.kr'], iframe[src*='cadvv.heraldm.com'], iframe[src*='heraldm.com/iframe/banner'], iframe[src*='adw.heraldm.com'], iframe[src*='res.heraldm.com/iframe'], div[style='width:250px; height:250px; padding:0 0 10px 0;'], iframe[src*='dreamsearch.or.kr'], .sub_viewpag_headline, div.story div[style*='float:right;’], [id^='adsmnc’], .story2, .ad_4, .shopping"
 		},
 		"trigger": {
 			"url-filter": "heraldcorp\\.com"
