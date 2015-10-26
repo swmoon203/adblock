@@ -3737,5 +3737,14 @@
 		"trigger": {
 			"url-filter": "dtnews24\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "a[href*='zzamtoon.com/event/banner']"
+		},
+		"trigger": {
+			"url-filter": "goodvideo\\.co\\.kr"
+		}
 	}
 ]
