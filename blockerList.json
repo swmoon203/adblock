@@ -1625,7 +1625,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "^ad\\.naver\\.com",
+			"url-filter": "http://ad\\.naver\\.com",
 			"unless-domain": [
 				"m.naver.com",
 				" searchad.naver.com"
