@@ -1886,7 +1886,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ams\\.rmcnmv\\.naver\\.com"
+			"url-filter": "http://ams\\.rmcnmv\\.naver\\.com"
 		}
 	},
 	{
