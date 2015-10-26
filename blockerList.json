@@ -3357,7 +3357,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner, #ad_top, #center_ad, #dgn_mandumall, .ad_left_wing_list_top, .ad_left_wing_right_top"
+			"selector": ".adsbygoogle, #list_right_ad, .banner_box, iframe[src*='about.co.kr'], #dc_advertisement, .con_banner, #ad_top, #center_ad, #dgn_mandumall, .ad_left_wing_list_top, .ad_left_wing_right_top, .google_banner"
 		},
 		"trigger": {
 			"url-filter": "dcinside\\.com",
