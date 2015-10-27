@@ -3832,7 +3832,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adingoFluctOverlay"
+			"selector": ".adingoFluctOverlay, .adsbygoogle"
 		},
 		"trigger": {
 			"url-filter": "pazudora-friend\\.com"
