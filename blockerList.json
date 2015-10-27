@@ -103,7 +103,8 @@
 			],
 			"unless-domain": [
 				"youtube.com",
-				"www.youtube.com"
+				"www.youtube.com",
+				"m.youtube.com"
 			]
 		}
 	},
@@ -416,7 +417,12 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "googlesyndication\\.com"
+			"url-filter": "googlesyndication\\.com",
+			"unless-domain": [
+				"youtube.com",
+				"www.youtube.com",
+				"m.youtube.com"
+			]
 		}
 	},
 	{
@@ -456,7 +462,12 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "partner\\.googleadservices\\.com"
+			"url-filter": "partner\\.googleadservices\\.com",
+			"unless-domain": [
+				"youtube.com",
+				"www.youtube.com",
+				"m.youtube.com"
+			]
 		}
 	},
 	{
@@ -467,7 +478,8 @@
 			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/show_afmc_ads\\.js",
 			"unless-domain": [
 				"youtube.com",
-				"www.youtube.com"
+				"www.youtube.com",
+				"m.youtube.com"
 			]
 		}
 	},
@@ -3836,6 +3848,15 @@
 		},
 		"trigger": {
 			"url-filter": "pazudora-friend\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".multi-ads-area, .ad"
+		},
+		"trigger": {
+			"url-filter": "pixiv\\.net"
 		}
 	}
 ]
