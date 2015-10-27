@@ -3808,5 +3808,14 @@
 		"trigger": {
 			"url-filter": "torrentkim1\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".header_banner, [id^='banner_']"
+		},
+		"trigger": {
+			"url-filter": "m\\.c1\\.appstory\\.co\\.kr"
+		}
 	}
 ]
