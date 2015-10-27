@@ -2270,7 +2270,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#AdLeftPopArea, #banner_adlibr, iframe[src*='adx.naonmedia.net'], iframe[src*='m.isplus.joins.com/news/article/ad'], #testAD, .ad_text, iframe[src*='care-health.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], .ad_wrap"
+			"selector": "#AdLeftPopArea, #banner_adlibr, iframe[src*='adx.naonmedia.net'], iframe[src*='m.isplus.joins.com/news/article/ad'], #testAD, .ad_text, iframe[src*='care-health.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], .ad_wrap, .ad_floating_box"
 		},
 		"trigger": {
 			"url-filter": "isplus\\.joins\\.com"
