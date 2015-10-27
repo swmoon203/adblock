@@ -1899,6 +1899,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "google-analytics\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2179,7 +2190,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adn.inven.co.kr'], div[class*='mobileAdNs'], div[class*='mobileDaNs'], li[id^='cauly_list'], #mobileTailAd_Layer, #mobileTailAd_LayerDummy, iframe[src*='nad1.mklaud.com/ad'], #page > [style='text-align:center;height:50px;']"
+			"selector": "iframe[src*='adn.inven.co.kr'], div[class*='mobileAdNs'], div[class*='mobileDaNs'], li[id^='cauly_list'], #mobileTailAd_Layer, #mobileTailAd_LayerDummy, iframe[src*='nad1.mklaud.com/ad'], #page > [style='text-align:center;height:50px;'], #banTopSlideDown01"
 		},
 		"trigger": {
 			"url-filter": "m\\.inven\\.co\\.kr"
