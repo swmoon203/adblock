@@ -3803,7 +3803,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[src^='/banner/']"
+			"selector": "[src^='/banner/'], a[href='/partner_jump.html']"
 		},
 		"trigger": {
 			"url-filter": "torrentkim1\\.net"
