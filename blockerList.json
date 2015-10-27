@@ -3869,5 +3869,14 @@
 		"trigger": {
 			"url-filter": "pixiv\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#divpop, a[href*='/adz.php?ad='], #s_word a:not(a[href*='/bbs/'])"
+		},
+		"trigger": {
+			"url-filter": "tcafek\\.com"
+		}
 	}
 ]
