@@ -29,7 +29,15 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ilbe\\.com"
+			"url-filter": "http://ilbe\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "http://www\\.ilbe\\.com"
 		}
 	},
 	{
