@@ -3828,5 +3828,14 @@
 		"trigger": {
 			"url-filter": "m\\.c1\\.appstory\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adingoFluctOverlay"
+		},
+		"trigger": {
+			"url-filter": "pazudora-friend\\.com"
+		}
 	}
 ]
