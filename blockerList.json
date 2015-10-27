@@ -2135,7 +2135,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline, .adDaum, #ad_box"
+			"selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline, .adDaum, #ad_box, #adDaum"
 		},
 		"trigger": {
 			"url-filter": "m\\.ohmynews\\.com"
