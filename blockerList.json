@@ -29,7 +29,15 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "ilbe\\.com"
+			"url-filter": "http://ilbe\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "http://www\\.ilbe\\.com"
 		}
 	},
 	{
@@ -103,7 +111,8 @@
 			],
 			"unless-domain": [
 				"youtube.com",
-				"www.youtube.com"
+				"www.youtube.com",
+				"m.youtube.com"
 			]
 		}
 	},
@@ -416,7 +425,12 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "googlesyndication\\.com"
+			"url-filter": "googlesyndication\\.com",
+			"unless-domain": [
+				"youtube.com",
+				"www.youtube.com",
+				"m.youtube.com"
+			]
 		}
 	},
 	{
@@ -456,7 +470,12 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "partner\\.googleadservices\\.com"
+			"url-filter": "partner\\.googleadservices\\.com",
+			"unless-domain": [
+				"youtube.com",
+				"www.youtube.com",
+				"m.youtube.com"
+			]
 		}
 	},
 	{
@@ -467,7 +486,8 @@
 			"url-filter": "pagead2\\.googlesyndication\\.com/pagead/show_afmc_ads\\.js",
 			"unless-domain": [
 				"youtube.com",
-				"www.youtube.com"
+				"www.youtube.com",
+				"m.youtube.com"
 			]
 		}
 	},
@@ -1899,6 +1919,47 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "google-analytics\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "contentlink\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "fam-ad\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "feeldmc\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2116,7 +2177,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline, .adDaum, #ad_box"
+			"selector": "iframe[src*='ad_rolling.htm'], iframe[src*='adv.imadrep.co.kr'], .ad_box_outline, .adDaum, #ad_box, #adDaum"
 		},
 		"trigger": {
 			"url-filter": "m\\.ohmynews\\.com"
@@ -2179,7 +2240,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adn.inven.co.kr'], div[class*='mobileAdNs'], div[class*='mobileDaNs'], li[id^='cauly_list'], #mobileTailAd_Layer, #mobileTailAd_LayerDummy, iframe[src*='nad1.mklaud.com/ad'], #page > [style='text-align:center;height:50px;']"
+			"selector": "iframe[src*='adn.inven.co.kr'], div[class*='mobileAdNs'], div[class*='mobileDaNs'], li[id^='cauly_list'], #mobileTailAd_Layer, #mobileTailAd_LayerDummy, iframe[src*='nad1.mklaud.com/ad'], #page > [style='text-align:center;height:50px;'], #banTopSlideDown01"
 		},
 		"trigger": {
 			"url-filter": "m\\.inven\\.co\\.kr"
@@ -2242,7 +2303,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
@@ -2251,7 +2312,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#AdLeftPopArea, #banner_adlibr, iframe[src*='adx.naonmedia.net'], iframe[src*='m.isplus.joins.com/news/article/ad'], #testAD, .ad_text, iframe[src*='care-health.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], .ad_wrap"
+			"selector": "#AdLeftPopArea, #banner_adlibr, iframe[src*='adx.naonmedia.net'], iframe[src*='m.isplus.joins.com/news/article/ad'], #testAD, .ad_text, iframe[src*='care-health.co.kr'], iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], .ad_wrap, .ad_floating_box"
 		},
 		"trigger": {
 			"url-filter": "isplus\\.joins\\.com"
@@ -3547,7 +3608,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".wrap_valuepotion, #promotionBnr"
+			"selector": ".wrap_valuepotion, #promotionBnr, #valuepotionBotWrap, .link_bnr"
 		},
 		"trigger": {
 			"url-filter": "m\\.webtoon\\.daum\\.net"
@@ -3628,7 +3689,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle"
+			"selector": ".adsbygoogle, div[style='position:relative; width:0; height:0; left:-930px; top:1500px; z-index:1;'], a[href*='bomtoon.com/comic/ep_view/eating/p1/?p_id=']"
 		},
 		"trigger": {
 			"url-filter": "topstarnews\\.net"
@@ -3779,6 +3840,51 @@
 		},
 		"trigger": {
 			"url-filter": "carlife\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[src^='/banner/'], a[href='/partner_jump.html']"
+		},
+		"trigger": {
+			"url-filter": "torrentkim1\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".header_banner, [id^='banner_']"
+		},
+		"trigger": {
+			"url-filter": "m\\.c1\\.appstory\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adingoFluctOverlay, .adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "pazudora-friend\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".multi-ads-area, .ad"
+		},
+		"trigger": {
+			"url-filter": "pixiv\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#divpop, a[href*='/adz.php?ad='], #s_word a:not(a[href*='/bbs/']), a[href*='linkoooo.com']"
+		},
+		"trigger": {
+			"url-filter": "tcafek\\.com"
 		}
 	}
 ]
