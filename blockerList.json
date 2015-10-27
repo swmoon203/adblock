@@ -3566,7 +3566,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".wrap_valuepotion, #promotionBnr"
+			"selector": ".wrap_valuepotion, #promotionBnr, #valuepotionBotWrap"
 		},
 		"trigger": {
 			"url-filter": "m\\.webtoon\\.daum\\.net"
