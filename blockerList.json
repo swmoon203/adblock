@@ -1925,6 +1925,10 @@
 			"url-filter": "google-analytics\\.com",
 			"load-type": [
 				"third-party"
+			],
+			"unless-domain": [
+				"m.enuri.com",
+				"enuri.com"
 			]
 		}
 	},
