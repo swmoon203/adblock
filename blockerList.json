@@ -1968,6 +1968,36 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "remon\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ad\\.ezday\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ezadsystem\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3893,6 +3923,24 @@
 		},
 		"trigger": {
 			"url-filter": "tcafek\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#divEzdayBannerAD, #divAdamBannerAD, #adshuffle_banner1, iframe[src*='ad.ad'], #divEzadArea, iframe[src*='exttag.about.co.kr'], #_fixedBannerAppInstall"
+		},
+		"trigger": {
+			"url-filter": "m\\.ezday\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".readTopAd, iframe[src^='/public/ad/'], iframe[src*='adexview.new-star.co.kr'], [id^='AD_LIVE_AREA_'], iframe[src*='ad.ad'], .mask_div, .readAd, #SIDE_LEFT_AD, #SIDE_RIGHT_AD, iframe[src*='mncmedia.co.kr'], .rightBnr"
+		},
+		"trigger": {
+			"url-filter": "news\\.tf\\.co\\.kr"
 		}
 	}
 ]
