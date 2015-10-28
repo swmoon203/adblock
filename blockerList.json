@@ -1914,7 +1914,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "lcs\\.naver\\.com"
+			"url-filter": "lcs\\.naver\\.com",
+			"unless-domain": [
+				"m.search.naver.com"
+			]
 		}
 	},
 	{
