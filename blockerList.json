@@ -3933,5 +3933,14 @@
 		"trigger": {
 			"url-filter": "m\\.ezday\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".readTopAd, iframe[src^='/public/ad/'], iframe[src*='adexview.new-star.co.kr'], [id^='AD_LIVE_AREA_'], iframe[src*='ad.ad'], .mask_div, .readAd, #SIDE_LEFT_AD, #SIDE_RIGHT_AD, iframe[src*='mncmedia.co.kr'], .rightBnr"
+		},
+		"trigger": {
+			"url-filter": "news\\.tf\\.co\\.kr"
+		}
 	}
 ]
