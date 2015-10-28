@@ -1916,7 +1916,8 @@
 		"trigger": {
 			"url-filter": "lcs\\.naver\\.com",
 			"unless-domain": [
-				"m.search.naver.com"
+				"m.search.naver.com",
+				"search.naver.com"
 			]
 		}
 	},
