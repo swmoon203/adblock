@@ -1998,6 +1998,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ads\\.jobkorea\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3941,6 +3949,15 @@
 		},
 		"trigger": {
 			"url-filter": "news\\.tf\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#mainPopup, .mainBan, #ban"
+		},
+		"trigger": {
+			"url-filter": "m\\.jobkorea\\.co\\.kr"
 		}
 	}
 ]
