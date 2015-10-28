@@ -3917,7 +3917,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#divEzdayBannerAD, #divAdamBannerAD, #adshuffle_banner1, iframe[src*='ad.ad'], #divEzadArea, iframe[src*='exttag.about.co.kr']"
+			"selector": "#divEzdayBannerAD, #divAdamBannerAD, #adshuffle_banner1, iframe[src*='ad.ad'], #divEzadArea, iframe[src*='exttag.about.co.kr'], #_fixedBannerAppInstall"
 		},
 		"trigger": {
 			"url-filter": "m\\.ezday\\.co\\.kr"
