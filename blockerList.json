@@ -2017,6 +2017,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "dable\\.io",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4029,6 +4040,18 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.fnnews\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='div-gpt-ad-'], iframe[src*='ad4980.kr'], iframe[src*='imadrep.co.kr'], .ad_header, .fn_left_side, .fn_right_side, .fn_right_side2, .fn_ad_part, #bylineaAd1, .fn_news_ad, iframe[src*='dable.io'], .fn_view_bot_ad, div[style='width:970px;margin: 0 auto;padding-bottom:20px;']"
+		},
+		"trigger": {
+			"url-filter": "fnnews\\.com",
+			"unless-domain": [
+				"m.fnnews.com"
+			]
 		}
 	}
 ]
