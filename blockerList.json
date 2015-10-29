@@ -2549,7 +2549,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[class*='ad_list'], ul.ad, .mgt10.only_640un"
+			"selector": "[class*='ad_list'], ul.ad, .mgt10.only_640un, iframe[src*='ad.ad']"
 		},
 		"trigger": {
 			"url-filter": "m\\.mt\\.co\\.kr"
