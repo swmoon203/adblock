@@ -4009,5 +4009,17 @@
 		"trigger": {
 			"url-filter": "m\\.podbbang\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='about.co.kr'], .bnrct, iframe[src*='2beon.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "kmib\\.co\\.kr",
+			"unless-domain": [
+				"m.kmib.co.kr"
+			]
+		}
 	}
 ]
