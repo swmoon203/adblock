@@ -2703,7 +2703,7 @@
 			"selector": ".ad-bottom, .articlein_ad, [id^='div-gpt-ad-'], .ad_box_imad, .ad_box_in"
 		},
 		"trigger": {
-			"url-filter": "m\\.vop\\.co\\.kr"
+			"url-filter": "vop\\.co\\.kr"
 		}
 	},
 	{
