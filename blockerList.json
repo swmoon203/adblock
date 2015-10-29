@@ -3936,6 +3936,15 @@
 	{
 		"action": {
 			"type": "css-display-none",
+			"selector": "#divpop, a[href*='/adz.php?ad='], #s_word a:not(a[href*='/bbs/']), a[href*='linkoooo.com']"
+		},
+		"trigger": {
+			"url-filter": "tcafeon\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
 			"selector": "#divEzdayBannerAD, #divAdamBannerAD, #adshuffle_banner1, iframe[src*='ad.ad'], #divEzadArea, iframe[src*='exttag.about.co.kr'], #_fixedBannerAppInstall"
 		},
 		"trigger": {
