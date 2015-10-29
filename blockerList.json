@@ -2700,7 +2700,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad-bottom, .articlein_ad, [id^='div-gpt-ad-'], .ad_box_imad, .ad_box_in"
+			"selector": ".ad-bottom, .articlein_ad, [id^='div-gpt-ad-'], .ad_box_imad, .ad_box_in, .ad-mobile-article-bottom, [class^='ad_box'], #livere_ad"
 		},
 		"trigger": {
 			"url-filter": "vop\\.co\\.kr"
