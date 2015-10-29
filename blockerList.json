@@ -3977,5 +3977,17 @@
 		"trigger": {
 			"url-filter": "m\\.search\\.naver\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad_section.section._pl_section"
+		},
+		"trigger": {
+			"url-filter": "http://search\\.naver\\.com",
+			"unless-domain": [
+				"m.search.naver.com"
+			]
+		}
 	}
 ]
