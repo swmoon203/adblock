@@ -2132,7 +2132,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div.talk_floating, iframe[src*='widerplanet.com'], #top_AD, #usa_ad, .aside_AD01, iframe[src*='ar.donga.com/RealMedia/ads'], .top_ad01, notice_banner"
+			"selector": "div.talk_floating, iframe[src*='widerplanet.com'], #top_AD, #usa_ad, .aside_AD01, iframe[src*='ar.donga.com/RealMedia/ads'], .top_ad01, .notice_banner"
 		},
 		"trigger": {
 			"url-filter": "news\\.donga\\.com"
