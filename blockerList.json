@@ -2028,6 +2028,28 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adnavi\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "advertising\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
