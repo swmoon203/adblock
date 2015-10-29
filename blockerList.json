@@ -4013,7 +4013,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='about.co.kr'], .bnrct, iframe[src*='2beon.co.kr']"
+			"selector": "iframe[src*='about.co.kr'], .bnrct, iframe[src*='2beon.co.kr'], iframe[src*='ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='mncmedia.co.kr'], div[style='padding-bottom:20px;width:700px;height:150px;'], iframe[src*='kmib.co.kr/cp/realclick/'], div[style='height:250px;margin:0px 0 0;'], div[style='height:150px;margin:5px 0 0;'], div[style='height:250px;margin:5px 0 0;'], div[style='width:210px;height:1px;background:#e1e1e1;margin:15px auto;'], div[style='margin:20px 0 0;'], div[style='margin:5px auto 0;']"
 		},
 		"trigger": {
 			"url-filter": "kmib\\.co\\.kr",
