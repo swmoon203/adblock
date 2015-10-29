@@ -2700,10 +2700,10 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad-bottom, .articlein_ad, [id^='div-gpt-ad-'], .ad_box_imad, .ad_box_in"
+			"selector": ".ad-bottom, .articlein_ad, [id^='div-gpt-ad-'], .ad_box_imad, .ad_box_in, .ad-mobile-article-bottom, [class^='ad_box'], #livere_ad"
 		},
 		"trigger": {
-			"url-filter": "m\\.vop\\.co\\.kr"
+			"url-filter": "vop\\.co\\.kr"
 		}
 	},
 	{
@@ -3967,6 +3967,27 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.jobkorea\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".sc.sp_power"
+		},
+		"trigger": {
+			"url-filter": "m\\.search\\.naver\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad_section.section._pl_section"
+		},
+		"trigger": {
+			"url-filter": "http://search\\.naver\\.com",
+			"unless-domain": [
+				"m.search.naver.com"
+			]
 		}
 	}
 ]
