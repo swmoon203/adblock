@@ -4079,7 +4079,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#right"
+			"selector": "#right, [id^='AD_LIVE_AREA']"
 		},
 		"trigger": {
 			"url-filter": "tosarang2\\.net"
