@@ -4075,5 +4075,14 @@
 				"m.fnnews.com"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#right"
+		},
+		"trigger": {
+			"url-filter": "tosarang2\\.net"
+		}
 	}
 ]
