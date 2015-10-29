@@ -4021,5 +4021,14 @@
 				"m.kmib.co.kr"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='div-gpt-ad-'], iframe[src*='ad4980.kr'], iframe[src*='imadrep.co.kr'], footer br"
+		},
+		"trigger": {
+			"url-filter": "m\\.fnnews\\.com"
+		}
 	}
 ]
