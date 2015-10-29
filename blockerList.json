@@ -3968,5 +3968,14 @@
 		"trigger": {
 			"url-filter": "m\\.jobkorea\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".sc.sp_power"
+		},
+		"trigger": {
+			"url-filter": "m\\.search\\.naver\\.com"
+		}
 	}
 ]
