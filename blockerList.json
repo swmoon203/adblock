@@ -2028,6 +2028,28 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "adnavi\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "advertising\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2110,7 +2132,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div.talk_floating, iframe[src*='widerplanet.com'], #top_AD, #usa_ad, .aside_AD01, iframe[src*='ar.donga.com/RealMedia/ads'], .top_ad01"
+			"selector": "div.talk_floating, iframe[src*='widerplanet.com'], #top_AD, #usa_ad, .aside_AD01, iframe[src*='ar.donga.com/RealMedia/ads'], .top_ad01, .notice_banner"
 		},
 		"trigger": {
 			"url-filter": "news\\.donga\\.com"
@@ -4051,6 +4073,27 @@
 			"url-filter": "fnnews\\.com",
 			"unless-domain": [
 				"m.fnnews.com"
+			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#right, [id^='AD_LIVE_AREA']"
+		},
+		"trigger": {
+			"url-filter": "tosarang2\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#float_banner_right, #subdivpop5"
+		},
+		"trigger": {
+			"url-filter": "busan\\.com",
+			"unless-domain": [
+				"m.busan.com"
 			]
 		}
 	}
