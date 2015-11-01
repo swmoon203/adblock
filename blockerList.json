@@ -4027,13 +4027,10 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".sc.sp_power"
+			"selector": "img.sc.sp_power"
 		},
 		"trigger": {
-			"url-filter": "m\\.search\\.naver\\.com",
-			"unless-domain": [
-				"m.search.naver.com"
-			]
+			"url-filter": "m\\.search\\.naver\\.com"
 		}
 	},
 	{
