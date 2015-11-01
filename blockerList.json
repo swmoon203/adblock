@@ -2050,6 +2050,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "nitmus\\.com",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2663,7 +2674,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#article > div > div[style*='float:right;'], iframe[src*='ra.ntwoad.co.kr'], a[href*='www.mediaeins.co.kr/oneday/m/one_B.php'], iframe[src*='ad.ad'], div[style*='width:320px'][style*='height:50px'], div[style*='width:300px'][style*='height:250px'], div[style*='width:320px'][style*='height:100px'], #sc_ad"
+			"selector": "div#article > div > div[style*='float:right;'], iframe[src*='ra.ntwoad.co.kr'], a[href*='www.mediaeins.co.kr/oneday/m/one_B.php'], iframe[src*='ad.ad'], div[style*='width:320px'][style*='height:50px'], div[style*='width:300px'][style*='height:250px'], div[style*='width:320px'][style*='height:100px'], #sc_ad, div[style='padding:10px 0 10px 0; margin:0 auto; width:300px; height:50px;'], div[style='padding:5px 0 10px 0; margin:0 auto; width:300px; height:50px;'], div[style='padding:10px 0 5px 0; margin:0 auto; width:300px; height:50px;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.busan\\.com"
@@ -4019,7 +4030,10 @@
 			"selector": ".sc.sp_power"
 		},
 		"trigger": {
-			"url-filter": "m\\.search\\.naver\\.com"
+			"url-filter": "m\\.search\\.naver\\.com",
+			"unless-domain": [
+				"m.search.naver.com"
+			]
 		}
 	},
 	{
@@ -4095,6 +4109,15 @@
 			"unless-domain": [
 				"m.busan.com"
 			]
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".w_l_banner, iframe[src*='nitmus.com'], div[style='margin:0 auto; position:relative; top:-20px; width:970px;']"
+		},
+		"trigger": {
+			"url-filter": "namsungbu\\.org"
 		}
 	}
 ]
