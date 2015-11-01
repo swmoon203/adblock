@@ -4030,7 +4030,10 @@
 			"selector": ".sc.sp_power"
 		},
 		"trigger": {
-			"url-filter": "m\\.search\\.naver\\.com"
+			"url-filter": "m\\.search\\.naver\\.com",
+			"unless-domain": [
+				"m.search.naver.com"
+			]
 		}
 	},
 	{
