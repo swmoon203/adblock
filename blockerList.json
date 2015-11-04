@@ -13,7 +13,7 @@
 			"selector": "#not_working"
 		},
 		"trigger": {
-			"url-filter": "adblock\\.smoon\\.kr/demo\\.html"
+			"url-filter": "adblock\\.smoon\\.kr/demo"
 		}
 	},
 	{
