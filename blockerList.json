@@ -112,7 +112,8 @@
 			"unless-domain": [
 				"youtube.com",
 				"www.youtube.com",
-				"m.youtube.com"
+				"m.youtube.com",
+				"www.dailymotion.com"
 			]
 		}
 	},
