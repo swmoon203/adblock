@@ -4210,5 +4210,17 @@
 		"trigger": {
 			"url-filter": "g-enews\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#news_banner, #ad250, .adsbygoogle, body > table[width='1001'], iframe[src*='dreamsearch.or.kr'], #asideBannerR, iframe[src*='imadrep.co.kr'], table tbody table tbody > tr[height='90'], #adBanner, .daum_ddn_area, [id^='aswift_'], #wp_adbn_31, td[style='padding-top:10px;'][valign='top'], div[style='width:250px;height:240px;'], div[style='width:250px;height:250px;'], div[style='width:250px;height:220px;'], iframe[src*='ad.ad'], div[style='width:250px;height:285px;'], div[style='width:560px;height:135px;']"
+		},
+		"trigger": {
+			"url-filter": "newsen\\.com",
+			"unless-domain": [
+				"m.newsen.com"
+			]
+		}
 	}
 ]
