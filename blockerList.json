@@ -4201,5 +4201,14 @@
 		"trigger": {
 			"url-filter": "m\\.imbc\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='newscloud.or.kr'], .banner, iframe[src*='ad.ad'], iframe[src*='imadrep.co.kr'], iframe[src*='mklaud.com'], iframe[src*='dreamsearch.or.kr']"
+		},
+		"trigger": {
+			"url-filter": "g-enews\\.com"
+		}
 	}
 ]
