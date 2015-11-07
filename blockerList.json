@@ -4141,5 +4141,14 @@
 		"trigger": {
 			"url-filter": "drama777\\.info"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "a[href*='vegadisk.com/?p_id=xardas']"
+		},
+		"trigger": {
+			"url-filter": "m\\.torrentlee\\.com"
+		}
 	}
 ]
