@@ -2112,6 +2112,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "hoonnamcast\\.com/ad_"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4241,6 +4249,15 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.kin\\.naver\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src^='/ad_'], .ad_m1, .ad_90p, #mobile_ad, #main_ad3, .ad_m6, [class^='ad_'], iframe[src*='widerplanet.com'], .ad2"
+		},
+		"trigger": {
+			"url-filter": "hoonnamcast\\.com"
 		}
 	}
 ]
