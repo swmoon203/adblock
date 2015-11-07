@@ -112,7 +112,8 @@
 			"unless-domain": [
 				"youtube.com",
 				"www.youtube.com",
-				"m.youtube.com"
+				"m.youtube.com",
+				"joovideo.net"
 			]
 		}
 	},
@@ -2045,9 +2046,6 @@
 			"url-filter": "advertising\\.com",
 			"load-type": [
 				"third-party"
-			],
-			"unless-domain": [
-				"joovideo.net"
 			]
 		}
 	},
