@@ -278,9 +278,6 @@
 			"url-filter": "criteo\\.com",
 			"load-type": [
 				"third-party"
-			],
-			"unless-domain": [
-				"joovideo.net"
 			]
 		}
 	},
@@ -2048,6 +2045,9 @@
 			"url-filter": "advertising\\.com",
 			"load-type": [
 				"third-party"
+			],
+			"unless-domain": [
+				"joovideo.net"
 			]
 		}
 	},
