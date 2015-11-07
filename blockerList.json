@@ -4136,7 +4136,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='clickmon.co.kr, iframe[src*='drama777.info/ad']"
+			"selector": "iframe[src*='clickmon.co.kr'], iframe[src*='drama777.info/ad']"
 		},
 		"trigger": {
 			"url-filter": "drama777\\.info"
