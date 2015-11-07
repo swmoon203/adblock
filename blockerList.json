@@ -3850,7 +3850,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle, .bxbanner_single, .adbannerWrap"
+			"selector": ".adsbygoogle, .bxbanner_single, .adbannerWrap, .adWrap"
 		},
 		"trigger": {
 			"url-filter": "ddanzi\\.com"
