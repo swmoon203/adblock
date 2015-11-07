@@ -2077,6 +2077,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "globaleconomic\\.co\\.kr/banner"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4158,6 +4166,15 @@
 		},
 		"trigger": {
 			"url-filter": "oeker\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "div[style='clear:both;height: 28px;overflow: hidden;margin-left:9px;'], .banner, iframe[src*='ad.ad'], iframe[src*='contentlink.co.kr'], iframe[src*='realclick.co.kr'], iframe[src*='imadrep.co.kr'], iframe[src*='mklaud.com'], #_2BEONRILLLLLF, iframe[src*='globaleconomic.co.kr/banner'], a[href='{$strLinkUrl}']"
+		},
+		"trigger": {
+			"url-filter": "m\\.g-enews\\.com"
 		}
 	}
 ]
