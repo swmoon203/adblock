@@ -2970,7 +2970,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad']"
+			"selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad'], #box2"
 		},
 		"trigger": {
 			"url-filter": "onairkorean\\.tv"
