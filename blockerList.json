@@ -3632,7 +3632,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#ad_Banner, #ad_Banner_type_left, #top_ads, iframe[src*='care-health.co.kr'], div[style*='float:right;'], #ad_newsVeiw_Bottom, iframe[src*='imadrep.co.kr'], iframe[src*='topclick.emato.net'], #Adv_bottom, iframe[src*='longkeyone.co.kr'], iframe[src*='mklaud.com'], [id^='ad_layer'], .news_home > div.box, #bottom_adv"
+			"selector": "#ad_Banner, #ad_Banner_type_left, #top_ads, iframe[src*='care-health.co.kr'], div[style*='float:right;'], #ad_newsVeiw_Bottom, iframe[src*='imadrep.co.kr'], iframe[src*='topclick.emato.net'], #Adv_bottom, iframe[src*='longkeyone.co.kr'], iframe[src*='mklaud.com'], [id^='ad_layer'], .news_home > div.box, #bottom_adv, iframe[src*='naonmedia.net'], div[style='height: 67px; background-color: rgb(242, 242, 242); overflow: hidden; width: 49%;'], div[style='color:RGB(65,95,201);font-weight:bold;font-size:16px;margin:10px;margin-top:0px;height:30px;line-height:50px;'], div.box[style='margin-bottom: 0px; width: 49%;'], div.box[style='padding-top: 10px; margin-top: 0px; width: 49%;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.kormedi\\.com"
