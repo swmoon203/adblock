@@ -4115,5 +4115,14 @@
 		"trigger": {
 			"url-filter": "namsungbu\\.org"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".hd-ad-top, iframe[src*='ads.imbc.com'], #imbcAdRight, #rectangle_banner, #rectangle_banner1"
+		},
+		"trigger": {
+			"url-filter": "imbc\\.com"
+		}
 	}
 ]
