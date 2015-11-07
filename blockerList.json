@@ -4150,5 +4150,14 @@
 		"trigger": {
 			"url-filter": "m\\.torrentlee\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#g4m_content > a[href^='/m/bbs/board.php?bo_table=SNB'], .criteo_banner2, iframe[src*='criteo.com']"
+		},
+		"trigger": {
+			"url-filter": "oeker\\.net"
+		}
 	}
 ]
