@@ -4176,5 +4176,14 @@
 		"trigger": {
 			"url-filter": "m\\.g-enews\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".maintop-mobile, .pro-banner"
+		},
+		"trigger": {
+			"url-filter": "m\\.imbc\\.com"
+		}
 	}
 ]
