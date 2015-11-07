@@ -1557,6 +1557,9 @@
 			"url-filter": "scorecardresearch\\.com",
 			"load-type": [
 				"third-party"
+			],
+			"unless-domain": [
+				"www.dailymotion.com"
 			]
 		}
 	},
