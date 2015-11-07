@@ -2069,6 +2069,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "drama777\\.info/ad"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4123,6 +4131,15 @@
 		},
 		"trigger": {
 			"url-filter": "imbc\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='clickmon.co.kr, iframe[src*='drama777.info/ad']"
+		},
+		"trigger": {
+			"url-filter": "drama777\\.info"
 		}
 	}
 ]
