@@ -112,8 +112,7 @@
 			"unless-domain": [
 				"youtube.com",
 				"www.youtube.com",
-				"m.youtube.com",
-				"dailymotion.com"
+				"m.youtube.com"
 			]
 		}
 	},
@@ -2046,6 +2045,9 @@
 			"url-filter": "advertising\\.com",
 			"load-type": [
 				"third-party"
+			],
+			"unless-domain": [
+				"www.dailymotion.com"
 			]
 		}
 	},
