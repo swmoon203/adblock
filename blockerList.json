@@ -4259,5 +4259,14 @@
 		"trigger": {
 			"url-filter": "hoonnamcast\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".banner_recommend_post"
+		},
+		"trigger": {
+			"url-filter": "post\\.naver\\.com"
+		}
 	}
 ]
