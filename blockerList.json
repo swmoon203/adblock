@@ -4222,5 +4222,14 @@
 				"m.newsen.com"
 			]
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".section_powerlink, #adContextMobile"
+		},
+		"trigger": {
+			"url-filter": "m\\.kin\\.naver\\.com"
+		}
 	}
 ]
