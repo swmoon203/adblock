@@ -2101,6 +2101,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "reople\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2669,7 +2680,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".sv_banner, [class^='add_']:not(.add_lst)"
+			"selector": ".sv_banner, [class^='add_']:not(.add_lst), .shop_wrap2, .more_news, iframe[src*='reople.co.kr']"
 		},
 		"trigger": {
 			"url-filter": "m\\.asiae\\.co\\.kr"
