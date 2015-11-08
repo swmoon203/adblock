@@ -4292,5 +4292,14 @@
 		"trigger": {
 			"url-filter": "post\\.naver\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='gamefocus.co.kr/realad/']"
+		},
+		"trigger": {
+			"url-filter": "gamefocus\\.co\\.kr"
+		}
 	}
 ]
