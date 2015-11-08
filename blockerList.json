@@ -2442,7 +2442,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adv.etnews.com'], .inlineAdBanner, .adsbygoogle, iframe[src*='ad.ad'], iframe[src*='www.etnews.com/tools/refresh_script.html'], iframe[src*='plugin.2beon.co.kr/iframe/'], #facebook_main, #adtouchbox, "
+			"selector": "iframe[src*='adv.etnews.com'], .inlineAdBanner, .adsbygoogle, iframe[src*='ad.ad'], iframe[src*='www.etnews.com/tools/refresh_script.html'], iframe[src*='plugin.2beon.co.kr/iframe/'], #facebook_main, #adtouchbox"
 		},
 		"trigger": {
 			"url-filter": "m\\.etnews\\.com"
