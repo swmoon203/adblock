@@ -2056,7 +2056,8 @@
 				"third-party"
 			],
 			"unless-domain": [
-				"www.dailymotion.com"
+				"www.dailymotion.com",
+				"joovideo.net"
 			]
 		}
 	},
