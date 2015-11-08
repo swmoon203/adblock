@@ -158,6 +158,9 @@
 			"url-filter": "realclick\\.co\\.kr",
 			"load-type": [
 				"third-party"
+			],
+			"unless-domain": [
+				"joovideo.net"
 			]
 		}
 	},
