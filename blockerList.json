@@ -4374,5 +4374,14 @@
 		"trigger": {
 			"url-filter": "imnews\\.imbc\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adArea, #bottomBanner, .bottomBanner, .banner"
+		},
+		"trigger": {
+			"url-filter": "avsnoop\\.com"
+		}
 	}
 ]
