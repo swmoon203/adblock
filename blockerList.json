@@ -4357,5 +4357,14 @@
 		"trigger": {
 			"url-filter": "ajunews\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".m-ad"
+		},
+		"trigger": {
+			"url-filter": "imnews\\.imbc\\.com"
+		}
 	}
 ]
