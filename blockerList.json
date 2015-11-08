@@ -4339,5 +4339,14 @@
 		"trigger": {
 			"url-filter": "rarbg\\.to"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#logo1230"
+		},
+		"trigger": {
+			"url-filter": "joovideo\\.net"
+		}
 	}
 ]
