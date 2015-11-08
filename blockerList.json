@@ -2471,7 +2471,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget'], img[src*='mangaumaru.com/wp-content/uploads/2015/10/advertise.gif']"
+			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget'], img[src$='advertise.gif'], .EzAdsWidget, #secondary"
 		},
 		"trigger": {
 			"url-filter": "www\\.mangaumaru\\.com"
