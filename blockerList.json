@@ -4348,5 +4348,14 @@
 		"trigger": {
 			"url-filter": "joovideo\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='imadrep.co.kr'], iframe[src*='newscloud.or.kr'], #articleBody > div[style*='float:right;'], iframe[src*='realclick.co.kr'], .btm_hori_ads, iframe[src*='dreamsearch.or.kr'], iframe[src*='sndkorea.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "ajunews\\.com"
+		}
 	}
 ]
