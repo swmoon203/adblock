@@ -4391,5 +4391,14 @@
 		"trigger": {
 			"url-filter": "avsnoop\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".sub_banner_element"
+		},
+		"trigger": {
+			"url-filter": "playwares\\.com"
+		}
 	}
 ]
