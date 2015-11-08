@@ -2189,6 +2189,17 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "tpmn\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4399,6 +4410,15 @@
 		},
 		"trigger": {
 			"url-filter": "playwares\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".banner_bottom, iframe[src*='tpmn.co.kr'], .banner_left, .banner_popup, .banner_top, .adsbygoogle, div[style='clear:both;position:relative;width:336px;height:280px;margin:15px auto;']"
+		},
+		"trigger": {
+			"url-filter": "faceind\\.net"
 		}
 	}
 ]
