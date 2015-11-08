@@ -2163,6 +2163,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "dyncdn\\.me/static/iframe_details\\.html"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4319,6 +4327,15 @@
 		},
 		"trigger": {
 			"url-filter": "gamefocus\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='dyncdn.me/static/iframe_details.html']"
+		},
+		"trigger": {
+			"url-filter": "rarbg\\.to"
 		}
 	}
 ]
