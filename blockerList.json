@@ -2489,7 +2489,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat, iframe[src*='clickmon.co.kr'], #responsive-banner"
+			"selector": ".adv, .mobfloat, iframe[src*='clickmon.co.kr'], #responsive-banner, .banner_cont"
 		},
 		"trigger": {
 			"url-filter": "marumaru\\.in"
