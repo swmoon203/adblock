@@ -2098,7 +2098,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "http://adf\\.ly"
+			"url-filter": "http://adf\\.ly",
+			"load-type": [
+				"third-party"
+			]
 		}
 	},
 	{
