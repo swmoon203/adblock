@@ -2098,7 +2098,10 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "http://adf\\.ly"
+			"url-filter": "http://adf\\.ly",
+			"load-type": [
+				"third-party"
+			]
 		}
 	},
 	{
@@ -2169,6 +2172,33 @@
 		},
 		"trigger": {
 			"url-filter": "dyncdn\\.me/static/iframe_details\\.html"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "http://tenping\\.kr/scripts/adsbytenping\\.min\\.js"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "etnews\\.com/tools/refresh_script\\.html"
+		}
+	},
+	{
+		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "tpmn\\.co\\.kr",
+			"load-type": [
+				"third-party"
+			]
 		}
 	},
 	{
@@ -2426,7 +2456,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adv.etnews.com'], .inlineAdBanner, .adsbygoogle, iframe[src*='ad.ad'], iframe[src*='www.etnews.com/tools/refresh_script.html'], iframe[src*='plugin.2beon.co.kr/iframe/'], #facebook_main, #adtouchbox, "
+			"selector": "iframe[src*='adv.etnews.com'], .inlineAdBanner, .adsbygoogle, iframe[src*='ad.ad'], iframe[src*='www.etnews.com/tools/refresh_script.html'], iframe[src*='plugin.2beon.co.kr/iframe/'], #facebook_main, #adtouchbox"
 		},
 		"trigger": {
 			"url-filter": "m\\.etnews\\.com"
@@ -2462,7 +2492,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat, iframe[src*='clickmon.co.kr'], #responsive-banner"
+			"selector": ".adv, .mobfloat, iframe[src*='clickmon.co.kr'], #responsive-banner, .banner_cont"
 		},
 		"trigger": {
 			"url-filter": "marumaru\\.in"
@@ -2471,7 +2501,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget'], img[src*='mangaumaru.com/wp-content/uploads/2015/10/advertise.gif']"
+			"selector": ".adv, .mobfloat, .ezAdsense, #fbanner, [id*='ezadswidget'], img[src$='advertise.gif'], .EzAdsWidget, #secondary"
 		},
 		"trigger": {
 			"url-filter": "www\\.mangaumaru\\.com"
@@ -2552,7 +2582,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "a[href*='19mall.kr'], .widget-basic-post-banner-carousel, .idx-sidebox > div[style*='height:100'], .idx-sidebox > div[style*='height:250px'], div.idx-sidebox[style='margin-top:5px;']"
+			"selector": "a[href*='19mall.kr'], .widget-basic-post-banner-carousel, .idx-sidebox > div[style*='height:100'], .idx-sidebox > div[style*='height:250px'], div.idx-sidebox[style='margin-top:5px;'], div[style='border:1px solid #e9e9e9; text-align:center;margin-bottom:10px;'], iframe[src*='banner.todown.net'], div[style='width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:5px;'], div[style='width:100%; height:250px; line-height:280px; text-align:center; background:#f5f5f5;margin-bottom:30px;']"
 		},
 		"trigger": {
 			"url-filter": "todown\\.net"
@@ -3875,7 +3905,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='clickmon.co.kr'], div[style='text-align: center;']"
+			"selector": "iframe[src*='clickmon.co.kr'], div[style='text-align: center;'], div[style='HEIGHT: 50px; POSITION: fixed; Z-INDEX: 1; WIDTH: 320px; BOTTOM: 10px'], a[href='http://goo.gl/svrxvb'], a[href*='http://goo.gl/'][target='blank']"
 		},
 		"trigger": {
 			"url-filter": "macguyver\\.kr"
@@ -4347,6 +4377,51 @@
 		},
 		"trigger": {
 			"url-filter": "joovideo\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='imadrep.co.kr'], iframe[src*='newscloud.or.kr'], #articleBody > div[style*='float:right;'], iframe[src*='realclick.co.kr'], .btm_hori_ads, iframe[src*='dreamsearch.or.kr'], iframe[src*='sndkorea.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "ajunews\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".m-ad"
+		},
+		"trigger": {
+			"url-filter": "imnews\\.imbc\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adArea, #bottomBanner, .bottomBanner, .banner"
+		},
+		"trigger": {
+			"url-filter": "avsnoop\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".sub_banner_element"
+		},
+		"trigger": {
+			"url-filter": "playwares\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".banner_bottom, iframe[src*='tpmn.co.kr'], .banner_left, .banner_popup, .banner_top, .adsbygoogle, div[style='clear:both;position:relative;width:336px;height:280px;margin:15px auto;']"
+		},
+		"trigger": {
+			"url-filter": "faceind\\.net"
 		}
 	}
 ]
