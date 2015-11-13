@@ -4423,5 +4423,14 @@
 		"trigger": {
 			"url-filter": "faceind\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='width:150px;height:150px;float:right;margin:10px 0 10px 10px;'], IFRAME[src='http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html'], LI[style='height: 19px; padding: 0px 10px 6px 0px; opacity: 1;'], .banner_bottom_belt, #dablewidget_qAlmQPl1, .txt_fullbox, DIV[style='margin:12px 0 0 3px;'], .txt_padding_box, .a_left_btn"
+		},
+		"trigger": {
+			"url-filter": "m\\.news1\\.kr"
+		}
 	}
 ]
