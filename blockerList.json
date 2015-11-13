@@ -4432,5 +4432,14 @@
 		"trigger": {
 			"url-filter": "m\\.news1\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#leftBannerFront, #middleTopBanner, #browseLBMiddle5, A[href='https://ArmadaTrice.lnk.to/VLLSNothingToLoseTSE'], #browseLBMiddle10"
+		},
+		"trigger": {
+			"url-filter": "www\\.1001tracklists\\.com"
+		}
 	}
 ]
