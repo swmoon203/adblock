@@ -4436,7 +4436,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#leftBannerFront, #middleTopBanner, #browseLBMiddle5, A[href='https://ArmadaTrice.lnk.to/VLLSNothingToLoseTSE'], #browseLBMiddle10"
+			"selector": "#leftBannerFront, #middleTopBanner, #browseLBMiddle5, A[href='https://ArmadaTrice.lnk.to/VLLSNothingToLoseTSE'], #browseLBMiddle10, #fpRightBanner"
 		},
 		"trigger": {
 			"url-filter": "www\\.1001tracklists\\.com"
