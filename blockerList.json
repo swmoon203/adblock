@@ -4454,7 +4454,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "DIV[style='padding-top: 10px; text-align: center; opacity: 0.7047520677921233;']"
+			"selector": "DIV[style='padding-top: 10px; text-align: center; opacity: 0.7047520677921233;'], DIV[style='padding-top:10px;text-align:center;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.ppomppu\\.co\\.kr"
