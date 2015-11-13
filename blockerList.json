@@ -4445,7 +4445,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "DIV[style='position:fixed;bottom:0;left:0;right:0;margin:auto;z-index:1'], DIV[style='margin-top:10px; margin-bottom:10px;'], .boder_box.banner_event_box, [id^='div-gpt-ad'], DIV[style='text-align:center;']"
+			"selector": "DIV[style='position:fixed;bottom:0;left:0;right:0;margin:auto;z-index:1'], DIV[style='margin-top:10px; margin-bottom:10px;'], .boder_box.banner_event_box, [id^='div-gpt-ad'], DIV[style='text-align:center;'], P[style='margin-top:40px;margin-bottom:40px;'], DIV[style='display: inline-block; width: 300px; height: 250px;'], DIV[style='text-align:center; margin-bottom:10px;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.spotvnews\\.co\\.kr"
