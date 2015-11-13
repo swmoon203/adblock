@@ -4061,7 +4061,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "a[href*='zzamtoon.com/event/banner']"
+			"selector": "a[href*='zzamtoon.com/event/banner'], #mask, IFRAME[src*='ntwoad.co.kr'], DIV[style='clear:both;width:100%;position:relative;'], #ara_ILS5645d6c54824d72975, IFRAME[src*='mklaud.com'], #ilsframe, #ara_ILS5645d6e173ab580365, #ara_ILS5645d70b9ec4339609, .text-center"
 		},
 		"trigger": {
 			"url-filter": "goodvideo\\.co\\.kr"
