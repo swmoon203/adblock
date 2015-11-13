@@ -3203,7 +3203,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[class='webAdArr'], img[src*='www.kyeongin.com/mnt/webdata/ad/']"
+			"selector": "[class='webAdArr'], img[src*='www.kyeongin.com/mnt/webdata/ad/'], IFRAME[src*='ad.ad'], #mobitree, .mViewAd04, .mViewAd05"
 		},
 		"trigger": {
 			"url-filter": "m\\.kyeongin\\.com"
