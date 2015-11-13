@@ -2348,7 +2348,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div[id*='AD_LIVE_AREA'], iframe[src*='mbad.lumieyes.com'], div[style*='float:right'][style*='width'][style*='height'], .m_atl2, div > div[class^='ad'], iframe[src*='ad.adinc.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='nad1.mklaud.com/ad'], aticle > div:not(.atl), iframe[src*='ad.ad4989.co.kr'], #caulyad"
+			"selector": "div[id*='AD_LIVE_AREA'], iframe[src*='mbad.lumieyes.com'], div[style*='float:right'][style*='width'][style*='height'], .m_atl2, div > div[class^='ad'], iframe[src*='ad.adinc.kr'], iframe[src*='nws.lumieyes.com'], iframe[src*='nad1.mklaud.com/ad'], aticle > div:not(.atl), iframe[src*='ad.ad4989.co.kr'], #caulyad, A[href='/event/unsin/intropage_0309.htm'], IFRAME[src*='ad.reople.co.kr'], DIV[style='height:110px;'], DIV[style='height:150px;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.sportschosun\\.com"
