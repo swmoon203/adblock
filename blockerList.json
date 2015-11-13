@@ -4459,5 +4459,14 @@
 		"trigger": {
 			"url-filter": "m\\.ppomppu\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#html_javascript_adder-11, DIV[style='height: 50px']"
+		},
+		"trigger": {
+			"url-filter": "www\\.cnet\\.co\\.kr"
+		}
 	}
 ]
