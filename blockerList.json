@@ -2474,7 +2474,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='sndkorea.co.kr'], #creamArea, iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], iframe[src*='exttag.about.co.kr'], iframe[src*='nws.lumieyes.com/show/media'], iframe[src*='ad.about.co.kr/mad']"
+			"selector": "iframe[src*='sndkorea.co.kr'], #creamArea, iframe[src*='adv.imadrep.co.kr'], iframe[src*='ad.ad'], iframe[src*='exttag.about.co.kr'], iframe[src*='nws.lumieyes.com/show/media'], iframe[src*='ad.about.co.kr/mad'], .hot_click_box, .list_sub_ad, .shoppingbox, DIV[style='text-align:center']"
 		},
 		"trigger": {
 			"url-filter": "m\\.isplus\\.joins\\.com"
