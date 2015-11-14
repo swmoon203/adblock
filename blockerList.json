@@ -4477,5 +4477,14 @@
 		"trigger": {
 			"url-filter": "www\\.wowtv\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href='https://www.netfolder.co.kr/banner/ad_banner.jsp?keyid=dsacxz'], .area_post_footer"
+		},
+		"trigger": {
+			"url-filter": "mrcrack\\.tistory\\.com"
+		}
 	}
 ]
