@@ -4504,5 +4504,14 @@
 		"trigger": {
 			"url-filter": "www\\.82cook\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src*='care-health.co.kr'], #_2BEON3OLLLLLF, #m_320"
+		},
+		"trigger": {
+			"url-filter": "tenasia\\.hankyung\\.com"
+		}
 	}
 ]
