@@ -4495,5 +4495,14 @@
 		"trigger": {
 			"url-filter": "video\\.animoe\\.us"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#mainHeadline, INS[style='display: inline-block; width: 300px; height: 250px;']"
+		},
+		"trigger": {
+			"url-filter": "www\\.82cook\\.com"
+		}
 	}
 ]
