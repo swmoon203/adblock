@@ -4486,5 +4486,14 @@
 		"trigger": {
 			"url-filter": "mrcrack\\.tistory\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#wrap, .mobfloat"
+		},
+		"trigger": {
+			"url-filter": "video\\.animoe\\.us"
+		}
 	}
 ]
