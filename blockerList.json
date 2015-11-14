@@ -4517,7 +4517,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "A[href^='./bbs/banner_link.php'], INS[style='display:inline-block;width:320px;height:100px']"
+			"selector": "A[href^='./bbs/banner_link.php'], INS[style='display:inline-block;width:320px;height:100px'], DIV[style='margin-top:0px;margin-bottom:10px;']"
 		},
 		"trigger": {
 			"url-filter": "www\\.2cpu\\.co\\.kr"
