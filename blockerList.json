@@ -3905,7 +3905,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='clickmon.co.kr'], div[style='text-align: center;'], div[style='HEIGHT: 50px; POSITION: fixed; Z-INDEX: 1; WIDTH: 320px; BOTTOM: 10px'], a[href='http://goo.gl/svrxvb'], a[href*='http://goo.gl/'][target='blank']"
+			"selector": "iframe[src*='clickmon.co.kr'], div[style='text-align: center;'], div[style='HEIGHT: 50px; POSITION: fixed; Z-INDEX: 1; WIDTH: 320px; BOTTOM: 10px'], a[href='http://goo.gl/svrxvb'], a[href*='http://goo.gl/'][target='blank'], .adsbygoogle.my_adslot, A[href^='http://iappletree.blogspot.com'], DIV[style='text-align: right;']"
 		},
 		"trigger": {
 			"url-filter": "macguyver\\.kr"
