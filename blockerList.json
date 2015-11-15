@@ -2960,7 +2960,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".kmib_txbnr, iframe[src*='adx.naonmedia.net'], .mo_bnr, iframe[src*='ad.ad'], iframe[src*='adv.imadrep.co.kr'], .ban, #livere_ad, .css_remon_wiki1, iframe[src*='m.kmib.co.kr/banner/realclick_'], body > div[style='wdith:100%;height:50px;']"
+			"selector": ".kmib_txbnr, iframe[src*='adx.naonmedia.net'], .mo_bnr, iframe[src*='ad.ad'], iframe[src*='adv.imadrep.co.kr'], .ban, #livere_ad, .css_remon_wiki1, iframe[src*='m.kmib.co.kr/banner/realclick_'], body > div[style='wdith:100%;height:50px;'], #a46e94c8, DIV[style='margin:0 auto;text-align:center;overflow:hidden;padding:10px 0;border-bottom:1px solid #ebebeb;'], IFRAME[src*='ntwoad.co.kr'], #SHOWUP, #adMall_popup_00g5"
 		},
 		"trigger": {
 			"url-filter": "m\\.kmib\\.co\\.kr"
@@ -4503,6 +4503,33 @@
 		},
 		"trigger": {
 			"url-filter": "www\\.82cook\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src*='care-health.co.kr'], #_2BEON3OLLLLLF, #m_320"
+		},
+		"trigger": {
+			"url-filter": "tenasia\\.hankyung\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href^='./bbs/banner_link.php'], INS[style='display:inline-block;width:320px;height:100px'], DIV[style='margin-top:0px;margin-bottom:10px;']"
+		},
+		"trigger": {
+			"url-filter": "www\\.2cpu\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='position:absolute; width:400px; height:1500px; top:50px; left:1105px;overflow:hidden;']"
+		},
+		"trigger": {
+			"url-filter": "web\\.hungryapp\\.co\\.kr"
 		}
 	}
 ]
