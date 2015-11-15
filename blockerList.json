@@ -4522,5 +4522,14 @@
 		"trigger": {
 			"url-filter": "www\\.2cpu\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='position:absolute; width:400px; height:1500px; top:50px; left:1105px;overflow:hidden;']"
+		},
+		"trigger": {
+			"url-filter": "web\\.hungryapp\\.co\\.kr"
+		}
 	}
 ]
