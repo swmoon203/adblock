@@ -2888,7 +2888,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".fixed-top, .TopBanner, .banner, .banner_cnt, .Btm-banner, .banner12, [class^='banner']"
+			"selector": ".fixed-top, .TopBanner, .banner, .banner_cnt, .Btm-banner, .banner12, [class^='banner'], .m-main-banner"
 		},
 		"trigger": {
 			"url-filter": "m\\.hungryapp\\.co\\.kr"
