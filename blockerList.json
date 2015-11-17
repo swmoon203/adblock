@@ -4540,5 +4540,14 @@
 		"trigger": {
 			"url-filter": "creamche2se\\.dothome\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src='http://sellcomics.co.kr/james/banner_top.php'], .banner_top, .banner_left_bg, .banner_popup_bg, HTML > BODY > DIV > DIV > DIV > ARTICLE > DIV[style='clear:both;position:relative;width:336px;height:280px;margin:15px auto;'], DIV[style='clear:both;position:relative;width:336px;height:280px;margin:15px auto;'], DIV[style='width:100%;margin:5px auto;'], #banner_nine_block, .banner_realclick"
+		},
+		"trigger": {
+			"url-filter": "bloggag\\.net"
+		}
 	}
 ]
