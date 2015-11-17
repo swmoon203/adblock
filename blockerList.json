@@ -3104,7 +3104,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad'], #box2"
+			"selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad'], #box2, #hd_pops_5, HTML > BODY > DIV > HEADER > CENTER, [id^='ara_ILS564'], A[href*='adyab.co.kr'], HTML > BODY > DIV > DIV > DIV > CENTER > TABLE, IFRAME[src*='widerplanet.com']"
 		},
 		"trigger": {
 			"url-filter": "onairkorean\\.tv"
