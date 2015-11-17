@@ -4549,5 +4549,14 @@
 		"trigger": {
 			"url-filter": "bloggag\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#YSMA64258, #yads_st_nm, #special_banner, #yads_st_smon"
+		},
+		"trigger": {
+			"url-filter": "videotopics\\.yahoo\\.co\\.jp"
+		}
 	}
 ]
