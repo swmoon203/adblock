@@ -4531,5 +4531,14 @@
 		"trigger": {
 			"url-filter": "web\\.hungryapp\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#floatbanner"
+		},
+		"trigger": {
+			"url-filter": "creamche2se\\.dothome\\.co\\.kr"
+		}
 	}
 ]
