@@ -4562,7 +4562,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "TABLE[style='margin:0 0 15px 15px'], .w200.mb10, iframe[title='광고영역'], iframe[src*='news.drapt.com/index_sub.htm'], iframe[src*='drapt.com/_templates/advFrame']"
+			"selector": "TABLE[style='margin:0 0 15px 15px'], .w200.mb10, iframe[src*='news.drapt.com/index_sub.htm'], iframe[src*='drapt.com/_templates/advFrame/topSubRight.htm']"
 		},
 		"trigger": {
 			"url-filter": "www\\.drapt\\.com"
