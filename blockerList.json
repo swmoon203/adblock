@@ -4576,5 +4576,14 @@
 		"trigger": {
 			"url-filter": "m\\.tvnara\\.tv"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#mob_event_banner, #mobile_footer_banner1"
+		},
+		"trigger": {
+			"url-filter": "www\\.filekuki\\.net"
+		}
 	}
 ]
