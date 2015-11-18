@@ -4585,5 +4585,14 @@
 		"trigger": {
 			"url-filter": "www\\.filekuki\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href*='adv-ssvv.com'], HTML > BODY > DIV > DIV > DIV > H1"
+		},
+		"trigger": {
+			"url-filter": "nori\\.19photo\\.net"
+		}
 	}
 ]
