@@ -4567,5 +4567,14 @@
 		"trigger": {
 			"url-filter": "www\\.drapt\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".taobaoimg"
+		},
+		"trigger": {
+			"url-filter": "m\\.tvnara\\.tv"
+		}
 	}
 ]
