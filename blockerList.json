@@ -2888,7 +2888,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".fixed-top, .TopBanner, .banner, .banner_cnt, .Btm-banner, .banner12, [class^='banner']"
+			"selector": ".fixed-top, .TopBanner, .banner, .banner_cnt, .Btm-banner, .banner12, [class^='banner'], .m-main-banner, .pop_banner"
 		},
 		"trigger": {
 			"url-filter": "m\\.hungryapp\\.co\\.kr"
@@ -3104,7 +3104,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad'], #box2"
+			"selector": "iframe[src*='mtab.clickmon.co.kr'], iframe[src*='onairkorean.tv/ad'], #box2, #hd_pops_5, HTML > BODY > DIV > HEADER > CENTER, [id^='ara_ILS564'], A[href*='adyab.co.kr'], HTML > BODY > DIV > DIV > DIV > CENTER > TABLE, IFRAME[src*='widerplanet.com']"
 		},
 		"trigger": {
 			"url-filter": "onairkorean\\.tv"
@@ -3656,7 +3656,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "a[href*='mv.ad.naver.com/adclick'], [data-da^='AD_NEWS_'], [id^='AD_NEWS_']"
+			"selector": "a[href*='mv.ad.naver.com/adclick'], [data-da^='AD_NEWS_'], [id^='AD_NEWS_'], #ad_marketing"
 		},
 		"trigger": {
 			"url-filter": "m\\.naver\\.com"
@@ -4530,6 +4530,33 @@
 		},
 		"trigger": {
 			"url-filter": "web\\.hungryapp\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#floatbanner"
+		},
+		"trigger": {
+			"url-filter": "creamche2se\\.dothome\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src='http://sellcomics.co.kr/james/banner_top.php'], .banner_top, .banner_left_bg, .banner_popup_bg, HTML > BODY > DIV > DIV > DIV > ARTICLE > DIV[style='clear:both;position:relative;width:336px;height:280px;margin:15px auto;'], DIV[style='clear:both;position:relative;width:336px;height:280px;margin:15px auto;'], DIV[style='width:100%;margin:5px auto;'], #banner_nine_block, .banner_realclick"
+		},
+		"trigger": {
+			"url-filter": "bloggag\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#YSMA64258, #yads_st_nm, #special_banner, #yads_st_smon"
+		},
+		"trigger": {
+			"url-filter": "videotopics\\.yahoo\\.co\\.jp"
 		}
 	}
 ]
