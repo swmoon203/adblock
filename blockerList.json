@@ -3656,7 +3656,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "a[href*='mv.ad.naver.com/adclick'], [data-da^='AD_NEWS_'], [id^='AD_NEWS_']"
+			"selector": "a[href*='mv.ad.naver.com/adclick'], [data-da^='AD_NEWS_'], [id^='AD_NEWS_'], #ad_marketing"
 		},
 		"trigger": {
 			"url-filter": "m\\.naver\\.com"
