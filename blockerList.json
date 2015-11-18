@@ -4558,5 +4558,14 @@
 		"trigger": {
 			"url-filter": "videotopics\\.yahoo\\.co\\.jp"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "TABLE[style='margin:0 0 15px 15px'], .w200.mb10"
+		},
+		"trigger": {
+			"url-filter": "www\\.drapt\\.com"
+		}
 	}
 ]
