@@ -4594,5 +4594,14 @@
 		"trigger": {
 			"url-filter": "nori\\.19photo\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".bn_area"
+		},
+		"trigger": {
+			"url-filter": "m\\.yes24\\.com"
+		}
 	}
 ]
