@@ -4558,5 +4558,41 @@
 		"trigger": {
 			"url-filter": "videotopics\\.yahoo\\.co\\.jp"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "TABLE[style='margin:0 0 15px 15px'], .w200.mb10, iframe[src*='news.drapt.com/index_sub.htm'], iframe[src*='drapt.com/_templates/advFrame/topSubRight.htm']"
+		},
+		"trigger": {
+			"url-filter": "www\\.drapt\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".taobaoimg"
+		},
+		"trigger": {
+			"url-filter": "m\\.tvnara\\.tv"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#mob_event_banner, #mobile_footer_banner1"
+		},
+		"trigger": {
+			"url-filter": "www\\.filekuki\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href*='adv-ssvv.com'], HTML > BODY > DIV > DIV > DIV > H1"
+		},
+		"trigger": {
+			"url-filter": "nori\\.19photo\\.net"
+		}
 	}
 ]
