@@ -4621,5 +4621,14 @@
 		"trigger": {
 			"url-filter": "bbs2\\.ruliweb\\.daum\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#daumAd, .bnr_ad"
+		},
+		"trigger": {
+			"url-filter": "m\\.sports\\.media\\.daum\\.net"
+		}
 	}
 ]
