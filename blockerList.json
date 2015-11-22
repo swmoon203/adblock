@@ -971,6 +971,9 @@
 			"url-filter": "newscloud\\.or\\.kr",
 			"load-type": [
 				"third-party"
+			],
+			"unless-domain": [
+				"pressian.wcms.newscloud.or.kr"
 			]
 		}
 	},
