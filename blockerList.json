@@ -4612,5 +4612,14 @@
 		"trigger": {
 			"url-filter": "moa\\.so"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".bnr_mobile"
+		},
+		"trigger": {
+			"url-filter": "bbs2\\.ruliweb\\.daum\\.net"
+		}
 	}
 ]
