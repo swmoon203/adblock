@@ -968,12 +968,9 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "newscloud\\.or\\.kr",
+			"url-filter": "adkpf\\.newscloud\\.or\\.kr",
 			"load-type": [
 				"third-party"
-			],
-			"unless-domain": [
-				"pressian.wcms.newscloud.or.kr"
 			]
 		}
 	},
