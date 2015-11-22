@@ -968,7 +968,7 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "newscloud\\.or\\.kr",
+			"url-filter": "adkpf\\.newscloud\\.or\\.kr",
 			"load-type": [
 				"third-party"
 			]
@@ -4602,6 +4602,33 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.yes24\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href^='http://partner.zzamtoon.com/'], IFRAME[src^='http://adx-exchange.toast.com/'], HTML > BODY > DIV > DIV > DIV > DIV > FORM > CENTER > TABLE"
+		},
+		"trigger": {
+			"url-filter": "moa\\.so"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".bnr_mobile"
+		},
+		"trigger": {
+			"url-filter": "bbs2\\.ruliweb\\.daum\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#daumAd, .bnr_ad"
+		},
+		"trigger": {
+			"url-filter": "m\\.sports\\.media\\.daum\\.net"
 		}
 	}
 ]
