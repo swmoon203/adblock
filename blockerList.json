@@ -4603,5 +4603,14 @@
 		"trigger": {
 			"url-filter": "m\\.yes24\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href^='http://partner.zzamtoon.com/'], IFRAME[src^='http://adx-exchange.toast.com/'], HTML > BODY > DIV > DIV > DIV > DIV > FORM > CENTER > TABLE"
+		},
+		"trigger": {
+			"url-filter": "moa\\.so"
+		}
 	}
 ]
