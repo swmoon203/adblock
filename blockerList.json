@@ -4630,5 +4630,14 @@
 		"trigger": {
 			"url-filter": "m\\.sports\\.media\\.daum\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "HTML > BODY > DIV > TABLE"
+		},
+		"trigger": {
+			"url-filter": "www\\.hunzzang\\.com"
+		}
 	}
 ]
