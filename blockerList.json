@@ -4639,5 +4639,14 @@
 		"trigger": {
 			"url-filter": "www\\.hunzzang\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#editInventoryFrame, #default_main_ad1, #af128f07, SECTION[style='margin-bottom:10px;'], .adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "m\\.motorgraph\\.com"
+		}
 	}
 ]
