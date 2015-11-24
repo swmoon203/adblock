@@ -4648,5 +4648,14 @@
 		"trigger": {
 			"url-filter": "m\\.motorgraph\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".wsj-sticky-error"
+		},
+		"trigger": {
+			"url-filter": "www\\.wsj\\.com"
+		}
 	}
 ]
