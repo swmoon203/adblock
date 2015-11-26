@@ -4657,5 +4657,14 @@
 		"trigger": {
 			"url-filter": "www\\.wsj\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#sp1"
+		},
+		"trigger": {
+			"url-filter": "chan\\.sankakucomplex\\.com"
+		}
 	}
 ]
