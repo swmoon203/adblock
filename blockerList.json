@@ -3059,7 +3059,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='sndkorea.co.kr'], #bottomBannerAdop, .new_ad"
+			"selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='sndkorea.co.kr'], #bottomBannerAdop, .new_ad, #mainAdSlot0_2"
 		},
 		"trigger": {
 			"url-filter": "m\\.mk\\.co\\.kr"
