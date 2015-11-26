@@ -4666,5 +4666,14 @@
 		"trigger": {
 			"url-filter": "chan\\.sankakucomplex\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adopadzone, #close_adopadzone, .right_ad, #ad_2, #aa7558e8, #ad_4"
+		},
+		"trigger": {
+			"url-filter": "m\\.metroseoul\\.co\\.kr"
+		}
 	}
 ]
