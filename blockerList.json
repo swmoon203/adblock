@@ -4675,5 +4675,14 @@
 		"trigger": {
 			"url-filter": "m\\.metroseoul\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='adzerk']"
+		},
+		"trigger": {
+			"url-filter": "stackoverflow\\.com"
+		}
 	}
 ]
