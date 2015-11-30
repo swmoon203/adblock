@@ -2546,7 +2546,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top, a[href*='tvnori.com']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top, a[href*='tvnori.com'], A[href='http://liveg.co.kr/evt/zangsisi'], A[href^='http://partner.zzamtoon.com/']"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
@@ -3059,7 +3059,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='sndkorea.co.kr'], #bottomBannerAdop, .new_ad"
+			"selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='sndkorea.co.kr'], #bottomBannerAdop, .new_ad, #mainAdSlot0_2"
 		},
 		"trigger": {
 			"url-filter": "m\\.mk\\.co\\.kr"
@@ -4142,6 +4142,15 @@
 	{
 		"action": {
 			"type": "css-display-none",
+			"selector": "#divpop, a[href*='/adz.php?ad='], #s_word a:not(a[href*='/bbs/']), a[href*='linkoooo.com']"
+		},
+		"trigger": {
+			"url-filter": "tcafego\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
 			"selector": "#divEzdayBannerAD, #divAdamBannerAD, #adshuffle_banner1, iframe[src*='ad.ad'], #divEzadArea, iframe[src*='exttag.about.co.kr'], #_fixedBannerAppInstall"
 		},
 		"trigger": {
@@ -4629,6 +4638,69 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.sports\\.media\\.daum\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "HTML > BODY > DIV > TABLE"
+		},
+		"trigger": {
+			"url-filter": "www\\.hunzzang\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#editInventoryFrame, #default_main_ad1, #af128f07, SECTION[style='margin-bottom:10px;'], .adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "m\\.motorgraph\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".wsj-sticky-error"
+		},
+		"trigger": {
+			"url-filter": "www\\.wsj\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#sp1"
+		},
+		"trigger": {
+			"url-filter": "chan\\.sankakucomplex\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#adopadzone, #close_adopadzone, .right_ad, #ad_2, #aa7558e8, #ad_4"
+		},
+		"trigger": {
+			"url-filter": "m\\.metroseoul\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "[id^='adzerk']"
+		},
+		"trigger": {
+			"url-filter": "stackoverflow\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "HTML > BODY > DIV > DIV > DIV > DIV > DIV > ARTICLE > SECTION > FIGURE"
+		},
+		"trigger": {
+			"url-filter": "www\\.vg247\\.com"
 		}
 	}
 ]
