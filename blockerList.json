@@ -4702,5 +4702,14 @@
 		"trigger": {
 			"url-filter": "www\\.vg247\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#popup_01, A[href='/ad/ad.php'], A[href*='/ad/moveSite.php'], #logo-ad, A[href='http://www.filejo.com/intro.php?joinid=codys']"
+		},
+		"trigger": {
+			"url-filter": "mixbogo\\.net"
+		}
 	}
 ]
