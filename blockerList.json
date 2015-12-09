@@ -4463,7 +4463,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "DIV[style='padding-top: 10px; text-align: center; opacity: 0.7047520677921233;'], DIV[style='padding-top:10px;text-align:center;']"
+			"selector": "DIV[style='padding-top: 10px; text-align: center; opacity: 0.7047520677921233;'], DIV[style='padding-top:10px;text-align:center;'], #mainList2, .all_list"
 		},
 		"trigger": {
 			"url-filter": "m\\.ppomppu\\.co\\.kr"
@@ -4701,6 +4701,15 @@
 		},
 		"trigger": {
 			"url-filter": "www\\.vg247\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#popup_01, A[href='/ad/ad.php'], A[href*='/ad/moveSite.php'], #logo-ad, A[href='http://www.filejo.com/intro.php?joinid=codys']"
+		},
+		"trigger": {
+			"url-filter": "mixbogo\\.net"
 		}
 	}
 ]
