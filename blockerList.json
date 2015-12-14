@@ -4711,5 +4711,14 @@
 		"trigger": {
 			"url-filter": "mixbogo\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "theqoo\\.net"
+		}
 	}
 ]
