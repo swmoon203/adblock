@@ -4720,5 +4720,14 @@
 		"trigger": {
 			"url-filter": "theqoo\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src*='ad.ad'], .luAD, IFRAME[src='/ad/shopping.html'], .shopAD, #AD_LIVE_AREA_20582914, IFRAME[src='/ad/line_banner.html'], .lineAD, IFRAME[src*='.mklaud.com'], .sboxAD, IFRAME[src*='adexview.new-star.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "www\\.pickis\\.co\\.kr"
+		}
 	}
 ]
