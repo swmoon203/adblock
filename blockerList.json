@@ -2438,7 +2438,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#article_bottom_ad, .ad_area, iframe[src*='adv.khan.co.kr'], #mezzo_ad"
+			"selector": "#article_bottom_ad, .ad_area, iframe[src*='adv.khan.co.kr'], #mezzo_ad, #aswift_0_expand, IFRAME[src^='http://ad.khan.co.kr'], DIV[style='padding-top']"
 		},
 		"trigger": {
 			"url-filter": "m\\.khan\\.co\\.kr"
@@ -2546,7 +2546,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top, a[href*='tvnori.com'], A[href='http://liveg.co.kr/evt/zangsisi'], A[href^='http://partner.zzamtoon.com/']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top, a[href*='tvnori.com'], A[href='http://liveg.co.kr/evt/zangsisi'], A[href^='http://partner.zzamtoon.com/'], A[href*='appsilon.go2cloud.org/aff_c']"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
@@ -3068,7 +3068,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#uad_iframe, #cauly_ad, #realclick_ad"
+			"selector": "#uad_iframe, #cauly_ad, #realclick_ad, IFRAME[src*='m.humoruniv.com/microad_iframe']"
 		},
 		"trigger": {
 			"url-filter": "m\\.humoruniv\\.com"
@@ -4710,6 +4710,24 @@
 		},
 		"trigger": {
 			"url-filter": "mixbogo\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsbygoogle"
+		},
+		"trigger": {
+			"url-filter": "theqoo\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src*='ad.ad'], .luAD, IFRAME[src='/ad/shopping.html'], .shopAD, #AD_LIVE_AREA_20582914, IFRAME[src='/ad/line_banner.html'], .lineAD, IFRAME[src*='.mklaud.com'], .sboxAD, IFRAME[src*='adexview.new-star.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "www\\.pickis\\.co\\.kr"
 		}
 	}
 ]
