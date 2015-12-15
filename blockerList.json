@@ -3068,7 +3068,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#uad_iframe, #cauly_ad, #realclick_ad"
+			"selector": "#uad_iframe, #cauly_ad, #realclick_ad, IFRAME[src*='m.humoruniv.com/microad_iframe']"
 		},
 		"trigger": {
 			"url-filter": "m\\.humoruniv\\.com"
