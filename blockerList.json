@@ -2438,7 +2438,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#article_bottom_ad, .ad_area, iframe[src*='adv.khan.co.kr'], #mezzo_ad, #aswift_0_expand, IFRAME[src^='http://ad.khan.co.kr'], DIV[style='padding-top']"
+			"selector": "#article_bottom_ad, .ad_area, iframe[src*='adv.khan.co.kr'], #mezzo_ad, #aswift_0_expand, IFRAME[src^='http://ad.khan.co.kr'], DIV[style='padding-top'], .ad_main_txt.newskhan, .ad_criteo_wrap"
 		},
 		"trigger": {
 			"url-filter": "m\\.khan\\.co\\.kr"
