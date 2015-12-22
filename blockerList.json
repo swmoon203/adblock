@@ -4729,5 +4729,14 @@
 		"trigger": {
 			"url-filter": "www\\.pickis\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".mobile-ad-wrapper, .ad-wrapper, .advertisement"
+		},
+		"trigger": {
+			"url-filter": "digiday\\.com"
+		}
 	}
 ]
