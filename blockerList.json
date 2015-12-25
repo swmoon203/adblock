@@ -4738,5 +4738,14 @@
 		"trigger": {
 			"url-filter": "digiday\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#popup, [class^='left_ad'], .ad_left, .ad_right, #public-header > TABLE > TBODY > TR > TD > a[href^='http'], #ifrad, a[href*='nolzzang.com']"
+		},
+		"trigger": {
+			"url-filter": "www\\.tfreecab\\.com"
+		}
 	}
 ]
