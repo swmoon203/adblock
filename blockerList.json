@@ -4747,5 +4747,14 @@
 		"trigger": {
 			"url-filter": "www\\.tfreecab\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href*='pstpartner.co.kr'], IFRAME[src^='http://cas.criteo.com'], IFRAME[src*='imadrep.co.kr'], IFRAME[src*='ntwoad.co.kr'], IFRAME[src*='im-pact.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "im-pact\\.co\\.kr"
+		}
 	}
 ]
