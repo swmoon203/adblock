@@ -3059,7 +3059,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='sndkorea.co.kr'], #bottomBannerAdop, iframe[id^='mainAdSlot'], iframe[src*='index_ad.mk']"
+			"selector": "#top_banner, #img_link, [alt='광고'], [id^='banner'], iframe[src*='m.mk.co.kr/sports/banner'], iframe[src*='adin.ad4980.kr'], iframe[src*='ad.ad'], iframe[src*='a1.dp25.kr'], iframe[src*='plugin.2beon.co.kr/iframe'], [id^='div-gpt-ad-'], iframe[src*='sndkorea.co.kr'], #bottomBannerAdop, iframe[id^='mainAdSlot'], iframe[src*='index_ad.mk'], #google_dfp_TC, IFRAME[src*='googlesyndication.com'], HTML > BODY > DIV > DIV > DIV > DIV > DIV > DIV > DIV > SECTION > DIV > DIV > DIV > DIV > DIV > DIV > DIV[style='text-align:center; border:0; width:100%'], #google_dfp_321x50,321x75,321x100, HTML > BODY > DIV > DIV > DIV > DIV > DIV[style='text-align:center; border:0; width:100%'], HTML > BODY > DIV > DIV > DIV > DIV > DIV > DIV > DIV > SECTION > DIV > DIV > DIV[style='text-align:center; border:0; width:100%'], #google_dfp_BC, #google_dfp_BC2"
 		},
 		"trigger": {
 			"url-filter": "m\\.mk\\.co\\.kr"
