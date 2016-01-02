@@ -4810,5 +4810,14 @@
 		"trigger": {
 			"url-filter": "m\\.ggmee\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".tq_div, #mobile_welcome_banner_inner, #banner_bg"
+		},
+		"trigger": {
+			"url-filter": "www\\.itworld\\.co\\.kr"
+		}
 	}
 ]
