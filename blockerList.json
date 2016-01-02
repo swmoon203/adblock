@@ -2203,6 +2203,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ads\\.shorte\\.st"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -2276,7 +2284,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div[id*='banner'], .ad, #innerBigBanner, .adlink"
+			"selector": "div[id*='banner'], .ad, #innerBigBanner, .adlink, #mainBanner, #zone_band_ad_top, #DASlot826, .ad_h100.band_ad_middle, .ad_h100.band_ad_bottom"
 		},
 		"trigger": {
 			"url-filter": "mnews\\.joins\\.com"
@@ -4755,6 +4763,123 @@
 		},
 		"trigger": {
 			"url-filter": "im-pact\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adm"
+		},
+		"trigger": {
+			"url-filter": "megalian\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#right-floating-ad, .ad-box"
+		},
+		"trigger": {
+			"url-filter": "jp2kr\\.manaa\\.space"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src^='/_ads/']"
+		},
+		"trigger": {
+			"url-filter": "dramainfinity\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#mob_event_banner, #mobile_footer_banner"
+		},
+		"trigger": {
+			"url-filter": "m\\.filekuki\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#editInventoryFrame, #default_setImage2"
+		},
+		"trigger": {
+			"url-filter": "m\\.seoulfn\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".tbn, .bbn, .lybn"
+		},
+		"trigger": {
+			"url-filter": "m\\.ggmee\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".tq_div, #mobile_welcome_banner_inner, #banner_bg"
+		},
+		"trigger": {
+			"url-filter": "www\\.itworld\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".footer-inside, .footer"
+		},
+		"trigger": {
+			"url-filter": "sh\\.st"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src^='http://outbanner.hu.co.kr/'], #nav2 nav > center, DIV[style='padding-top:5px; width:100%; height:270px;']"
+		},
+		"trigger": {
+			"url-filter": "m\\.dt\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='text-align: center;min-height: 40px;padding-left: 0; padding-right: 0;'], DIV[style='margin-bottom: 5px;min-height: 40px;text-align: center;padding-left: 0; padding-right: 0;']"
+		},
+		"trigger": {
+			"url-filter": "popcoming\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='width:100%; height:50px; border-bottom:1px solid #d0d0d0;'], DIV[style='width:100%; text-align:center; height:90px;']"
+		},
+		"trigger": {
+			"url-filter": "m\\.wikitree\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad-top-wrap, .list-ad, .ad-wrap-foot"
+		},
+		"trigger": {
+			"url-filter": "hongikin\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#hd_pop, A[href='http://www.blockmoll.com/']"
+		},
+		"trigger": {
+			"url-filter": "www\\.onenable\\.net"
 		}
 	}
 ]
