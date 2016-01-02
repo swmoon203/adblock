@@ -4854,5 +4854,14 @@
 		"trigger": {
 			"url-filter": "popcoming\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='width:100%; height:50px; border-bottom:1px solid #d0d0d0;'], DIV[style='width:100%; text-align:center; height:90px;']"
+		},
+		"trigger": {
+			"url-filter": "m\\.wikitree\\.co\\.kr"
+		}
 	}
 ]
