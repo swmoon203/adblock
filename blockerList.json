@@ -4863,5 +4863,14 @@
 		"trigger": {
 			"url-filter": "m\\.wikitree\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ad-top-wrap, .list-ad, .ad-wrap-foot"
+		},
+		"trigger": {
+			"url-filter": "hongikin\\.com"
+		}
 	}
 ]
