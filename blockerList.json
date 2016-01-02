@@ -2276,7 +2276,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div[id*='banner'], .ad, #innerBigBanner, .adlink"
+			"selector": "div[id*='banner'], .ad, #innerBigBanner, .adlink, #mainBanner, #zone_band_ad_top, #DASlot826, .ad_h100.band_ad_middle, .ad_h100.band_ad_bottom"
 		},
 		"trigger": {
 			"url-filter": "mnews\\.joins\\.com"
