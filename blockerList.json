@@ -4836,5 +4836,14 @@
 		"trigger": {
 			"url-filter": "sh\\.st"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src^='http://outbanner.hu.co.kr/'], #nav2 nav > center, DIV[style='padding-top:5px; width:100%; height:270px;']"
+		},
+		"trigger": {
+			"url-filter": "m\\.dt\\.co\\.kr"
+		}
 	}
 ]
