@@ -4756,5 +4756,14 @@
 		"trigger": {
 			"url-filter": "im-pact\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adm"
+		},
+		"trigger": {
+			"url-filter": "megalian\\.com"
+		}
 	}
 ]
