@@ -4872,5 +4872,14 @@
 		"trigger": {
 			"url-filter": "hongikin\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#hd_pop, A[href='http://www.blockmoll.com/']"
+		},
+		"trigger": {
+			"url-filter": "www\\.onenable\\.net"
+		}
 	}
 ]
