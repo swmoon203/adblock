@@ -4827,5 +4827,14 @@
 		"trigger": {
 			"url-filter": "www\\.itworld\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".footer-inside, .footer"
+		},
+		"trigger": {
+			"url-filter": "sh\\.st"
+		}
 	}
 ]
