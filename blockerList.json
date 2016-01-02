@@ -4783,5 +4783,14 @@
 		"trigger": {
 			"url-filter": "dramainfinity\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#mob_event_banner, #mobile_footer_banner"
+		},
+		"trigger": {
+			"url-filter": "m\\.filekuki\\.com"
+		}
 	}
 ]
