@@ -4774,5 +4774,14 @@
 		"trigger": {
 			"url-filter": "jp2kr\\.manaa\\.space"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src^='/_ads/']"
+		},
+		"trigger": {
+			"url-filter": "dramainfinity\\.com"
+		}
 	}
 ]
