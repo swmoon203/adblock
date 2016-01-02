@@ -4792,5 +4792,14 @@
 		"trigger": {
 			"url-filter": "m\\.filekuki\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#editInventoryFrame, #default_setImage2"
+		},
+		"trigger": {
+			"url-filter": "m\\.seoulfn\\.com"
+		}
 	}
 ]
