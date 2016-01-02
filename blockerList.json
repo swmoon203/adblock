@@ -4801,5 +4801,14 @@
 		"trigger": {
 			"url-filter": "m\\.seoulfn\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".tbn, .bbn, .lybn"
+		},
+		"trigger": {
+			"url-filter": "m\\.ggmee\\.com"
+		}
 	}
 ]
