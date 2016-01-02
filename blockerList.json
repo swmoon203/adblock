@@ -4765,5 +4765,14 @@
 		"trigger": {
 			"url-filter": "megalian\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#right-floating-ad, .ad-box"
+		},
+		"trigger": {
+			"url-filter": "jp2kr\\.manaa\\.space"
+		}
 	}
 ]
