@@ -4890,5 +4890,14 @@
 		"trigger": {
 			"url-filter": "m\\.biz\\.chosun\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsense"
+		},
+		"trigger": {
+			"url-filter": "m\\.koreadaily\\.com"
+		}
 	}
 ]
