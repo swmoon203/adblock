@@ -4881,5 +4881,14 @@
 		"trigger": {
 			"url-filter": "www\\.onenable\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src*='exttag.about.co.kr'], .bn.mc"
+		},
+		"trigger": {
+			"url-filter": "m\\.biz\\.chosun\\.com"
+		}
 	}
 ]
