@@ -2878,7 +2878,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#daumAd"
+			"selector": "div#daumAd, .bnr_service, #mobileAd-cca6840e-eb88-86b8-1cd1-8c17b80488e0"
 		},
 		"trigger": {
 			"url-filter": "m\\.media\\.daum\\.net"
