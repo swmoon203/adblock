@@ -4899,5 +4899,14 @@
 		"trigger": {
 			"url-filter": "m\\.koreadaily\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#POST_VIEW_BOTTOM_WEB"
+		},
+		"trigger": {
+			"url-filter": "m\\.blog\\.naver\\.com"
+		}
 	}
 ]
