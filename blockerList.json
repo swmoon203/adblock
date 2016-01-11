@@ -4006,7 +4006,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad_for_wrap"
+			"selector": ".ad_for_wrap, .business_txt_ad"
 		},
 		"trigger": {
 			"url-filter": "m\\.miclub\\.com"
