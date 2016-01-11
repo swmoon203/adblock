@@ -4917,5 +4917,14 @@
 		"trigger": {
 			"url-filter": "www\\.google\\.co\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".bsa-banner"
+		},
+		"trigger": {
+			"url-filter": "appshopper\\.com"
+		}
 	}
 ]
