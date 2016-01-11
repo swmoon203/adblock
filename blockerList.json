@@ -3328,7 +3328,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#topBanner, #list_banner, .powerLink, .pluslink_tit"
+			"selector": "#topBanner, #list_banner, .powerLink, .pluslink_tit, #vipbnr, .evtbanner_btm, LI[style='padding:0px 6px 6px 6px;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.enuri\\.com"
