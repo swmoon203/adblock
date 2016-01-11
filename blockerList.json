@@ -4926,5 +4926,14 @@
 		"trigger": {
 			"url-filter": "appshopper\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#popup_01, #ara_ILS5693a997d315233455"
+		},
+		"trigger": {
+			"url-filter": "bigbogo\\.net"
+		}
 	}
 ]
