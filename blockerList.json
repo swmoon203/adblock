@@ -2419,7 +2419,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea, #ppl_section, #ppl_video_section"
+			"selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea, #ppl_section, #ppl_video_section, #ly_dim, .ly_cont"
 		},
 		"trigger": {
 			"url-filter": "m\\.comic\\.naver\\.com"
