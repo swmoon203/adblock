@@ -4944,5 +4944,14 @@
 		"trigger": {
 			"url-filter": "hitomi\\.la"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href='http://liveg.co.kr/evt/zangsisi'], IFRAME[src^='http://adexview.new-star.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "zangsisi2\\.net"
+		}
 	}
 ]
