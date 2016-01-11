@@ -4908,5 +4908,14 @@
 		"trigger": {
 			"url-filter": "m\\.blog\\.naver\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ads-ad"
+		},
+		"trigger": {
+			"url-filter": "www\\.google\\.co\\.kr"
+		}
 	}
 ]
