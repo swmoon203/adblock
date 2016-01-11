@@ -4935,5 +4935,14 @@
 		"trigger": {
 			"url-filter": "bigbogo\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".hitomi-horizontal, #popads_topmost"
+		},
+		"trigger": {
+			"url-filter": "hitomi\\.la"
+		}
 	}
 ]
