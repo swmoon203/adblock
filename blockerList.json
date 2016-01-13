@@ -2419,7 +2419,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea, #ppl_section, #ppl_video_section"
+			"selector": "div#AD_WEBTOON_MOBILEWEB_UP, div#adpostArea, #ppl_section, #ppl_video_section, #ly_dim, .ly_cont"
 		},
 		"trigger": {
 			"url-filter": "m\\.comic\\.naver\\.com"
@@ -2878,7 +2878,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "div#daumAd"
+			"selector": "div#daumAd, .bnr_service, #mobileAd-cca6840e-eb88-86b8-1cd1-8c17b80488e0"
 		},
 		"trigger": {
 			"url-filter": "m\\.media\\.daum\\.net"
@@ -3328,7 +3328,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "#topBanner, #list_banner, .powerLink, .pluslink_tit"
+			"selector": "#topBanner, #list_banner, .powerLink, .pluslink_tit, #vipbnr, .evtbanner_btm, LI[style='padding:0px 6px 6px 6px;']"
 		},
 		"trigger": {
 			"url-filter": "m\\.enuri\\.com"
@@ -4006,7 +4006,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".ad_for_wrap"
+			"selector": ".ad_for_wrap, .business_txt_ad"
 		},
 		"trigger": {
 			"url-filter": "m\\.miclub\\.com"
@@ -4880,6 +4880,78 @@
 		},
 		"trigger": {
 			"url-filter": "www\\.onenable\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src*='exttag.about.co.kr'], .bn.mc"
+		},
+		"trigger": {
+			"url-filter": "m\\.biz\\.chosun\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".adsense"
+		},
+		"trigger": {
+			"url-filter": "m\\.koreadaily\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#POST_VIEW_BOTTOM_WEB"
+		},
+		"trigger": {
+			"url-filter": "m\\.blog\\.naver\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".ads-ad"
+		},
+		"trigger": {
+			"url-filter": "www\\.google\\.co\\.kr"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".bsa-banner"
+		},
+		"trigger": {
+			"url-filter": "appshopper\\.com"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "#popup_01, #ara_ILS5693a997d315233455"
+		},
+		"trigger": {
+			"url-filter": "bigbogo\\.net"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": ".hitomi-horizontal, #popads_topmost"
+		},
+		"trigger": {
+			"url-filter": "hitomi\\.la"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href='http://liveg.co.kr/evt/zangsisi'], IFRAME[src^='http://adexview.new-star.co.kr'], A[href='http://partner.zzamtoon.com/event/intro?cno=1412&pid=zangsisi'], IFRAME[src^='http://ad.ad4989.co.kr']"
+		},
+		"trigger": {
+			"url-filter": "zangsisi2\\.net"
 		}
 	}
 ]
