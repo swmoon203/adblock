@@ -2562,7 +2562,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top, a[href*='tvnori.com'], A[href='http://liveg.co.kr/evt/zangsisi'], A[href^='http://partner.zzamtoon.com/'], A[href*='appsilon.go2cloud.org/aff_c']"
+			"selector": "iframe[src*='adexview.new-star.co.kr'], a[href*='aksj.kr/?pid=zangsisi'], [id^='AD_LIVE_AREA'], a[href*='apvh.kr'], iframe[src*='clickmon.co.kr'], iframe[src*='ad.ad'], .fixed-top, a[href*='tvnori.com'], A[href='http://liveg.co.kr/evt/zangsisi'], A[href^='http://partner.zzamtoon.com/'], A[href*='appsilon.go2cloud.org/aff_c'], A[href='http://winktv.co.kr/evt/zangsisi']"
 		},
 		"trigger": {
 			"url-filter": "zangsisi\\.net"
