@@ -4961,5 +4961,14 @@
 		"trigger": {
 			"url-filter": "zangsisi2\\.net"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "A[href='http://m-gam.com/'], A[href='http://dbdbdeep.com/ma/link.php?lncd=S00140738EC01689728B'], .ss_ad_center, A[href='http://partner.lovewar.co.kr/?p_id=tigerchoi19&ad_code=m_intro']"
+		},
+		"trigger": {
+			"url-filter": "pinaya\\.center"
+		}
 	}
 ]
