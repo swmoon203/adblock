@@ -2219,6 +2219,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "ds-solution\\.xyz"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -4969,6 +4977,15 @@
 		},
 		"trigger": {
 			"url-filter": "pinaya\\.center"
+		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "IFRAME[src='http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html'], iframe[src*='ad.ds-solution.xyz']"
+		},
+		"trigger": {
+			"url-filter": "m\\.mediatoday\\.co\\.kr"
 		}
 	}
 ]
