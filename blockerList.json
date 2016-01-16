@@ -3057,7 +3057,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "[id^='bnrAd_news'], [data-click-id='news1_banner'], div#daumAd, .bnr_add, .inner_bnr_layer.inner_bnr_layer1"
+			"selector": "[id^='bnrAd_news'], [data-click-id='news1_banner'], div#daumAd, .bnr_add, .inner_bnr_layer.inner_bnr_layer1, .ibox_cont.box_sign"
 		},
 		"trigger": {
 			"url-filter": "m\\.daum\\.net"
