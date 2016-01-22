@@ -3581,7 +3581,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding"
+			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding, .ad, #da_iframe_time, #veta_top, #veta_branding, [id^='promotion']"
 		},
 		"trigger": {
 			"url-filter": "naver\\.com",
