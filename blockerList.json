@@ -2227,6 +2227,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "crashsafari\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
@@ -3581,7 +3589,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding, .ad, #da_iframe_time, #veta_top, #veta_branding, [id^='promotion']"
+			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding, .ad, #da_iframe_time, #veta_top, #veta_branding, [id^='promotion'], [id='veta_top']"
 		},
 		"trigger": {
 			"url-filter": "naver\\.com",
@@ -3593,7 +3601,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding, .ad, #da_iframe_time, #veta_top, #veta_branding, [id^='promotion']"
+			"selector": "iframe[src*='ad.naver.com'], #ad_top, #ad_branding, .ad, #da_iframe_time, #veta_top, #veta_branding, [id^='promotion'], [id='veta_top']"
 		},
 		"trigger": {
 			"url-filter": "www\\.naver\\.com",
