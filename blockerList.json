@@ -2227,6 +2227,14 @@
 	},
 	{
 		"action": {
+			"type": "block"
+		},
+		"trigger": {
+			"url-filter": "crashsafari\\.com"
+		}
+	},
+	{
+		"action": {
 			"type": "css-display-none",
 			"selector": ".advertisement"
 		},
