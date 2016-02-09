@@ -5020,7 +5020,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='zgamez1.cafe24.com'], #SHOWUP2, a[href^='http://me2.do/']"
+			"selector": "iframe[src*='zgamez1.cafe24.com'], #SHOWUP2, a[href^='http://me2.do/'], iframe[src*='ad.tpmn.co.kr'], iframe[src*='dreamsearch.or.kr']"
 		},
 		"trigger": {
 			"url-filter": "www\\.daisue\\.kr"
