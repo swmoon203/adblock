@@ -5020,7 +5020,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": "iframe[src*='zgamez1.cafe24.com']"
+			"selector": "iframe[src*='zgamez1.cafe24.com'], #ad_back, #fb_back"
 		},
 		"trigger": {
 			"url-filter": "www\\.daisue\\.kr"
