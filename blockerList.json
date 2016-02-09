@@ -5016,5 +5016,14 @@
 		"trigger": {
 			"url-filter": "www\\.lunish\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "iframe[src*='zgamez1.cafe24.com']"
+		},
+		"trigger": {
+			"url-filter": "www\\.daisue\\.kr"
+		}
 	}
 ]
