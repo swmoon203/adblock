@@ -5025,5 +5025,14 @@
 		"trigger": {
 			"url-filter": "www\\.daisue\\.kr"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "DIV[style='text-align: center;']"
+		},
+		"trigger": {
+			"url-filter": "playkorean\\.com"
+		}
 	}
 ]
