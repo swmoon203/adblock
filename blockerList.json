@@ -5034,5 +5034,14 @@
 		"trigger": {
 			"url-filter": "playkorean\\.com"
 		}
+	},
+	{
+		"action": {
+			"type": "css-display-none",
+			"selector": "HTML > BODY > DIV > DIV > DIV > SECTION > DIV > DIV[style='margin-top:10px;margin-bottom:0px;'], DIV[style='margin-top:10px;margin-bottom:10px;']"
+		},
+		"trigger": {
+			"url-filter": "m\\.journal-d\\.kr"
+		}
 	}
 ]
