@@ -685,17 +685,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "m\\.ad\\.naver\\.com",
-			"unless-domain": [
-				"m.naver.com"
-			]
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "imad\\.co\\.kr",
 			"load-type": [
 				"third-party"
@@ -821,17 +810,6 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.isplus\\.joins\\.com/_ui/ad/mobitree_isplus\\.js"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "mv\\.ad\\.naver\\.com/ad",
-			"unless-domain": [
-				"m.naver.com"
-			]
 		}
 	},
 	{
@@ -1651,18 +1629,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "http://ad\\.naver\\.com",
-			"unless-domain": [
-				"m.naver.com",
-				" searchad.naver.com"
-			]
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "ad.*\\.segye\\.com"
 		}
 	},
@@ -1872,14 +1838,6 @@
 			"type": "block"
 		},
 		"trigger": {
-			"url-filter": "mv\\.ad\\.naver\\.com/adshow"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
 			"url-filter": "ad\\.korea\\.com"
 		}
 	},
@@ -1905,26 +1863,6 @@
 		},
 		"trigger": {
 			"url-filter": "adtrack\\.king\\.com"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "http://ams\\.rmcnmv\\.naver\\.com"
-		}
-	},
-	{
-		"action": {
-			"type": "block"
-		},
-		"trigger": {
-			"url-filter": "lcs\\.naver\\.com",
-			"unless-domain": [
-				"m.search.naver.com",
-				"search.naver.com"
-			]
 		}
 	},
 	{
@@ -4399,15 +4337,6 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".banner_recommend_post"
-		},
-		"trigger": {
-			"url-filter": "post\\.naver\\.com"
-		}
-	},
-	{
-		"action": {
-			"type": "css-display-none",
 			"selector": "iframe[src*='gamefocus.co.kr/realad/']"
 		},
 		"trigger": {
@@ -4934,15 +4863,6 @@
 		},
 		"trigger": {
 			"url-filter": "m\\.koreadaily\\.com"
-		}
-	},
-	{
-		"action": {
-			"type": "css-display-none",
-			"selector": "#POST_VIEW_BOTTOM_WEB"
-		},
-		"trigger": {
-			"url-filter": "m\\.blog\\.naver\\.com"
 		}
 	},
 	{
