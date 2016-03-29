@@ -2480,7 +2480,7 @@
 	{
 		"action": {
 			"type": "css-display-none",
-			"selector": ".adsbygoogle"
+			"selector": ".adsbygoogle, DIV[style='text-align: center;padding:20px 0;background-color:#e5e5e5']"
 		},
 		"trigger": {
 			"url-filter": "m\\.todayhumor\\.co\\.kr"
